@@ -94,6 +94,10 @@
   .axis .sd[aria-pressed="true"] { color:var(--ink); }
   .axis .sd[aria-pressed="true"] .d { background:var(--ink); border-color:var(--ink); transform:scale(1.5); }
   .axis .sd[aria-pressed="true"] .t { font-weight:700; }
+  .bchips { display:inline-flex; flex-wrap:wrap; gap:4px; margin-left:8px; vertical-align:1px; }
+  .bchips .lb { font-size:11px; color:var(--c-battle); letter-spacing:.08em; align-self:center; margin-right:2px; }
+  .bchips button { font-family:var(--f-display); font-size:12px; padding:0 7px; line-height:19px; border:1px solid color-mix(in srgb, var(--c-battle) 45%, transparent); background:color-mix(in srgb, var(--c-battle) 8%, transparent); color:var(--ink); border-radius:3px; cursor:pointer; }
+  .bchips button:hover { background:color-mix(in srgb, var(--c-battle) 18%, transparent); }
   .step { background:none; border:1px solid var(--rule); border-radius:3px; width:22px; height:20px; line-height:1; cursor:pointer; color:var(--ink-2); margin-right:4px; font-size:14px; vertical-align:1px; padding:0; }
   .step:hover { background:var(--paper-2); color:var(--ink); }
   .step:disabled { opacity:.35; cursor:default; }
@@ -283,7 +287,7 @@
         <div class="body" id="legbody">
           <div class="states" id="legstates"></div>
           <ul id="legend"></ul>
-          <div class="foot">疆域据文献与谭其骧《中国历史地图集》战国图大意推定，边界为示意；点击国名、地名、河流、山脉均可查看说明。</div>
+          <div class="foot">疆域据文献与谭其骧《中国历史地图集》战国图大意推定，边界为示意；战役只显示本期（上一节点之后至本节点）。点击国名、地名、河流、山脉均可查看说明。</div>
         </div>
       </div>
       <div class="float inset"><svg id="inset" width="140" height="112" aria-label="索引图"></svg><div class="cap">索引</div></div>
@@ -469,6 +473,9 @@
   let si = 0;                      // 当前时间节点
   const snapY = () => SNAPS[si].y;
   const prevY = () => si > 0 ? SNAPS[si - 1].y : -480;
+  // 本期 = 上一个节点之后（不含）到本节点（含）；第一个节点从前480 算起
+  const inPeriod = it => it.y > prevY() && it.y <= snapY();
+  const periodOf = y => { let j = SNAPS.findIndex(s => s.y >= y); return j < 0 ? SNAPS.length - 1 : j; };
 
   /* ---------------- 疆域 ---------------- */
   let stateLabels = [];
@@ -541,10 +548,10 @@
       return 5;
     }
     if (it.c === "battle") {
-      const fut = it.y > Y, recent = !fut && it.y > prevY();
+      const cur = inPeriod(it);
       const s = on ? 6.5 : 5;
-      const op = fut ? .38 : 1;
-      if (recent || on) g.append(el("circle", { cx: x, cy: y, r: s + 5, fill: "var(--c-battle)", opacity: on ? .25 : .16 }));
+      const op = cur ? 1 : .45;
+      if (cur || on) g.append(el("circle", { cx: x, cy: y, r: s + 5, fill: "var(--c-battle)", opacity: on ? .25 : .16 }));
       g.append(el("circle", { cx: x, cy: y, r: s + 1.8, fill: "var(--paper)", stroke: "var(--c-battle)", "stroke-width": 1.3, opacity: op }));
       g.append(el("path", { d: `M${x - s * .62} ${y - s * .62}L${x + s * .62} ${y + s * .62}M${x + s * .62} ${y - s * .62}L${x - s * .62} ${y + s * .62}`, stroke: "var(--c-battle)", "stroke-width": 1.9, "stroke-linecap": "round", opacity: op }));
       return s + 2;
@@ -588,8 +595,9 @@
     pts.sort((a, b) => ord(a) - ord(b));
     for (const it of pts) {
       const onNow = hovered === it.i || selected === it.i;
-      const future = (it.c === "battle" || it.c === "culture") && it.y > Y;
-      if (future) continue;                                   // 尚未发生的战役、变法、工程不显示
+      const future = it.c === "culture" && it.y > Y;
+      if (future) continue;                                   // 尚未发生的变法、工程不显示
+      if (it.c === "battle" && !inPeriod(it) && !onNow) continue;   // 战役只显示本期；他期仅在列表里悬停时淡显
       if (it.c === "capital" && it.y0 > Y) continue;          // 尚未成为国都的城不显示
       if ((it.c === "city" || it.c === "culture") && K < 1.8 && !onNow && !query) continue;
       if (it.c === "town" && K < 2.6 && !onNow && !query) continue;
@@ -687,7 +695,7 @@
         const s = it.it;
         const col = it.on ? (s.c === "battle" ? "var(--c-battle)" : s.c === "culture" ? "var(--c-culture)" : "var(--ink)") :
           (s.c === "capital" && !it.act) ? "var(--ink-2)" : s.c === "battle" ? "var(--c-battle)" : "var(--ink)";
-        const fut = (s.c === "battle" || s.c === "culture") && s.y > Y;
+        const fut = (s.c === "culture" && s.y > Y) || (s.c === "battle" && !inPeriod(s));
         const town = s.c === "town" && !it.on;
         txt({ class: "map-text lbl-site", x: X, y: Yy, "text-anchor": put.anchor, "font-size": it.size, fill: town ? "var(--ink-3)" : col, "font-weight": town ? 500 : 600, opacity: fut ? .5 : 1, ...halo }, s.old);
         if (it.twoLine) txt({ class: "map-text", x: X, y: Yy + 12.5, "text-anchor": put.anchor, "font-size": town ? 9.5 : 10.5, fill: town ? "var(--ink-3)" : "var(--ink-2)", opacity: town ? .85 : 1, ...halo, "stroke-width": 3 }, s.mod);
@@ -884,12 +892,10 @@
     selected = i;
     const it = ITEMS[i];
     // 选中一个尚未发生的事件时，时间轴自动跳到该事件之后最近的节点
-    const evY = (it.c === "battle" || it.c === "culture" || it.c === "wall") ? it.y : it.c === "capital" ? it.y0 : null;
+    const evY = (it.c === "culture" || it.c === "wall") ? it.y : it.c === "capital" ? it.y0 : null;
     let jumped = false;
-    if (evY != null && evY > snapY()) {
-      let j = SNAPS.findIndex(s => s.y >= evY); if (j < 0) j = SNAPS.length - 1;
-      stopPlay(); setSnap(j, false); jumped = true;
-    }
+    if (it.c === "battle" && !inPeriod(it)) { stopPlay(); setSnap(periodOf(it.y), false); jumped = true; }   // 战役跳到它所在的那一期
+    else if (evY != null && evY > snapY()) { stopPlay(); setSnap(periodOf(evY), false); jumped = true; }
     if (it.c === "state" && !SNAPS[si].s[it.k]) {
       // 跳到该国尚存的最后一个时间节点
       let j = SNAPS.length - 1; while (j > 0 && !SNAPS[j].s[it.k]) j--;
@@ -955,12 +961,19 @@
     requestAnimationFrame(() => {
       if (axiswrap.scrollWidth > axiswrap.clientWidth) axiswrap.scrollTo({ left: btn.offsetLeft - axiswrap.clientWidth / 2, behavior: reduce() ? "auto" : "smooth" });
     });
-    document.getElementById("caption").innerHTML = `<span class="y">${yr(s.y)}</span><b>${esc(s.t)}</b>${esc(s.d)}`;
+    const cb = ITEMS.filter(it => it.c === "battle" && inPeriod(it)).sort((a, b) => a.y - b.y);
+    document.getElementById("caption").innerHTML = `<span class="y">${yr(s.y)}</span><b>${esc(s.t)}</b>${esc(s.d)}` +
+      (cb.length ? `<span class="bchips"><span class="lb">本期战役</span>${cb.map(b => `<button data-i="${b.i}">${esc(b.old)}</button>`).join("")}</span>` : "");
     document.getElementById("prev").disabled = j === 0;
     document.getElementById("next").disabled = j === SNAPS.length - 1;
     buildLegendStates();
     if (rebuild) { buildStates(); render(); buildIndex(); }
   }
+  document.getElementById("caption").addEventListener("click", e => {
+    const b = e.target.closest(".bchips button"); if (!b) return;
+    if (stage.dataset.view !== "map") setMode("map");
+    select(+b.dataset.i, false);
+  });
   document.getElementById("prev").addEventListener("click", () => { stopPlay(); if (si > 0) setSnap(si - 1); });
   document.getElementById("next").addEventListener("click", () => { stopPlay(); if (si < SNAPS.length - 1) setSnap(si + 1); });
   let playT = null;
@@ -1033,13 +1046,15 @@
     for (const c of CATS) {
       let list = ITEMS.filter(i => i.c === c.id && matches(i));
       if (!list.length) continue;
-      if (c.id === "battle" || c.id === "culture" || c.id === "wall") list.sort((a, b) => a.y - b.y);
+      if (c.id === "culture" || c.id === "wall") list.sort((a, b) => a.y - b.y);
+      if (c.id === "battle") list.sort((a, b) => (inPeriod(b) - inPeriod(a)) || a.y - b.y);
+      const sub = c.id === "battle" ? `本期 ${list.filter(inPeriod).length} · 共 ${list.length}` : `${list.length} · ${c.sub}`;
       if (c.id === "capital") list.sort((a, b) => STATES.indexOf(a.st) - STATES.indexOf(b.st) || a.y0 - b.y0);
       total += list.length;
       const sec = document.createElement("section");
       sec.className = "grp"; sec.style.setProperty("--k", c.k);
       sec.dataset.closed = closedGroups.has(c.id) && !query ? "1" : "0";
-      sec.innerHTML = `<h2><span class="chev">▼</span><span class="bar"></span>${c.name}<span class="sub">${list.length} · ${c.sub}</span></h2>`;
+      sec.innerHTML = `<h2><span class="chev">▼</span><span class="bar"></span>${c.name}<span class="sub">${sub}</span></h2>`;
       sec.querySelector("h2").addEventListener("click", () => {
         const cl = sec.dataset.closed === "1"; sec.dataset.closed = cl ? "0" : "1";
         if (cl) closedGroups.delete(c.id); else closedGroups.add(c.id);
@@ -1051,7 +1066,8 @@
         b.className = "row"; b.dataset.i = it.i; b.dataset.sel = selected === it.i ? "1" : "0";
         const kcol = it.c === "state" ? sVar(it.k) : it.c === "capital" ? sVar(it.st) : c.k;
         b.style.setProperty("--k", kcol);
-        if ((it.c === "battle" || it.c === "culture" || it.c === "wall") && it.y > Y) b.dataset.future = "1";
+        if ((it.c === "culture" || it.c === "wall") && it.y > Y) b.dataset.future = "1";
+        if (it.c === "battle" && !inPeriod(it)) b.dataset.future = "1";
         if (it.c === "state" && !SNAPS[si].s[it.k]) b.dataset.future = "1";
         const sw = it.c === "state" ? `<span class="sq" style="--k:${sVar(it.k)}"></span>` : "";
         const meta = metaHTML(it, Y, false);
