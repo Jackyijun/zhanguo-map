@@ -177,6 +177,46 @@ for (y, title, desc) in F.SNAPS:
     SN.append(dict(y=y, t=title, d=desc, s=shapes, l=labs))
     print(y, {k: len(v) for k, v in shapes.items()})
 
+# ---------- 秦郡：在秦境内按郡治就近分区 ----------
+def seed_tl_at(lon, lat):
+    r, c = to_rc(lon, lat)
+    r = min(max(int(round(r)), 0), NY - 1); c = min(max(int(round(c)), 0), NX - 1)
+    k = label[r, c]
+    return seeds[k]["tl"] if k >= 0 else [[-9999, None]]
+
+QIN = STATE_KEYS.index("秦")
+jcell = []
+for j in F.JUN:
+    r, c = to_rc(j[3], j[4]); jcell.append(idx[int(round(r)), int(round(c))])
+assert len(set(jcell)) == len(jcell), "郡治重格"
+jcache = {}
+for sn, (y, title, desc) in zip(SN, F.SNAPS):
+    act = tuple(k for k, j in enumerate(F.JUN) if j[5] <= y and owner(seed_tl_at(j[3], j[4]), y) in ("秦", "卫"))
+    own = np.array([STATE_KEYS.index(owner(s["tl"], y)) if owner(s["tl"], y) else -1 for s in seeds])
+    qin = own[label] == QIN
+    if not act or not qin.any(): sn["j"] = {}; continue
+    if act not in jcache:
+        _, _, jsrc = dijkstra(G, indices=[jcell[k] for k in act], min_only=True, return_predecessors=True)
+        pos = {jcell[k]: k for k in act}
+        jcache[act] = np.vectorize(lambda v: pos.get(v, -1))(jsrc.reshape(NY, NX))
+    jl = jcache[act]
+    jr = {}
+    for k in act:
+        m = qin & (jl == k)
+        if m.sum() < 6: continue
+        sm = ndimage.gaussian_filter(m.astype(float), C.SMOOTH_SIGMA)
+        rings = []
+        for cnt in measure.find_contours(np.pad(sm, 1), 0.5):
+            cnt = cnt - 1
+            pts = [(LON0 + c * RES, LAT0 + r * RES) for r, c in cnt]
+            if len(pts) < 4: continue
+            ls = LineString(pts).simplify(C.POLY_SIMPLIFY)
+            if Polygon(ls.coords).area < C.MIN_RING_AREA: continue
+            rings.append(enc_ring(list(ls.coords)))
+        if rings: jr[F.JUN[k][0]] = rings
+    sn["j"] = jr
+    print(y, "郡", len(jr))
+
 # ---------- 河流 ----------
 RIV = []
 for f in ne_riv:
@@ -234,6 +274,8 @@ pts_owner = {}
 for grp in (F.CAPITALS, F.CITIES, F.PASSES, F.BATTLES, F.CULTURE, F.TOWNS):
     for it in grp:
         pts_owner[it[0] + "@" + str(it[2])] = tl_str(seed_at(it[2], it[3]))
+for it in F.JUN:
+    pts_owner["郡:" + it[0]] = tl_str(seed_at(it[3], it[4]))
 OUT["own"] = pts_owner
 C.BUILD.mkdir(exist_ok=True)
 json.dump(OUT, open(C.BUILD / "geo.json", "w", encoding="utf8"), ensure_ascii=False, separators=(",", ":"))

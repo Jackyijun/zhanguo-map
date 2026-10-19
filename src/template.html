@@ -10,7 +10,7 @@
     --ink:#1D1E23; --ink-2:#55575E; --ink-3:#83858C; --rule:#C7C5B8; --rule-soft:#D8D6CA;
     --accent:#2B5F87;
     --sea:#D5DCDB; --land:#ECEBE3; --coast:#A9AFAE; --border:#ADAA9A;
-    --water:#7F9FB2; --water-fill:#B4C8D2; --range:#9C8F78; --wall:#4A4038;
+    --water:#7F9FB2; --water-fill:#B4C8D2; --range:#9C8F78; --wall:#4A4038; --road:#8C5A3A; --jun:#3B2722;
     --c-battle:#A3473A; --c-pass:#3B3B40; --c-city:#55575E; --c-culture:#2F7470; --c-capital:#1D1E23;
     --s-op:.52; --s-op-hi:.64;
     /*__SLIGHT__*/
@@ -26,7 +26,7 @@
       --ink:#E7E5DC; --ink-2:#A6A79F; --ink-3:#75777D; --rule:#33363D; --rule-soft:#292C32;
       --accent:#78ADD8;
       --sea:#111417; --land:#1C1E22; --coast:#3A4046; --border:#454951;
-      --water:#4F7A93; --water-fill:#2A4352; --range:#6E6453; --wall:#C9BBA6;
+      --water:#4F7A93; --water-fill:#2A4352; --range:#6E6453; --wall:#C9BBA6; --road:#D39A70; --jun:#F3D2C4;
       --c-battle:#E07A68; --c-pass:#C9C7BF; --c-city:#A6A79F; --c-culture:#5CBAB3; --c-capital:#E7E5DC;
       --s-op:.34; --s-op-hi:.46;
       /*__SDARK__*/
@@ -39,7 +39,7 @@
     --ink:#E7E5DC; --ink-2:#A6A79F; --ink-3:#75777D; --rule:#33363D; --rule-soft:#292C32;
     --accent:#78ADD8;
     --sea:#111417; --land:#1C1E22; --coast:#3A4046; --border:#454951;
-    --water:#4F7A93; --water-fill:#2A4352; --range:#6E6453; --wall:#C9BBA6;
+    --water:#4F7A93; --water-fill:#2A4352; --range:#6E6453; --wall:#C9BBA6; --road:#D39A70; --jun:#F3D2C4;
     --c-battle:#E07A68; --c-pass:#C9C7BF; --c-city:#A6A79F; --c-culture:#5CBAB3; --c-capital:#E7E5DC;
     --s-op:.34; --s-op-hi:.46;
     /*__SDARK__*/
@@ -239,7 +239,7 @@
   <header class="masthead">
     <div class="brand">
       <h1>战国列国形势图</h1>
-      <span class="src">前475 — 前221 · 古今地名对照</span>
+      <span class="src">前475 — 前212 · 古今地名对照</span>
     </div>
     <span class="count" id="count"></span>
     <div class="tools">
@@ -287,7 +287,7 @@
         <div class="body" id="legbody">
           <div class="states" id="legstates"></div>
           <ul id="legend"></ul>
-          <div class="foot">疆域据文献与谭其骧《中国历史地图集》战国图大意推定，边界为示意；战役只显示本期（上一节点之后至本节点）。点击国名、地名、河流、山脉均可查看说明。</div>
+          <div class="foot">疆域据文献与谭其骧《中国历史地图集》战国图大意推定，边界为示意；战役只显示本期（上一节点之后至本节点）。秦郡依后晓荣五十四郡说，郡界由郡治就近推算，仅示意。点击国名、地名、河流、山脉均可查看说明。</div>
         </div>
       </div>
       <div class="float inset"><svg id="inset" width="140" height="112" aria-label="索引图"></svg><div class="cap">索引</div></div>
@@ -316,6 +316,9 @@
   for (const it of ITEMS) if (it.tl) it.tlp = parseTL(it.tl);
   const ownerAt = (it, y) => { let o = null; for (const [t, s] of it.tlp || []) if (y >= t) o = s; return o; };
   const stateItem = Object.fromEntries(ITEMS.filter(i => i.c === "state").map(i => [i.k, i]));
+  const junItem = Object.fromEntries(ITEMS.filter(i => i.c === "jun").map(i => [i.k, i]));
+  const junLive = (it, Y) => it.y0 <= Y && ["秦", "卫"].includes(ownerAt(it, Y));
+  const wallGone = (it, Y) => it.y1 != null && it.y1 <= Y;
 
   const CATS = [
     { id:"state",   name:"列国",           sub:"七雄与诸小国",       k:"var(--ink-2)" },
@@ -324,8 +327,10 @@
     { id:"pass",    name:"关隘津渡",       sub:"关 · 陉 · 津",       k:"var(--c-pass)" },
     { id:"city",    name:"名城要邑",       sub:"",                   k:"var(--c-city)" },
     { id:"town",    name:"一般城邑",       sub:"放大后显示",         k:"var(--ink-3)" },
-    { id:"culture", name:"变法 · 学术 · 工程", sub:"",               k:"var(--c-culture)" },
+    { id:"culture", name:"事件 · 变法 · 工程", sub:"",               k:"var(--c-culture)" },
+    { id:"jun",     name:"秦郡",           sub:"郡名 · 郡治",         k:"var(--jun)" },
     { id:"wall",    name:"长城",           sub:"诸国所筑",           k:"var(--wall)" },
+    { id:"road",    name:"驰道 · 直道",     sub:"秦统一后",           k:"var(--road)" },
     { id:"range",   name:"山脉",           sub:"",                   k:"var(--range)" },
     { id:"river",   name:"水系 · 湖泽 · 运河", sub:"古名（今名）",     k:"var(--water)" },
     { id:"people",  name:"周边诸族",       sub:"戎狄蛮夷",           k:"var(--ink-3)" },
@@ -333,8 +338,8 @@
   const CAT = Object.fromEntries(CATS.map(c => [c.id, c]));
   const LAYERS = [
     { id:"territory", name:"疆域" }, { id:"capital", name:"国都" }, { id:"battle", name:"战役" },
-    { id:"pass", name:"关隘津渡" }, { id:"city", name:"名城要邑" }, { id:"town", name:"一般城邑" }, { id:"culture", name:"变法·学术·工程" },
-    { id:"wall", name:"长城" }, { id:"range", name:"山脉" }, { id:"river", name:"水系" },
+    { id:"pass", name:"关隘津渡" }, { id:"city", name:"名城要邑" }, { id:"town", name:"一般城邑" }, { id:"culture", name:"事件·变法·工程" },
+    { id:"jun", name:"秦郡" }, { id:"wall", name:"长城" }, { id:"road", name:"驰道·直道" }, { id:"range", name:"山脉" }, { id:"river", name:"水系" },
     { id:"people", name:"周边诸族" }, { id:"prov", name:"今省界" }
   ];
   const layerOn = Object.fromEntries(LAYERS.map(l => [l.id, true]));
@@ -381,8 +386,8 @@
   const gGeo = el("g"), gMark = el("g");
   svg.append(defs, gGeo, gMark);
   const layer = id => { const g = el("g", { id: "L-" + id }); gGeo.append(g); return g; };
-  const lLand = layer("land"), lState = layer("state"), lWater = layer("water"), lProv = layer("prov"),
-        lRange = layer("range"), lRiver = layer("river"), lWall = layer("wall"), lHit = layer("hit");
+  const lLand = layer("land"), lState = layer("state"), lJun = layer("jun"), lWater = layer("water"), lProv = layer("prov"),
+        lRange = layer("range"), lRiver = layer("river"), lRoad = layer("road"), lWall = layer("wall"), lHit = layer("hit");
 
   // 海陆
   const landD = GEO.land.map(p => p.map(r => P(decode(r), true)).join(" ")).join(" ");
@@ -397,6 +402,7 @@
     lLand.append(el("path", { d: d.join(" "), fill: "none", stroke: "var(--border)", "stroke-width": 1, "stroke-dasharray": "1 4", opacity: .4, "vector-effect": "non-scaling-stroke" }));
   }
   lState.setAttribute("clip-path", "url(#landclip)");
+  lJun.setAttribute("clip-path", "url(#landclip)");                 // 郡界不画到海上
 
   // 今省界
   const provLabels = [];
@@ -455,6 +461,18 @@
     lWall.append(g); wallEls[it.i] = g;
     (lineItems[it.i] ||= []).push(d);
   }
+  // 驰道、直道
+  const roadEls = {};
+  for (const it of ITEMS.filter(i => i.c === "road")) {
+    const g = el("g");
+    for (const sg of it.geo) {
+      const d = P(lineLL(sg), false);
+      g.append(el("path", { d, fill: "none", stroke: "var(--land)", "stroke-width": 3.4, opacity: .6, "stroke-linecap": "round", "stroke-linejoin": "round", "vector-effect": "non-scaling-stroke" }));
+      g.append(el("path", { d, fill: "none", stroke: "var(--road)", "stroke-width": 1.7, "stroke-dasharray": "6 3", "stroke-linecap": "round", "stroke-linejoin": "round", "vector-effect": "non-scaling-stroke" }));
+      (lineItems[it.i] ||= []).push(d);
+    }
+    lRoad.append(g); roadEls[it.i] = g;
+  }
   // 线要素点击热区
   for (const [i, ds] of Object.entries(lineItems)) {
     const it = ITEMS[i];
@@ -496,6 +514,18 @@
       for (const [lo, la, n, r] of (sn.l[k] || [])) stateLabels.push({ k, it, xy: proj(lo, la), n, r });
     }
     lState.setAttribute("display", layerOn.territory ? "inline" : "none");
+    // 秦郡界
+    lJun.replaceChildren();
+    for (const [k, rings] of Object.entries(sn.j || {})) {
+      const it = junItem[k]; if (!it) continue;
+      const on = selected === it.i || hovered === it.i;
+      const d = rings.map(r => P(decode(r), true)).join(" ");
+      lJun.append(el("path", { d, "fill-rule": "evenodd", fill: on ? "var(--jun)" : "none", "fill-opacity": on ? .14 : 0,
+        stroke: "var(--land)", "stroke-width": on ? 4 : 2.6, opacity: .75, "vector-effect": "non-scaling-stroke", "stroke-linejoin": "round", "pointer-events": "none" }));
+      lJun.append(el("path", { d, fill: "none", stroke: "var(--jun)", "stroke-width": on ? 1.8 : 1.15, "stroke-dasharray": on ? "none" : "5 3",
+        opacity: on ? 1 : .9, "vector-effect": "non-scaling-stroke", "stroke-linejoin": "round", "pointer-events": "none" }));
+    }
+    lJun.setAttribute("display", layerOn.jun ? "inline" : "none");
   }
 
   /* ---------------- 视图 ---------------- */
@@ -526,7 +556,7 @@
 
   function matches(it) {
     if (!query) return true;
-    return (it.old || "").includes(query) || (it.mod || "").includes(query);
+    return (it.old || "").includes(query) || (it.mod || "").includes(query) || (it.alias || "").includes(query);
   }
   function pointVisible(it) {
     if (!layerOn[it.c]) return false;
@@ -566,6 +596,12 @@
       g.append(el("path", { d: `M${x} ${y - s}L${x + s * .9} ${y + s * .62}L${x - s * .9} ${y + s * .62}Z`, fill: "var(--c-culture)", stroke: "var(--paper)", "stroke-width": 1.3, opacity: fut ? .4 : 1 }));
       return s;
     }
+    if (it.c === "jun") {
+      const r = on ? 10 : 8.5;
+      g.append(el("circle", { cx: x, cy: y, r, fill: "none", stroke: "var(--jun)", "stroke-width": on ? 2 : 1.3, opacity: .9 }));
+      g.append(el("circle", { cx: x, cy: y, r: 2.2, fill: "var(--jun)" }));
+      return r;
+    }
     if (it.c === "town") {
       const r = on ? 4.4 : 2.5;
       g.append(el("circle", { cx: x, cy: y, r, fill: on ? "var(--ink-2)" : "var(--ink-3)", stroke: "var(--land)", "stroke-width": 1 }));
@@ -589,9 +625,9 @@
 
     // 点
     let nShown = 0;
-    const pts = ITEMS.filter(it => it.lon != null && ["capital", "battle", "pass", "city", "culture", "town"].includes(it.c) && pointVisible(it));
+    const pts = ITEMS.filter(it => it.lon != null && ["capital", "battle", "pass", "city", "culture", "town", "jun"].includes(it.c) && pointVisible(it));
     // 绘制次序：城邑 → 文化 → 关隘 → 旧都 → 战役 → 今都
-    const ord = it => it.c === "town" ? -1 : it.c === "city" ? 0 : it.c === "culture" ? 1 : it.c === "pass" ? 2 : it.c === "capital" ? (it.y0 <= Y && Y < it.y1 ? 5 : 3) : 4;
+    const ord = it => it.c === "jun" ? -2 : it.c === "town" ? -1 : it.c === "city" ? 0 : it.c === "culture" ? 1 : it.c === "pass" ? 2 : it.c === "capital" ? (it.y0 <= Y && Y < it.y1 ? 5 : 3) : 4;
     pts.sort((a, b) => ord(a) - ord(b));
     for (const it of pts) {
       const onNow = hovered === it.i || selected === it.i;
@@ -601,6 +637,7 @@
       if (it.c === "capital" && it.y0 > Y) continue;          // 尚未成为国都的城不显示
       if ((it.c === "city" || it.c === "culture") && K < 1.8 && !onNow && !query) continue;
       if (it.c === "town" && K < 2.6 && !onNow && !query) continue;
+      if (it.c === "jun" && (!junLive(it, Y) || (K < 1.6 && !onNow && !query))) continue;
       const p = proj(it.lon, it.lat), x = sx(p), y = sy(p);
       if (x < -40 || x > W + 40 || y < -30 || y > H + 30) continue;
       nShown++;
@@ -614,10 +651,11 @@
       const minor = it.c === "city" || it.c === "culture" || (it.c === "capital" && !actCap);
       if (minor && K < 3.4 && !on) continue;
       if (it.c === "town" && K < 4.4 && !on && !query) continue;
+      if (it.c === "jun" && K < 2.3 && !on && !query) continue;
       if (future && K < 5 && !on) continue;
       const size = on ? 14 : actCap ? 13.5 : it.c === "battle" ? 12.5 : it.c === "town" ? 11 : 12;
       const twoLine = on || (it.c === "town" ? K > 7.5 : zoomedIn);
-      const base = { capital: actCap ? 20 : 70, battle: 40, pass: 50, city: 60, culture: 65, town: 78 }[it.c];
+      const base = { capital: actCap ? 20 : 70, battle: 40, pass: 50, city: 60, culture: 65, town: 78, jun: 58 }[it.c];
       items.push({ kind: "site", it, x, y, r, size, twoLine, on, act: actCap,
         w: Math.max(textW(it.old, size), twoLine ? textW(it.mod, 10.5) : 0), h: twoLine ? size + 13 : size + 2,
         pri: (on ? -1000 : 0) + base + it.i * 0.001 });
@@ -638,10 +676,10 @@
       }
     }
     // 线要素注记
-    const lineCats = ["range", "river", "wall"];
+    const lineCats = ["range", "river", "wall", "road"];
     for (const it of ITEMS) {
       if (!lineCats.includes(it.c) || !it.axy || !layerOn[it.c] || !matches(it)) continue;
-      if (it.c === "wall" && it.y > Y) continue;
+      if ((it.c === "wall" || it.c === "road") && it.y > Y) continue;
       if (it.c === "river" && it.sub === "lake" && K < 2.4) continue;
       const x = sx(it.axy), y = sy(it.axy);
       if (x < 10 || x > W - 10 || y < 10 || y > H - 10) continue;
@@ -650,9 +688,9 @@
       if (it.c === "river" && !isMajor && K < 3 && !on) continue;
       if (it.c === "range" && K < 2.2 && !on && !["太行山", "南山", "燕山", "五岭", "大别山", "大巴山", "阴山"].includes(it.old)) continue;
       const size = on ? 13.5 : it.c === "range" ? 11.5 : isMajor ? 13 : 11.5;
-      const text = it.old;
+      const text = it.c === "wall" && wallGone(it, Y) ? it.old + "（废）" : it.old;
       items.push({ kind: it.c, it, x, y, size, text, on, w: textW(text, size) * (it.c === "range" ? 1.25 : 1.12) + 2, h: size + 2,
-        pri: (on ? -950 : 0) + (it.c === "wall" ? 88 : it.c === "range" ? 80 : isMajor ? 45 : 85) });
+        pri: (on ? -950 : 0) + (it.c === "wall" ? (wallGone(it, Y) ? 96 : 88) : it.c === "road" ? 70 : it.c === "range" ? 80 : isMajor ? 45 : 85) });
     }
     // 族群
     if (layerOn.people) for (const it of ITEMS) {
@@ -697,6 +735,11 @@
           (s.c === "capital" && !it.act) ? "var(--ink-2)" : s.c === "battle" ? "var(--c-battle)" : "var(--ink)";
         const fut = (s.c === "culture" && s.y > Y) || (s.c === "battle" && !inPeriod(s));
         const town = s.c === "town" && !it.on;
+        if (s.c === "jun") {
+          txt({ class: "map-text lbl-site", x: X, y: Yy, "text-anchor": put.anchor, "font-size": it.size, fill: "var(--jun)", "font-weight": 600, "letter-spacing": "1px", ...halo }, s.old);
+          if (it.twoLine) txt({ class: "map-text", x: X, y: Yy + 12.5, "text-anchor": put.anchor, "font-size": 10, fill: "var(--ink-2)", ...halo, "stroke-width": 3 }, "治 " + s.zhi);
+          continue;
+        }
         txt({ class: "map-text lbl-site", x: X, y: Yy, "text-anchor": put.anchor, "font-size": it.size, fill: town ? "var(--ink-3)" : col, "font-weight": town ? 500 : 600, opacity: fut ? .5 : 1, ...halo }, s.old);
         if (it.twoLine) txt({ class: "map-text", x: X, y: Yy + 12.5, "text-anchor": put.anchor, "font-size": town ? 9.5 : 10.5, fill: town ? "var(--ink-3)" : "var(--ink-2)", opacity: town ? .85 : 1, ...halo, "stroke-width": 3 }, s.mod);
       } else if (it.kind === "state") {
@@ -708,7 +751,9 @@
       } else if (it.kind === "range") {
         txt({ class: "map-text lbl-geo", x: X, y: Yy + 4, "text-anchor": "middle", "font-size": it.size, fill: "color-mix(in srgb, var(--range) 70%, var(--ink))", ...halo, "font-weight": it.on ? 700 : 500 }, it.text);
       } else if (it.kind === "wall") {
-        txt({ class: "map-text", x: X, y: Yy + 4, "text-anchor": "middle", "font-size": it.size, fill: "var(--wall)", ...halo, "font-weight": it.on ? 700 : 500, "letter-spacing": "1px" }, it.text);
+        txt({ class: "map-text", x: X, y: Yy + 4, "text-anchor": "middle", "font-size": it.size, fill: "var(--wall)", opacity: wallGone(it.it, Y) && !it.on ? .55 : 1, ...halo, "font-weight": it.on ? 700 : 500, "letter-spacing": "1px" }, it.text);
+      } else if (it.kind === "road") {
+        txt({ class: "map-text lbl-geo", x: X, y: Yy + 4, "text-anchor": "middle", "font-size": it.size, fill: "var(--road)", ...halo, "font-weight": it.on ? 700 : 600 }, it.text);
       } else if (it.kind === "people") {
         txt({ class: "map-text lbl-geo", x: X, y: Yy + 4, "text-anchor": "middle", "font-size": it.size, fill: "var(--ink-3)", "font-style": "italic", ...halo }, it.text);
       } else if (it.kind === "prov") {
@@ -727,9 +772,16 @@
     lRiver.setAttribute("display", layerOn.river ? "inline" : "none");
     lWater.setAttribute("display", layerOn.river ? "inline" : "none");
     lWall.setAttribute("display", layerOn.wall ? "inline" : "none");
+    lRoad.setAttribute("display", layerOn.road ? "inline" : "none");
+    lJun.setAttribute("display", layerOn.jun ? "inline" : "none");
     lProv.setAttribute("display", layerOn.prov ? "inline" : "none");
-    for (const n of lHit.children) n.setAttribute("display", layerOn[n.dataset.cat] && !(n.dataset.cat === "wall" && ITEMS[n.dataset.i].y > Y) ? "inline" : "none");
-    for (const [i, g] of Object.entries(wallEls)) g.setAttribute("display", ITEMS[i].y > Y ? "none" : "inline");
+    for (const n of lHit.children) n.setAttribute("display", layerOn[n.dataset.cat] && !((n.dataset.cat === "wall" || n.dataset.cat === "road") && ITEMS[n.dataset.i].y > Y) ? "inline" : "none");
+    for (const [i, g] of Object.entries(wallEls)) {
+      const it = ITEMS[i];
+      g.setAttribute("display", it.y > Y ? "none" : "inline");
+      g.setAttribute("opacity", wallGone(it, Y) ? .3 : 1);          // 秦统一后废弃的内地长城淡显
+    }
+    for (const [i, g] of Object.entries(roadEls)) g.setAttribute("display", ITEMS[i].y > Y ? "none" : "inline");
 
     drawInsetRect(); drawScale();
     const live = STATES.filter(k => SNAPS[si].s[k]).length;
@@ -863,7 +915,9 @@
     if (it.c === "capital") return `<span class="tag st" style="--k:${sVar(it.st)}">${esc(it.st)}都</span><span class="mono">${yr(it.y0)} – ${yr(it.y1)}</span>` + (it.y0 <= Y && Y < it.y1 ? " · 时为国都" : "");
     if (it.c === "battle") return `<span class="mono">${esc(it.yt)}</span>${esc(it.sides)}` + (it.cmd && it.cmd !== "—" ? `<br><span class="mono">主将</span>${esc(it.cmd)}` : "");
     if (it.c === "culture") return `<span class="mono">${esc(it.yt)}</span>`;
-    if (it.c === "wall") return `<span class="mono">${esc(it.yt)}</span>` + (it.y > Y ? "（尚未修筑）" : "");
+    if (it.c === "wall") return `<span class="mono">${esc(it.yt)}</span>` + (it.y > Y ? "（尚未修筑）" : wallGone(it, Y) ? `（前${-it.y1} 前后废弃）` : "");
+    if (it.c === "road") return `<span class="mono">${esc(it.yt)}</span>` + (it.y > Y ? "（尚未修筑）" : "");
+    if (it.c === "jun") return (it.y0 > -9000 ? `<span class="mono">${yr(it.y0)} 置</span>` : `<span class="mono">京畿</span>`) + ` 郡治 ${esc(it.zhi)}` + (junLive(it, Y) ? "" : `（${yr(Y)} 尚未设置或不在秦境）`);
     if (it.c === "people") return "";
     if (it.tlp) return `<span class="mono">${yr(Y)} 属</span>` + tagSt(ownerAt(it, Y));
     return "";
@@ -892,7 +946,7 @@
     selected = i;
     const it = ITEMS[i];
     // 选中一个尚未发生的事件时，时间轴自动跳到该事件之后最近的节点
-    const evY = (it.c === "culture" || it.c === "wall") ? it.y : it.c === "capital" ? it.y0 : null;
+    const evY = (it.c === "culture" || it.c === "wall" || it.c === "road") ? it.y : (it.c === "capital" || it.c === "jun") ? it.y0 : null;
     let jumped = false;
     if (it.c === "battle" && !inPeriod(it)) { stopPlay(); setSnap(periodOf(it.y), false); jumped = true; }   // 战役跳到它所在的那一期
     else if (evY != null && evY > snapY()) { stopPlay(); setSnap(periodOf(evY), false); jumped = true; }
@@ -924,7 +978,7 @@
 
   /* ---------------- 时间轴 ---------------- */
   const axis = document.getElementById("axis"), axiswrap = document.getElementById("axiswrap");
-  const TY0 = -353, TY1 = -218;
+  const TY0 = -353, TY1 = -207;
   // 时间轴刻度：一半按真实年份，一半按节点序号均分，使末年密集的节点也有足够间距
   const SY = SNAPS.map(s => s.y), NS_ = SY.length;
   function idxPos(y) {
@@ -934,9 +988,9 @@
     return (k + 0.5 + (y - SY[k]) / (SY[k + 1] - SY[k])) / NS_;
   }
   const pct = y => ((0.5 * (y - TY0) / (TY1 - TY0) + 0.5 * idxPos(y)) * 100).toFixed(3) + "%";
-  const SHORT = { "-350":"商鞅变法", "-341":"马陵之战", "-330":"魏献河西", "-323":"五国相王", "-318":"五国伐秦", "-316":"秦灭巴蜀", "-312":"丹阳之战", "-307":"秦拔宜阳", "-306":"楚灭越", "-300":"燕却东胡", "-296":"赵灭中山", "-293":"伊阙之战", "-290":"魏献河东", "-286":"齐灭宋", "-284":"乐毅破齐", "-279":"田单复齐", "-278":"白起拔郢", "-272":"秦灭义渠", "-266":"远交近攻", "-262":"上党降赵", "-260":"长平之战", "-257":"邯郸解围", "-256":"周赧王卒", "-249":"秦灭东周", "-247":"河外之战", "-241":"秦置东郡", "-236":"秦取邺", "-233":"李牧却秦", "-230":"秦灭韩", "-228":"秦破赵", "-226":"秦拔蓟", "-225":"秦灭魏", "-224":"李信伐楚", "-223":"秦灭楚", "-222":"燕代亡", "-221":"天下一统" };
+  const SHORT = { "-350":"商鞅变法", "-341":"马陵之战", "-330":"魏献河西", "-323":"五国相王", "-318":"五国伐秦", "-316":"秦灭巴蜀", "-312":"丹阳之战", "-307":"秦拔宜阳", "-306":"楚灭越", "-300":"燕却东胡", "-296":"赵灭中山", "-293":"伊阙之战", "-290":"魏献河东", "-286":"齐灭宋", "-284":"乐毅破齐", "-279":"田单复齐", "-278":"白起拔郢", "-272":"秦灭义渠", "-266":"远交近攻", "-262":"上党降赵", "-260":"长平之战", "-257":"邯郸解围", "-256":"周赧王卒", "-249":"秦灭东周", "-247":"河外之战", "-241":"秦置东郡", "-236":"秦取邺", "-233":"李牧却秦", "-230":"秦灭韩", "-228":"秦破赵", "-226":"秦拔蓟", "-225":"秦灭魏", "-224":"李信伐楚", "-223":"秦灭楚", "-222":"燕代亡", "-221":"天下一统", "-212":"疆域极盛" };
   axis.innerHTML = '<div class="ln"></div><div class="fill" id="axfill"></div>';
-  for (const y of [-350, -340, -330, -320, -310, -300, -290, -280, -270, -260, -250, -240, -230, -225]) {
+  for (const y of [-350, -340, -330, -320, -310, -300, -290, -280, -270, -260, -250, -240, -230, -220]) {
     const d = document.createElement("div"); d.className = "dec"; d.style.left = pct(y); d.textContent = yr(y); axis.append(d);
   }
   SNAPS.forEach((s, j) => {
@@ -1011,6 +1065,8 @@
     city: '<circle cx="7" cy="7" r="3.6" fill="var(--paper)" stroke="var(--c-city)" stroke-width="1.6"/>',
     town: '<circle cx="7" cy="7" r="2.4" fill="var(--ink-3)"/>',
     culture: '<path d="M7 1.8 12 10.6H2Z" fill="var(--c-culture)"/>',
+    jun: '<circle cx="7" cy="7" r="5.2" fill="none" stroke="var(--jun)" stroke-width="1.3"/><circle cx="7" cy="7" r="1.8" fill="var(--jun)"/>',
+    road: '<path d="M1 9 C5 5, 9 9, 13 5" stroke="var(--road)" stroke-width="1.7" stroke-dasharray="4 2" fill="none"/>',
     wall: '<path d="M1 7H13" stroke="var(--wall)" stroke-width="1.4"/><path d="M1 7H13" stroke="var(--wall)" stroke-width="5" stroke-dasharray="1.6 2.4"/>',
     range: '<path d="M1 9 C4 5, 9 5, 13 8" stroke="var(--range)" stroke-width="5" stroke-linecap="round" fill="none" opacity=".45"/>',
     river: '<path d="M1 9 C4 4, 8 11, 13 5" stroke="var(--water)" stroke-width="1.8" fill="none"/>',
@@ -1046,7 +1102,8 @@
     for (const c of CATS) {
       let list = ITEMS.filter(i => i.c === c.id && matches(i));
       if (!list.length) continue;
-      if (c.id === "culture" || c.id === "wall") list.sort((a, b) => a.y - b.y);
+      if (c.id === "culture" || c.id === "wall" || c.id === "road") list.sort((a, b) => a.y - b.y);
+      if (c.id === "jun") list.sort((a, b) => a.y0 - b.y0);
       if (c.id === "battle") list.sort((a, b) => (inPeriod(b) - inPeriod(a)) || a.y - b.y);
       const sub = c.id === "battle" ? `本期 ${list.filter(inPeriod).length} · 共 ${list.length}` : `${list.length} · ${c.sub}`;
       if (c.id === "capital") list.sort((a, b) => STATES.indexOf(a.st) - STATES.indexOf(b.st) || a.y0 - b.y0);
@@ -1066,7 +1123,8 @@
         b.className = "row"; b.dataset.i = it.i; b.dataset.sel = selected === it.i ? "1" : "0";
         const kcol = it.c === "state" ? sVar(it.k) : it.c === "capital" ? sVar(it.st) : c.k;
         b.style.setProperty("--k", kcol);
-        if ((it.c === "culture" || it.c === "wall") && it.y > Y) b.dataset.future = "1";
+        if ((it.c === "culture" || it.c === "wall" || it.c === "road") && it.y > Y) b.dataset.future = "1";
+        if (it.c === "jun" && !junLive(it, Y)) b.dataset.future = "1";
         if (it.c === "battle" && !inPeriod(it)) b.dataset.future = "1";
         if (it.c === "state" && !SNAPS[si].s[it.k]) b.dataset.future = "1";
         const sw = it.c === "state" ? `<span class="sq" style="--k:${sVar(it.k)}"></span>` : "";
@@ -1099,7 +1157,7 @@
       for (const it of ITEMS.filter(x => x.c === c.id && matches(x))) {
         const tr = document.createElement("tr"); tr.className = "click";
         const ll = it.lon != null ? [it.lon, it.lat] : it.anc;
-        const when = it.c === "capital" ? `${yr(it.y0)}–${yr(it.y1)}` : it.yt || "";
+        const when = it.c === "capital" ? `${yr(it.y0)}–${yr(it.y1)}` : it.c === "jun" ? (it.y0 > -9000 ? `${yr(it.y0)} 置` : "—") : it.yt || "";
         tr.innerHTML = `<td class="o">${esc(it.old)}</td><td>${esc(it.mod || "")}</td>` +
           `<td class="cat" style="--k:${it.c === "capital" ? sVar(it.st) : c.k}"><span class="dot"></span>${c.name}${it.c === "capital" ? "·" + esc(it.st) : ""}</td>` +
           `<td class="num">${esc(when)}</td><td class="num">${ll ? ll[0].toFixed(2) + "°E&nbsp; " + ll[1].toFixed(2) + "°N" : ""}</td><td class="note">${esc(it.note || "—")}</td>`;
@@ -1127,7 +1185,7 @@
     wrap.append(intro);
     const ev = [];
     for (const it of ITEMS) {
-      if ((it.c === "battle" || it.c === "culture" || it.c === "wall") && it.y >= -480 && matches(it)) ev.push({ y: it.y, yt: it.yt, t: it.old, k: CAT[it.c].name, p: it.c === "battle" ? `${it.sides}。${it.note}` : it.note, col: CAT[it.c].k, i: it.i });
+      if ((it.c === "battle" || it.c === "culture" || it.c === "wall" || it.c === "road") && it.y >= -480 && matches(it)) ev.push({ y: it.y, yt: it.yt, t: it.old, k: CAT[it.c].name, p: it.c === "battle" ? `${it.sides}。${it.note}` : it.note, col: CAT[it.c].k, i: it.i });
       if (it.c === "capital" && it.y0 >= -480 && matches(it)) ev.push({ y: it.y0, yt: yr(it.y0), t: `${it.st}都${it.old}`, k: "迁都", p: it.note, col: sVar(it.st), i: it.i });
     }
     for (const [y, nm, p, k] of FALLS) if (!query || nm.includes(query)) ev.push({ y, yt: yr(y), t: `${nm}亡`, k: "灭国", p, col: sVar(k), i: stateItem[k].i, fall: true });

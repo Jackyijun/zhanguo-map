@@ -43,7 +43,15 @@ for n, mod, lo, la, note in F.TOWNS:
 for n, mod, lo, la, y, yt, note in F.CULTURE:
     add(c="culture", old=n, mod=mod, lon=lo, lat=la, y=y, yt=yt, note=note, tl=own[n + "@" + str(lo)])
 for n, mod, y, yt, note, pts in F.WALLS:
-    add(c="wall", old=n, mod=mod, y=y, yt=yt, note=note, geo=[[round(a, 3), round(b, 3)] for a, b in pts], anc=midpt(pts))
+    w = add(c="wall", old=n, mod=mod, y=y, yt=yt, note=note, geo=[[round(a, 3), round(b, 3)] for a, b in pts], anc=midpt(pts))
+    if n in F.WALL_END:
+        w["y1"] = F.WALL_END[n]
+        w["note"] += f"秦统一后废弃（约前{-F.WALL_END[n]}，碣石刻辞“堕坏城郭……夷去险阻”）。"
+for n, zhi, mod, lo, la, y0, note in F.JUN:
+    add(c="jun", old=n if n == "内史" else (n if n.endswith("郡") else n + "郡"), zhi=zhi, mod=f"郡治 {zhi}（{mod}）", lon=lo, lat=la, y0=y0, k=n, note=note, tl=own["郡:" + n], alias=F.JUN_ALIAS.get(n, ""))
+for n, mod, y, yt, note, segs in F.ROADS:
+    longest = max(segs, key=plen)
+    add(c="road", old=n, mod=mod, y=y, yt=yt, note=note, geo=[[[round(a, 3), round(b, 3)] for a, b in sg] for sg in segs], anc=midpt(longest))
 for n, mod, note, w, pts in F.RANGES:
     add(c="range", old=n, mod=mod, note=note, geo=[[round(a, 3), round(b, 3)] for a, b in pts], anc=midpt(pts))
 

@@ -13,12 +13,12 @@ NE_TAG = "v5.1.2"
 NE_FILES = ["ne_10m_land", "ne_10m_minor_islands", "ne_10m_rivers_lake_centerlines", "ne_10m_lakes"]
 
 # 底图裁剪范围（西, 南, 东, 北）
-BBOX = (96.0, 20.0, 129.0, 45.5)
+BBOX = (96.0, 17.5, 129.0, 45.5)
 LAND_SIMPLIFY = 0.012               # 海岸线简化容差（度）
 
 # 疆域分区栅格
 RES = 0.05                          # 栅格边长（度）
-LON0, LAT0, LON1, LAT1 = 97.0, 21.0, 128.5, 44.5
+LON0, LAT0, LON1, LAT1 = 97.0, 18.0, 128.5, 44.5
 SEA_COST = 4.5                      # 跨海代价（陆地为 1）
 NOISE_SEED, NOISE_SIGMA, NOISE_AMP = 7, 6, 0.45   # 让界线略带自然弯曲
 RANGE_WIDTH = 2.2                   # 山脊阻隔带半宽（格）
