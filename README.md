@@ -12,19 +12,9 @@
 
 ---
 
-## 二、放到网上（GitHub Pages）
+## 二、线上地址
 
-1. 把整个项目推到 GitHub 仓库（例如 `zhanguo-map`）。
-2. 在仓库的 **Settings → Pages** 里：
-   - Source 选 **Deploy from a branch**；
-   - Branch 选 **main**，目录选 **/docs**，保存。
-3. 一两分钟后，网页就会出现在 `https://<你的用户名>.github.io/zhanguo-map/`。
-
-`docs/.nojekyll` 是一个空文件，作用是让 GitHub Pages 原样发布 `docs/` 里的文件，不经过 Jekyll 处理。
-
-以后每次修改，运行 `python run.py`，把 `docs/index.html` 一起提交推送，网页就会自动更新。
-
-也可以上传到 Netlify、Cloudflare Pages 或任何网页空间。
+https://jackyijun.github.io/zhanguo-map/
 
 ---
 
@@ -65,6 +55,8 @@ python run.py --open
 项目里已经带了底图数据（`geodata/ne/`，约 23 MB），离线也能构建。如果删掉了，`run.py` 会自动从 GitHub 下载固定版本（Natural Earth v5.1.2）。
 
 同一份输入，构建结果逐字节一致，可以用 git 追踪改动。
+
+构建完成后，把 `docs/index.html` 一起提交并推送到 `main`，线上网页会自动更新。
 
 ---
 
