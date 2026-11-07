@@ -1,0 +1,2534 @@
+{
+ "battle:丹阳之战": {
+  "cmd": "Wei Zhang and Chuli Ji vs. Qu Gai",
+  "mod": "Dan River valley between Xichuan, Henan and Shangnan, Shaanxi",
+  "note": "Deceived by Zhang Yi's promise of \"six hundred li of Shang and Wu\", King Huai of Chu attacked Qin in anger and was routed at Danyang; eighty thousand were beheaded and Qu Gai captured, and Qin took six hundred li of Chu's Hanzhong and set up Hanzhong Commandery.",
+  "old": "Battle of Danyang",
+  "sides": "Qin defeated Chu",
+  "yt": "312 BC"
+ },
+ "battle:伊阙之战": {
+  "cmd": "Bai Qi vs. Gongsun Xi",
+  "mod": "Longmen, Luoyang, Henan",
+  "note": "Bai Qi defeated a larger army, beheading two hundred and forty thousand, capturing the Wei general Gongsun Xi and taking five towns. This battle made Bai Qi's name.",
+  "old": "Battle of Yique",
+  "sides": "Qin defeated Han and Wei",
+  "yt": "293 BC"
+ },
+ "battle:修鱼之战": {
+  "cmd": "Chuli Ji",
+  "mod": "SW of Yuanyang, Henan",
+  "note": "In 318 BC Gongsun Yan organised a vertical alliance of five states against Qin; the alliance was defeated at Hangu Pass; the next year the Qin army pursued and took eighty-two thousand heads at Xiuyu.",
+  "old": "Battle of Xiuyu",
+  "sides": "Qin defeated Han, Zhao and Wei",
+  "yt": "317 BC"
+ },
+ "battle:北击匈奴": {
+  "cmd": "Meng Tian vs. Touman Chanyu",
+  "mod": "around Ordos, Inner Mongolia (Henandi)",
+  "note": "After touring the northern frontier, the First Emperor sent Meng Tian with three hundred thousand men against the Xiongnu; he took all Henandi (south of the Hetao bend), and Touman Chanyu moved north. The next year Jiuyuan Commandery was set up and forty-four counties were established from Yuzhong east along the He, \"using the river as a barrier\".",
+  "old": "Northern campaign against the Xiongnu",
+  "sides": "Qin defeated the Xiongnu",
+  "yt": "215 BC"
+ },
+ "battle:华阳之战": {
+  "cmd": "Bai Qi vs. Mang Mao",
+  "mod": "N of Xinzheng, Henan",
+  "note": "Wei and Zhao attacked Huayang in Han; Bai Qi rushed to its relief, beheaded a hundred and thirty thousand and drowned twenty thousand Zhao troops in the He. Wei ceded Nanyang to make peace.",
+  "old": "Battle of Huayang",
+  "sides": "Qin defeated Wei and Zhao",
+  "yt": "273 BC"
+ },
+ "battle:南征百越": {
+  "cmd": "Tu Sui, then Ren Xiao and Zhao Tuo vs. Yixusong, lord of the Xi'ou",
+  "mod": "around Guilin and Xing'an, Guangxi",
+  "note": "The First Emperor sent five hundred thousand men south along five routes against the Hundred Yue. The Qin army killed Yixusong, lord of the Xi'ou, but the Yue fled into the forests, raided the Qin troops at night and killed their commander Tu Sui; \"corpses lay and blood flowed, several hundred thousand\" (Huainanzi, \"Renjian xun\"). Only after cutting the Lingqu Canal to bring up supplies did Qin advance again and finally pacify Lingnan.",
+  "old": "Southern campaign against the Hundred Yue",
+  "sides": "Qin defeated the Hundred Yue (after early defeats)",
+  "yt": "c. 219–214 BC"
+ },
+ "battle:即墨之战": {
+  "cmd": "Tian Dan vs. Qi Jie",
+  "mod": "SE of Pingdu, Shandong",
+  "note": "King Hui of Yan fell for a ruse to sow discord and replaced Yue Yi with Qi Jie. Tian Dan raided the Yan camp at night with his \"fire-ox formation\", the Yan army collapsed, and Qi recovered all of its seventy-odd towns.",
+  "old": "Battle of Jimo",
+  "sides": "Qi defeated Yan",
+  "yt": "279 BC"
+ },
+ "battle:取高阙·北假": {
+  "cmd": "Meng Tian",
+  "mod": "Urad Front Banner – Lang Mountains, Inner Mongolia",
+  "note": "Meng Tian crossed the He and took Gaoque, the Yang Mountains and Beijia, building watchtowers and stockades to drive out the Rong, and moved banished convicts there to fill the new counties.",
+  "old": "Capture of Gaoque and Beijia",
+  "sides": "Qin defeated the Xiongnu",
+  "yt": "213 BC"
+ },
+ "battle:垂沙之战": {
+  "cmd": "Kuang Zhang vs. Tang Mei",
+  "mod": "around Tanghe and Biyang, Henan",
+  "note": "The three allied armies crossed the Ci River by night and crushed Chu; Tang Mei was killed, and Chu lost its land north of Wan and She. Zhuang Qiao rose in revolt amid the turmoil, and \"Chu split into three or four\".",
+  "old": "Battle of Chuisha",
+  "sides": "Qi, Han and Wei defeated Chu",
+  "yt": "301 BC"
+ },
+ "battle:城父之战": {
+  "cmd": "Xiang Yan vs. Li Xin and Meng Tian",
+  "mod": "SE of Bozhou, Anhui",
+  "note": "Li Xin invaded Chu with two hundred thousand men; Xiang Yan followed him for three days and three nights without stopping to camp, and crushed him at Chengfu; the Qin army fled.",
+  "old": "Battle of Chengfu",
+  "sides": "Chu defeated Qin",
+  "yt": "224 BC"
+ },
+ "battle:大梁之战": {
+  "cmd": "Wang Ben",
+  "mod": "Kaifeng, Henan",
+  "note": "Wang Ben flooded Daliang with water from the Yellow River and the Honggou Canal; after three months the walls gave way, Jia, king of Wei, surrendered, and Wei fell.",
+  "old": "Battle of Daliang",
+  "sides": "Qin defeated Wei",
+  "yt": "225 BC"
+ },
+ "battle:宜阳之战": {
+  "cmd": "Gan Mao",
+  "mod": "Yiyang, Henan",
+  "note": "King Wu of Qin wanted \"a road for chariots through Sanchuan, to peer at the house of Zhou\"; Gan Mao besieged Yiyang for five months, took it and beheaded sixty thousand. This opened Qin's gateway east into the Central Plains.",
+  "old": "Battle of Yiyang",
+  "sides": "Qin defeated Han",
+  "yt": "308–307 BC"
+ },
+ "battle:平定岭南": {
+  "cmd": "Ren Xiao and Zhao Tuo",
+  "mod": "Guangzhou, Guangdong",
+  "note": "Ren Xiao and Zhao Tuo led the army that pacified Lingnan; the Nanhai, Guilin and Xiang commanderies were set up and five hundred thousand convicts from the Central Plains were moved there as garrison. When Ren Xiao died at the end of Qin, Zhao Tuo took Lingnan for himself and founded the kingdom of Nanyue.",
+  "old": "Pacification of Lingnan",
+  "sides": "Qin defeated the Hundred Yue",
+  "yt": "214 BC"
+ },
+ "battle:易水之战": {
+  "cmd": "Wang Jian and Xin Sheng",
+  "mod": "Yi County, Hebei",
+  "note": "After Jing Ke's failed attempt on the king of Qin, Qin invaded Yan in force and defeated the allied Yan and Dai armies west of the Yi River; the next year (226 BC) it took Ji.",
+  "old": "Battle of the Yi River",
+  "sides": "Qin defeated Yan and Dai",
+  "yt": "226 BC"
+ },
+ "battle:晋阳之战": {
+  "cmd": "Viscount Xiang of Zhao vs. Zhi Yao",
+  "mod": "Taiyuan, Shanxi",
+  "note": "Zhi Yao, Earl of Zhi, diverted the Jin River to flood Jinyang until \"only three boards' height of the wall stayed above water\"; Viscount Xiang of Zhao sent Zhang Mengtan to win over Han and Wei, and the three lineages counterattacked, destroyed the Zhi lineage and divided their land. This laid the foundation for the partition of Jin, and historians often take it as one of the markers of the start of the Warring States.",
+  "old": "Battle of Jinyang",
+  "sides": "Zhao, Han and Wei defeated the Zhi lineage",
+  "yt": "455–453 BC"
+ },
+ "battle:李牧破匈奴": {
+  "cmd": "Li Mu",
+  "mod": "N of the Datong (Shanxi) – Zhangjiakou (Hebei) line",
+  "note": "Guarding Dai and Yanmen, Li Mu feigned weakness to lure the enemy, crushed more than a hundred thousand Xiongnu horsemen in a single battle, destroyed the Chanlan, broke the Donghu and received the surrender of the Linhu; for more than ten years afterwards the Xiongnu dared not approach Zhao's frontier.",
+  "old": "Li Mu crushes the Xiongnu",
+  "sides": "Zhao defeated the Xiongnu",
+  "yt": "c. 244 BC"
+ },
+ "battle:桂陵之战": {
+  "cmd": "Tian Ji and Sun Bin vs. Pang Juan",
+  "mod": "NW of Changyuan, Henan (one view: Heze, Shandong)",
+  "note": "Wei besieged Handan, the Zhao capital; Qi followed Sun Bin's plan to \"besiege Wei to rescue Zhao\", marched straight on Daliang, and crushed the Wei army at Guiling as it hurried back to relieve its capital.",
+  "old": "Battle of Guiling",
+  "sides": "Qi defeated Wei",
+  "yt": "353 BC"
+ },
+ "battle:楚围雍氏（一）": {
+  "cmd": "Jing Cui",
+  "mod": "NE of Yuzhou, Henan",
+  "note": "In the same year as the Battle of Danyang, the Chu general Jing Cui marched north and besieged Yongshi in Han, just as King Xuanhui of Han died. Qin, while routing Chu at Danyang, sent Chuli Ji to help Han, and Chu lifted the siege and withdrew. Bamboo Annals: \"Jing Cui of Chu besieged Yongshi; King Xuan of Han died; Qin helped Han and together they defeated Qu Gai of Chu.\"",
+  "old": "Chu siege of Yongshi (I)",
+  "sides": "Han and Qin defeated Chu",
+  "yt": "312 BC"
+ },
+ "battle:楚围雍氏（三）": {
+  "mod": "NE of Yuzhou, Henan",
+  "note": "After the death of Ying, crown prince of Han, Prince Jiu contended for the succession with Prince Jishi, a hostage in Chu. Chu, wanting to install Jishi, besieged Yongshi with its army; Han appealed to Qin, Chu finally lifted the siege and withdrew, and Prince Jiu became crown prince: the later King Xi of Han (the Han chapter of the Shiji). Bamboo Annals (quoted in the Jijie commentary to the Han chapter): \"Chu entered Yongshi; the men of Chu were defeated.\"",
+  "old": "Chu siege of Yongshi (III)",
+  "sides": "Han defeated Chu",
+  "yt": "300 BC"
+ },
+ "battle:楚围雍氏（二）": {
+  "cmd": "King Huai of Chu vs. Gongzhong Chi",
+  "mod": "NE of Yuzhou, Henan",
+  "note": "Resenting Han's failure to help at Danyang, King Huai of Chu besieged Yongshi for five months. Han sent Gongzhong Chi and then Shang Jin to Qin for help; Queen Dowager Xuan, a native of Chu, at first would not send troops, but Gan Mao persuaded King Zhao of Qin that \"if Chu and Han become one, an attack on Qin will take shape\"; the Qin army came out through the Xiao Mountains, and the Chu troops left.",
+  "old": "Chu siege of Yongshi (II)",
+  "sides": "Han and Qin defeated Chu",
+  "yt": "307 BC (or 306 BC)"
+ },
+ "battle:楚威王败越": {
+  "cmd": "King Wei of Chu vs. Wujiang, king of Yue",
+  "mod": "between the Yangtze and the Huai (approx.)",
+  "note": "According to the Yue chapter of the Shiji, Wujiang, king of Yue, marched north against Qi; an envoy from Qi persuaded him to turn against Chu instead, and King Wei of Chu routed Yue and also \"crushed Qi at Xuzhou in the north\" (333 BC). Tradition takes this as the year Yue fell; but in 312 BC the king of Yue still sent envoys to present boats to Wei, so it is now widely held that in this battle Chu took only part of Yue's lands between the Yangtze and the Huai, and that Yue did not fall.",
+  "old": "King Wei of Chu defeats Yue",
+  "sides": "Chu defeated Yue",
+  "yt": "334/333 BC (Shiji, Zizhi Tongjian)"
+ },
+ "battle:楚灭越": {
+  "cmd": "King Huai of Chu and Shao Hua vs. Wujiang, king of Yue",
+  "mod": "around Suzhou, Jiangsu",
+  "note": "King Huai of Chu sent Shao Hua into Yue to sow discord: \"within, he stirred up the troubles of Zhangyi, and Yue fell into chaos; therefore Chu closed Limen in the south and made Jiangdong a commandery\" (Fan Yuan's words, biography of Gan Mao in the Shiji). Chu attacked Yue in the turmoil, killed Wujiang, king of Yue, took all the old lands of Wu up to the Zhe River, and set up Jiangdong Commandery. Yue broke apart, and its princes, \"some becoming kings and some lords\", submitted and paid court to Chu.",
+  "old": "Chu conquest of Yue",
+  "sides": "Chu defeated Yue",
+  "yt": "c. 306 BC (Yang Kuan; or 307 BC)"
+ },
+ "battle:河外之战": {
+  "cmd": "Lord Xinling vs. Meng Ao",
+  "mod": "around Sanmenxia, Henan (approx.)",
+  "note": "Lord Xinling returned to Wei, led the forces of five states to crush Meng Ao at Hewai, and pursued him to Hangu Pass; the Qin army dared not come out.",
+  "old": "Battle of Hewai",
+  "sides": "Wei, Zhao, Han, Chu and Yan defeated Qin",
+  "yt": "247 BC"
+ },
+ "battle:济西之战": {
+  "cmd": "Yue Yi vs. Chu Zi",
+  "mod": "W of the Ji River, between Liaocheng and Gaotang, Shandong",
+  "note": "The five allied armies crushed the Qi army west of the Ji River, and Yue Yi drove deep into Qi with the Yan army, taking seventy-odd Qi towns in half a year; King Min of Qi fled to Ju and was killed by the Chu general Nao Chi.",
+  "old": "Battle of Jixi",
+  "sides": "Yan, Qin, Han, Zhao and Wei defeated Qi",
+  "yt": "284 BC"
+ },
+ "battle:番吾之战": {
+  "cmd": "Li Mu",
+  "mod": "S of Pingshan, Hebei",
+  "note": "Qin attacked Zhao along two routes; Li Mu defeated the Qin army again at Powu and held off Han and Wei in the south.",
+  "old": "Battle of Powu",
+  "sides": "Zhao defeated Qin",
+  "yt": "232 BC"
+ },
+ "battle:石门之战": {
+  "cmd": "Duke Xian of Qin",
+  "mod": "SW of Yuncheng, Shanxi (one view)",
+  "note": "Qin took sixty thousand heads, and King Xian of Zhou sent Duke Xian of Qin embroidered ceremonial robes in congratulation. It marked the point at which Qin turned from defence to attack.",
+  "old": "Battle of Shimen",
+  "sides": "Qin defeated Wei",
+  "yt": "364 BC"
+ },
+ "battle:秦开却东胡": {
+  "cmd": "Qin Kai",
+  "mod": "around Chengde, Hebei – Chaoyang, Liaoning",
+  "note": "Qin Kai had once been a hostage among the Donghu and knew them well; back in Yan he routed the Donghu, who fell back more than a thousand li; Yan set up five commanderies and built a long wall from Zaoyang to Xiangping.",
+  "old": "Qin Kai drives back the Donghu",
+  "sides": "Yan defeated the Donghu",
+  "yt": "c. 300 BC"
+ },
+ "battle:秦灭巴蜀": {
+  "cmd": "Sima Cuo and Zhang Yi vs. the king of Shu",
+  "mod": "Guangyuan, Sichuan (Jiameng)",
+  "note": "Shu attacked Ju; the Marquis of Ju fled to Ba, and Ba and Ju appealed to Qin for help. King Huiwen of Qin followed Sima Cuo's advice and attacked Shu by the Jinniu (Shiniu) Road; the king of Shu was defeated at Jiameng and died at Wuyang, and Qin destroyed Shu and \"went on to take Ju and Ba\". As Sima Cuo had argued, \"its land is enough to enlarge the state, its wealth enough to enrich the people\".",
+  "old": "Qin conquest of Ba and Shu",
+  "sides": "Qin defeated Shu, Ju and Ba",
+  "yt": "316 BC"
+ },
+ "battle:秦破赵": {
+  "cmd": "Wang Jian and Yang Duanhe vs. Zhao Cong and Yan Ju",
+  "mod": "S of Handan, Hebei",
+  "note": "Qin sowed discord and Qian, king of Zhao, had Li Mu killed; Wang Jian came out through the Jingxing Pass and Yang Duanhe attacked Handan, crushing the Zhao army and capturing him.",
+  "old": "Qin crushes Zhao",
+  "sides": "Qin defeated Zhao",
+  "yt": "229–228 BC"
+ },
+ "battle:肥之战": {
+  "cmd": "Li Mu vs. Huan Yi",
+  "mod": "W of Jinzhou, Hebei",
+  "note": "Li Mu crushed the Qin army at Fei; Huan Yi fled (one view: was killed), and Li Mu was made Lord Wu'an.",
+  "old": "Battle of Fei",
+  "sides": "Zhao defeated Qin",
+  "yt": "233 BC"
+ },
+ "battle:蓝田之战": {
+  "mod": "Lantian, Shaanxi",
+  "note": "King Huai of Chu threw the state's entire army deep into Qin as far as Lantian and was defeated again; Han and Wei seized the chance to raid Chu as far south as Deng, forcing Chu to withdraw, gravely weakened.",
+  "old": "Battle of Lantian",
+  "sides": "Qin defeated Chu",
+  "yt": "312 BC"
+ },
+ "battle:蕞之战": {
+  "cmd": "Pang Nuan",
+  "mod": "N of Lintong, Xi'an, Shaanxi",
+  "note": "The last vertical alliance of the states east of the mountains, led by the Zhao general Pang Nuan, reached Zui, not far from Xianyang, but was finally defeated and turned back. As a result Chu moved its capital to Shouchun.",
+  "old": "Battle of Zui",
+  "sides": "Qin defeated Zhao, Chu, Wei, Yan and Han",
+  "yt": "241 BC"
+ },
+ "battle:蕲南之战": {
+  "cmd": "Wang Jian and Meng Wu vs. Xiang Yan",
+  "mod": "SE of Suzhou, Anhui",
+  "note": "Wang Jian, with six hundred thousand men, stayed behind his ramparts and would not fight; when the Chu army withdrew east he pursued it and crushed it at Qinan; Xiang Yan died (one view: killed himself), and Fuchu, king of Chu, was captured.",
+  "old": "Battle of Qinan",
+  "sides": "Qin defeated Chu",
+  "yt": "223 BC"
+ },
+ "battle:襄陵之战": {
+  "cmd": "Zhao Yang",
+  "mod": "Sui County, Henan",
+  "note": "Zhao Yang, pillar of state of Chu, defeated Wei at Xiangling and took eight towns. Chen Zhen, with the parable of \"drawing legs on a snake\", persuaded Zhao Yang to quit while he was ahead and call off an attack on Qi.",
+  "old": "Battle of Xiangling",
+  "sides": "Chu defeated Wei",
+  "yt": "323 BC"
+ },
+ "battle:赵灭中山": {
+  "cmd": "King Wuling of Zhao",
+  "mod": "Pingshan, Hebei",
+  "note": "King Wuling of Zhao attacked Zhongshan year after year with troops trained in nomad dress and mounted archery, destroyed it in 296 BC and moved its king to Fushi. Zhao's Dai region and Handan were now joined into one.",
+  "old": "Zhao conquest of Zhongshan",
+  "sides": "Zhao defeated Zhongshan",
+  "yt": "305–296 BC"
+ },
+ "battle:邯郸之战": {
+  "cmd": "Wang Ling and Wang He vs. Lord Pingyuan, Lord Xinling and Lord Chunshen",
+  "mod": "Handan, Hebei",
+  "note": "Following up its victory at Changping, Qin besieged Handan for nearly three years; Lord Pingyuan went to Chu for help, where Mao Sui put himself forward and sealed the vertical alliance; Lord Xinling of Wei stole the tally to rescue Zhao, and the Qin army was routed.",
+  "old": "Battle of Handan",
+  "sides": "Zhao, Wei and Chu defeated Qin",
+  "yt": "259–257 BC"
+ },
+ "battle:鄢郢之战": {
+  "cmd": "Bai Qi",
+  "mod": "between Yicheng and Jingzhou, Hubei",
+  "note": "Bai Qi diverted the waters of a long valley in the western hills to flood the city of Yan, drowning hundreds of thousands of Chu soldiers and civilians; the next year he took Ying and burned Yiling (the tombs of the Chu kings); Chu moved its capital to Chen, and Qin set up Nan Commandery.",
+  "old": "Battle of Yan and Ying",
+  "sides": "Qin defeated Chu",
+  "yt": "279–278 BC"
+ },
+ "battle:长平之战": {
+  "cmd": "Bai Qi and Wang He vs. Lian Po, then Zhao Kuo",
+  "mod": "Gaoping, Shanxi",
+  "note": "Han's Shangdang surrendered its seventeen towns to Zhao, setting off a decisive war between Qin and Zhao. Zhao replaced Lian Po with Zhao Kuo, who attacked, was surrounded for forty-six days and was killed; more than four hundred thousand surrendered troops were buried alive. After this none of the six states could stand up to Qin alone.",
+  "old": "Battle of Changping",
+  "sides": "Qin defeated Zhao",
+  "yt": "262–260 BC"
+ },
+ "battle:阏与之战": {
+  "cmd": "Zhao She vs. Hu Yang",
+  "mod": "W of Heshun, Shanxi (one view: Qin County)",
+  "note": "Holding that \"when two meet on a narrow road, the braver wins\", Zhao She seized the northern hill and crushed the Qin army, and was made Lord Mafu. Qin then turned to Fan Ju's policy of \"ally with the distant, attack the near\".",
+  "old": "Battle of Yuyu",
+  "sides": "Zhao defeated Qin",
+  "yt": "269 BC"
+ },
+ "battle:阴晋之战": {
+  "cmd": "Wu Qi",
+  "mod": "Huayin, Shaanxi",
+  "note": "According to the Wuzi, Wu Qi defeated a Qin host of five hundred thousand with fifty thousand Wei troops (the numbers may be exaggerated). Wei held Hexi for several decades, and Qin \"could not come out to the east\".",
+  "old": "Battle of Yinjin",
+  "sides": "Wei defeated Qin",
+  "yt": "389 BC"
+ },
+ "battle:雕阴之战": {
+  "cmd": "Gongsun Yan vs. Long Jia",
+  "mod": "S of Ganquan, Shaanxi",
+  "note": "Qin killed eighty thousand Wei troops, and Wei was forced to hand over all of Hexi; in 328 BC it also ceded the fifteen counties of Shang Commandery, giving Qin complete control west of the Yellow River.",
+  "old": "Battle of Diaoyin",
+  "sides": "Qin defeated Wei",
+  "yt": "330 BC"
+ },
+ "battle:马陵之战": {
+  "cmd": "Tian Ji and Sun Bin vs. Pang Juan and Crown Prince Shen",
+  "mod": "around Fan County, Henan – Shen County, Shandong (one view: Tancheng, Shandong)",
+  "note": "Sun Bin feigned weakness by \"reducing the cooking fires\" to lure the enemy on, and hid ten thousand crossbowmen along the Maling road; Pang Juan, outwitted, cut his own throat, and Shen, crown prince of Wei, was captured. Wei's hegemony collapsed as a result.",
+  "old": "Battle of Maling",
+  "sides": "Qi defeated Wei",
+  "yt": "341 BC"
+ },
+ "battle:齐灭宋": {
+  "cmd": "King Min of Qi",
+  "mod": "Shangqiu, Henan",
+  "note": "Yan, ruler of Song, was a tyrant known as \"the Jie of Song\"; King Min of Qi destroyed Song, alarming the other lords, and this became the direct trigger of the five-state attack on Qi.",
+  "old": "Qi conquest of Song",
+  "sides": "Qi defeated Song",
+  "yt": "286 BC"
+ },
+ "capital:中牟": {
+  "mod": "around Hebi, Henan (location disputed)",
+  "note": "Marquis Xian of Zhao moved the capital to Zhongmou. Its location is much debated; one view puts it between modern Hebi and Tangyin in Henan.",
+  "old": "Zhongmou"
+ },
+ "capital:临淄": {
+  "mod": "Linzi District, Zibo, Shandong",
+  "note": "Capital of Qi, said to have seventy thousand households: \"hubs knock against hubs, shoulders rub against shoulders; joined lapels make a curtain, raised sleeves make an awning\" (Su Qin). The Jixia Academy lay outside its Ji Gate. Usually counted among Qi's \"Five Capitals\" (Linzi, Pinglu, Gaotang, Jimo, Ju), each with a standing army, the \"troops of the Five Capitals\".",
+  "old": "Linzi"
+ },
+ "capital:义渠": {
+  "mod": "NW of Ning County, Gansu",
+  "note": "Capital of the Yiqu Rong.",
+  "old": "Yiqu"
+ },
+ "capital:代": {
+  "mod": "NE of Yu County, Hebei",
+  "note": "Originally the state of Dai, destroyed by Viscount Xiang of Zhao (457 BC). In 228 BC Prince Jia of Zhao fled to Dai and styled himself king; he was captured by Wang Ben in 222 BC.",
+  "old": "Dai"
+ },
+ "capital:会稽": {
+  "mod": "Shaoxing, Zhejiang",
+  "note": "Early capital of Yue, where Goujian \"slept on brushwood and tasted gall\". After Chu destroyed Yue (c. 306 BC) the Yue chieftains held out south of the Zhe River; in 222 BC Wang Jian received the surrender of the lords of Yue and set up Kuaiji Commandery here.",
+  "old": "Kuaiji"
+ },
+ "capital:吴": {
+  "mod": "Suzhou, Jiangsu",
+  "note": "Capital of the Spring and Autumn state of Wu. In 379 BC Yi, king of Yue, moved his capital here from Langya; after Chu destroyed Yue around 306 BC it passed to Chu as part of Jiangdong Commandery; in 248 BC Lord Chunshen was re-enfeoffed in Jiangdong and lived in the ruins of old Wu.",
+  "old": "Wu"
+ },
+ "capital:咸阳": {
+  "mod": "E of Xianyang, Shaanxi",
+  "note": "Built under Shang Yang's direction; Duke Xiao of Qin moved the capital here in 350 BC. The Wei River ran through the city, and after unification it was the capital of the whole realm.",
+  "old": "Xianyang"
+ },
+ "capital:商丘": {
+  "mod": "Suiyang District, Shangqiu, Henan",
+  "note": "Capital of Song, home of the descendants of the Shang. Taken by King Min of Qi in 286 BC.",
+  "old": "Shangqiu"
+ },
+ "capital:大梁": {
+  "mod": "Kaifeng, Henan",
+  "note": "King Hui of Wei moved the capital here, so Wei came to be called \"Liang\"; Mencius's audience with King Hui of Liang took place here. Taken in 225 BC when the Qin army flooded the city.",
+  "old": "Daliang"
+ },
+ "capital:安邑": {
+  "mod": "Yuwangcheng, Xia County, Shanxi",
+  "note": "Wei's first capital, near the salt revenues of Lake Xie; Li Kui's reforms took place here. The capital moved to Daliang in 361 BC (or 364 BC).",
+  "old": "Anyi"
+ },
+ "capital:宜阳": {
+  "mod": "W of Yiyang, Henan",
+  "note": "For a time the capital of Viscount Wu of Han; a key town on Han's western border, \"a county in name, a commandery in fact\". Taken by the Qin general Gan Mao in 307 BC.",
+  "old": "Yiyang"
+ },
+ "capital:寿春": {
+  "mod": "Shou County, Anhui",
+  "note": "The last capital of Chu, also called \"Ying\". Taken by Qin in 223 BC, when Fuchu, king of Chu, was captured.",
+  "old": "Shouchun"
+ },
+ "capital:巨阳": {
+  "mod": "SE of Taihe, Anhui (one view)",
+  "note": "Where King Kaolie of Chu moved the capital; its exact location is still unsettled.",
+  "old": "Juyang"
+ },
+ "capital:巩": {
+  "mod": "SW of Gongyi, Henan",
+  "note": "Capital of the lord of East Zhou. In 249 BC the Qin chancellor Lü Buwei destroyed East Zhou.",
+  "old": "Gong"
+ },
+ "capital:平阳": {
+  "mod": "SW of Linfen, Shanxi",
+  "note": "Where the Han lineage first lived.",
+  "old": "Pingyang"
+ },
+ "capital:成都": {
+  "mod": "Chengdu, Sichuan",
+  "note": "Capital of the Kaiming lineage of Shu. After the Qin conquest Zhang Yi and Zhang Ruo built the walls of Chengdu.",
+  "old": "Chengdu"
+ },
+ "capital:新郑": {
+  "mod": "Xinzheng, Henan",
+  "note": "Originally the capital of the state of Zheng; Marquis Ai of Han moved the capital here after destroying Zheng in 375 BC. Shen Buhai and Han Fei both worked here.",
+  "old": "Xinzheng"
+ },
+ "capital:晋阳": {
+  "mod": "Jinyuan District, Taiyuan, Shanxi",
+  "note": "Built by Viscount Jian of Zhao; in 453 BC the Earl of Zhi flooded Jinyang, and the three lineages counterattacked and destroyed the Zhi lineage.",
+  "old": "Jinyang"
+ },
+ "capital:曲阜": {
+  "mod": "Qufu, Shandong",
+  "note": "Capital of Lu and home town of Confucius. Lu was destroyed by Chu in 256 BC.",
+  "old": "Qufu"
+ },
+ "capital:栎阳": {
+  "mod": "Yanliang District, Xi'an, Shaanxi",
+  "note": "Duke Xian of Qin moved east here to contend for Hexi; Shang Yang's first reforms were proclaimed here, and \"moving the log to establish trust\" took place at Yueyang.",
+  "old": "Yueyang"
+ },
+ "capital:武阳": {
+  "mod": "Yi County, Hebei (Lower Capital of Yan)",
+  "note": "Lower Capital of Yan, built around the reign of King Zhao; about 8 km from east to west, one of the largest city sites of the Warring States.",
+  "old": "Wuyang"
+ },
+ "capital:江州": {
+  "mod": "around Yuzhong District, Chongqing",
+  "note": "Capital of Ba.",
+  "old": "Jiangzhou"
+ },
+ "capital:濮阳": {
+  "mod": "SW of Puyang, Henan",
+  "note": "Diqiu, capital of Wey. Taken by Qin in 241 BC and made Dong Commandery.",
+  "old": "Puyang"
+ },
+ "capital:灵寿": {
+  "mod": "Sanji Township, Pingshan, Hebei",
+  "note": "Capital of Zhongshan after its restoration; the city site and the tomb of King Cuo of Zhongshan have both been excavated.",
+  "old": "Lingshou"
+ },
+ "capital:王城": {
+  "mod": "Luoyang, Henan",
+  "note": "The royal city of Eastern Zhou; after Zhou split it was the seat of the lord of West Zhou, and King Nan of Zhou also lodged here. West Zhou was destroyed by Qin in 256 BC.",
+  "old": "Wangcheng"
+ },
+ "capital:琅琊": {
+  "mod": "Huangdao District, Qingdao, Shandong",
+  "note": "After destroying Wu, Goujian moved north here to contend for hegemony in the Central Plains (according to the Bamboo Annals and other sources); Yue later moved back south to Wu.",
+  "old": "Langya"
+ },
+ "capital:葭萌": {
+  "mod": "Zhaohua old town, Guangyuan, Sichuan",
+  "note": "Capital of Ju, the town enfeoffed to the Marquis of Ju, younger brother of the king of Shu, commanding the Jinniu Road. After destroying Ju, Qin set up Jiameng County; in the Three Kingdoms Shu-Han renamed it Hanshou.",
+  "old": "Jiameng"
+ },
+ "capital:蓟": {
+  "mod": "around Xicheng District, Beijing",
+  "note": "Upper Capital of Yan. Taken by the Qin general Wang Jian in 226 BC.",
+  "old": "Ji"
+ },
+ "capital:襄平": {
+  "mod": "Liaoyang, Liaoning",
+  "note": "Seat of Yan's Liaodong Commandery. In 226 BC Xi, king of Yan, abandoned Ji and fell back here; he was captured by Wang Ben in 222 BC.",
+  "old": "Xiangping"
+ },
+ "capital:邯郸": {
+  "mod": "Handan, Hebei",
+  "note": "Marquis Jing of Zhao moved the capital here. A great northern centre of iron-working and trade; the idiom \"learning to walk in Handan\" comes from here.",
+  "old": "Handan"
+ },
+ "capital:郢": {
+  "mod": "Jinancheng, Jingzhou, Hubei",
+  "note": "Capital of Chu for more than four hundred years (the Jinancheng ruins). In 278 BC Bai Qi took Ying and burned the tombs of the Chu kings at Yiling.",
+  "old": "Ying"
+ },
+ "capital:野王": {
+  "mod": "Qinyang, Henan",
+  "note": "Qin moved Jue, lord of Wey, here, and Wey lingered on as a Qin dependency until 209 BC.",
+  "old": "Yewang"
+ },
+ "capital:阆中": {
+  "mod": "Langzhong, Sichuan",
+  "note": "One of the later capitals of Ba.",
+  "old": "Langzhong"
+ },
+ "capital:阳翟": {
+  "mod": "Yuzhou, Henan",
+  "note": "Marquis Jing of Han moved the capital here. Lü Buwei began as a \"great merchant of Yangzhai\".",
+  "old": "Yangzhai"
+ },
+ "capital:陈": {
+  "mod": "Huaiyang District, Zhoukou, Henan",
+  "note": "Originally the capital of the state of Chen; King Qingxiang of Chu moved east here after losing Ying, and it was called \"Ying-Chen\".",
+  "old": "Chen"
+ },
+ "capital:雍": {
+  "mod": "Fengxiang District, Baoji, Shaanxi",
+  "note": "Capital of Qin for nearly three hundred years (677–383 BC) and site of Great Tomb No. 1 of the Qin dukes; after the capital moved it remained the centre of the ancestral temples and sacrifices.",
+  "old": "Yong"
+ },
+ "capital:顾": {
+  "mod": "Dingzhou, Hebei",
+  "note": "First capital of Duke Wu of Zhongshan.",
+  "old": "Gu"
+ },
+ "city:上党": {
+  "mod": "Zhangzi, Shanxi",
+  "note": "Han's Shangdang Commandery (seat around Zhangzi). In 262 BC its governor Feng Ting surrendered its seventeen towns to Zhao, setting off the Battle of Changping.",
+  "old": "Shangdang"
+ },
+ "city:上蔡": {
+  "mod": "Shangcai, Henan",
+  "note": "Former capital of the state of Cai and a key northern town of Chu; home town of Li Si.",
+  "old": "Shangcai"
+ },
+ "city:东郡": {
+  "mod": "Puyang, Henan",
+  "note": "In 242 BC Qin took Suanzao and nineteen other Wei towns and set up Dong Commandery, a wedge driven between Qi, Wei and Zhao that cut the north–south links of the vertical alliance east of the mountains.",
+  "old": "Dong Commandery"
+ },
+ "city:九原": {
+  "mod": "W of Baotou, Inner Mongolia",
+  "note": "The limit of King Wuling of Zhao's conquests; under Qin, Jiuyuan Commandery and the northern end of the Qin Straight Road.",
+  "old": "Jiuyuan"
+ },
+ "city:云中": {
+  "mod": "NE of Togtoh, Inner Mongolia",
+  "note": "Seat of the Yunzhong Commandery set up by King Wuling of Zhao.",
+  "old": "Yunzhong"
+ },
+ "city:南郑": {
+  "mod": "Hanzhong, Shaanxi",
+  "note": "Centre of the Hanzhong basin, fought over repeatedly by Qin and Shu: in 451 BC Qin \"walled Nanzheng\"; in 441 BC \"Nanzheng rebelled\"; in 387 BC, by one account Qin \"attacked Shu and took Nanzheng\" (Basic Annals of Qin in the Shiji), by another \"Shu took our Nanzheng\" (Table of the Six States in the Shiji). In the mid Warring States it belonged to Shu; it passed to Qin in 316 BC and later became the seat of Qin's Hanzhong Commandery.",
+  "old": "Nanzheng"
+ },
+ "city:即墨": {
+  "mod": "SE of Pingdu, Shandong",
+  "note": "With Ju, one of the only two Qi towns that held out after Yue Yi crushed Qi; Tian Dan restored the state from here. One of Qi's \"Five Capitals\".",
+  "old": "Jimo"
+ },
+ "city:商": {
+  "mod": "W of Danfeng, Shaanxi",
+  "note": "Duke Xiao of Qin enfeoffed Shang Yang with the fifteen towns of Shang and Wu, styling him Lord Shang. Zhang Yi once deceived Chu with \"six hundred li of the land of Shang and Wu\".",
+  "old": "Shang"
+ },
+ "city:宛": {
+  "mod": "Nanyang, Henan",
+  "note": "Centre of the Nanyang basin and a major iron-working town of Chu: \"the steel spears of Wan sting like bees and scorpions\". Qin set up Nanyang Commandery in 272 BC.",
+  "old": "Wan"
+ },
+ "city:平原": {
+  "mod": "Pingyuan, Shandong",
+  "note": "Key place in northwestern Qi. The title of Lord Pingyuan, Zhao Sheng of Zhao, comes from the area of Dongwucheng in Zhao; it is close to this place name (but this was not his fief).",
+  "old": "Pingyuan"
+ },
+ "city:平陆": {
+  "mod": "N of Wenshang, Shandong",
+  "note": "One of Qi's \"Five Capitals\", the southwestern gateway guarding against Lu, Song and Wei. Mencius came to Pinglu and told its grandee Kong Juxin, \"in years of disaster and famine, the old and weak among your people are tossed into the ditches\" (Mencius, \"Gongsun Chou II\").",
+  "old": "Pinglu"
+ },
+ "city:广陵": {
+  "mod": "Yangzhou, Jiangsu",
+  "note": "In the 10th year of King Huai of Chu (319 BC) Guangling was walled. At that time the Yangtze entered the sea near here, and the river was very wide.",
+  "old": "Guangling"
+ },
+ "city:彭城": {
+  "mod": "Xuzhou, Jiangsu",
+  "note": "Key town in eastern Song (one view: Song moved its capital here late in its history); passed to Chu after Song fell.",
+  "old": "Pengcheng"
+ },
+ "city:武遂": {
+  "mod": "SE of Yuanqu, Shanxi (one view: near Linfen)",
+  "note": "A Han town on the north bank of the Yellow River, facing Yiyang across the river; \"two hundred li of Wusui land\" refers to this land north of the river. Qin and Han fought over it repeatedly: in 307 BC, after taking Yiyang, Qin \"crossed the river and walled Wusui\"; in 306 BC Gan Mao urged its return to Han; in 303 BC Qin took it again; in 296 BC, after Qi, Han and Wei broke through Hangu, Qin \"gave Han Hewai and Wusui\" to make peace; in 290 BC Han ceded \"two hundred li of Wusui land\" to Qin (Basic Annals of Qin, Han chapter and biography of Gan Mao in the Shiji). There are two views of its location: here it is placed SE of Yuanqu following \"crossed the river and walled Wusui\"; the Chu chapter of the Shiji says Han's \"former kings' tombs are at Pingyang, and Qin's Wusui is seventy li from them\", and Pingyang lies SW of modern Linfen, so one view puts Wusui near Linfen. There was also a Yan town called Wusui (W of modern Xushui, Hebei), taken by the Zhao general Li Mu in 243 BC; it is not the same place.",
+  "old": "Wusui"
+ },
+ "city:洛阳": {
+  "mod": "Luoyang, Henan",
+  "note": "\"The centre of the realm\", seat of the Zhou royal domain; Su Qin was a native of Luoyang.",
+  "old": "Luoyang"
+ },
+ "city:狄道": {
+  "mod": "Lintao, Gansu",
+  "note": "Seat of Qin's Longxi Commandery, where the Long Wall of King Zhao of Qin began in the west.",
+  "old": "Didao"
+ },
+ "city:肤施": {
+  "mod": "SE of Yulin, Shaanxi",
+  "note": "Seat of Qin's Shang Commandery; after destroying Zhongshan, Zhao moved the king of Zhongshan to Fushi.",
+  "old": "Fushi"
+ },
+ "city:荥阳": {
+  "mod": "Xingyang, Henan",
+  "note": "Where the He and the Ji meet, site of the Ao Granary and start of the Honggou Canal; the hub of water and land transport in the Central Plains.",
+  "old": "Xingyang"
+ },
+ "city:莒": {
+  "mod": "Ju County, Shandong",
+  "note": "Where King Min of Qi fled; King Xiang of Qi took the throne at Ju and held it for five years. One of Qi's \"Five Capitals\", guarding the south against Chu.",
+  "old": "Ju"
+ },
+ "city:薛": {
+  "mod": "SE of Tengzhou, Shandong",
+  "note": "Fief of Lord Mengchang, Tian Wen, who kept several thousand retainers, among them the men \"who crowed like cocks and stole like dogs\".",
+  "old": "Xue"
+ },
+ "city:邺": {
+  "mod": "Yecheng ruins, Linzhang, Hebei",
+  "note": "Under Marquis Wen of Wei, Ximen Bao as magistrate of Ye ended the custom of \"brides for the River Lord\" and dug twelve canals from the Zhang River, making Ye prosperous. For most of the Warring States it belonged to Wei; in 239 BC Wei ceded Ye to Zhao, and in 236 BC Wang Jian and other Qin generals attacked Zhao and took Ye.",
+  "old": "Ye"
+ },
+ "city:鄢": {
+  "mod": "SE of Yicheng, Hubei",
+  "note": "Secondary capital of Chu (Yan-Ying). In 279 BC Bai Qi flooded the city.",
+  "old": "Yan"
+ },
+ "city:金陵": {
+  "mod": "Nanjing, Jiangsu",
+  "note": "By tradition King Wei of Chu set up the town of Jinling after defeating Yue (c. 333 BC; the account comes from Song-dynasty gazetteers and its reliability is doubtful); this is the origin of Nanjing's name \"Jinling\".",
+  "old": "Jinling"
+ },
+ "city:长沙": {
+  "mod": "Changsha, Hunan",
+  "note": "Key town on Chu's southern frontier, where the Chu silk manuscript and many other Chu artefacts have been found; Qin set up Changsha Commandery.",
+  "old": "Changsha"
+ },
+ "city:阿": {
+  "mod": "NE of Yanggu, Shandong",
+  "note": "Key town in western Qi; Sun Bin was born \"between E and Juan\". King Wei of Qi \"boiled the grandee of E\" here; one view counts it among Qi's \"Five Capitals\" (in place of Linzi).",
+  "old": "E"
+ },
+ "city:陶": {
+  "mod": "Dingtao District, Heze, Shandong",
+  "note": "\"The centre of the realm\", with roads to every state; Fan Li settled here, grew rich in trade and was called Lord Zhu of Tao. The Qin chancellor Wei Ran was enfeoffed here.",
+  "old": "Tao"
+ },
+ "city:雍氏": {
+  "mod": "NE of Yuzhou, Henan",
+  "note": "A Han town about twenty-five li NE of the old capital Yangzhai, on the road by which Chu armies came north out of Fangcheng to threaten the Han capital Xinzheng. Chu besieged Yongshi three times: in 312 BC the Chu general Jing Cui besieged it and Qin helped Han defeat Chu (Bamboo Annals; Basic Annals of Qin in the Shiji); in 307 BC (or 306 BC) King Huai of Chu, resenting Han's failure to help at Danyang, besieged Yongshi for five months, Gan Mao persuaded Qin to send troops to save Han, and the Chu troops left (biography of Gan Mao in the Shiji; second Han section of the Zhanguo ce); in 300 BC, after Ying, crown prince of Han, died and Prince Jiu and Prince Jishi contended for the succession, Chu besieged Yongshi and finally lifted the siege and withdrew (Han chapter of the Shiji).",
+  "old": "Yongshi"
+ },
+ "city:高唐": {
+  "mod": "E of Gaotang, Shandong",
+  "note": "One of Qi's \"Five Capitals\", a key northwestern town on the ancient Yellow River guarding against Zhao. King Wei of Qi: \"I have a minister called Panzi; I have him guard Gaotang, and the men of Zhao dare not come east to fish in the He.\"",
+  "old": "Gaotang"
+ },
+ "culture:中山王墓": {
+  "mod": "Sanji Township, Pingshan, Hebei",
+  "note": "The tomb of King Cuo of Zhongshan yielded a bronze square table with four dragons and four phoenixes inlaid with gold and silver, the bronze \"Zhaoyu tu\" plate (one of the earliest architectural plans) and the \"Three Vessels of Zhongshan\".",
+  "old": "Tomb of the king of Zhongshan",
+  "yt": "c. 310 BC"
+ },
+ "culture:书同文·车同轨": {
+  "mod": "Xianyang, Shaanxi",
+  "note": "Right after unification Qin \"made uniform the laws and the standards of weight and length; carts had the same axle width, writing the same characters\", with small seal script as the standard, and the currency was unified as the banliang coin.",
+  "old": "Standard script · standard axle gauge",
+  "yt": "221 BC"
+ },
+ "culture:博浪沙刺秦": {
+  "mod": "SE of Yuanyang, Henan",
+  "note": "To avenge Han, Zhang Liang and a strongman ambushed the First Emperor at Bolangsha with an iron mallet weighing a hundred and twenty jin, but struck an attendant carriage by mistake; Zhang Liang fled into hiding at Xiapi.",
+  "old": "Attempt on the First Emperor at Bolangsha",
+  "yt": "218 BC"
+ },
+ "culture:吴起变法": {
+  "mod": "Jingzhou, Hubei (Ying)",
+  "note": "King Dao of Chu made Wu Qi his chief minister; Wu Qi \"made the laws clear and the orders precise, cut unnecessary offices, and stripped distant members of the royal clan of their status\". When King Dao died, Wu Qi was shot dead beside the king's body.",
+  "old": "Wu Qi's reforms",
+  "yt": "c. 386–381 BC"
+ },
+ "culture:商鞅变法": {
+  "mod": "Yanliang District, Xi'an, Shaanxi (Yueyang)",
+  "note": "Duke Xiao of Qin employed Shang Yang, who carried out two rounds of reform: collective responsibility and denunciation, rewards for farming and fighting, ranks for military merit, abolition of the well-field system and opening of the field boundaries, counties throughout the state, and unified weights and measures. Qin became rich and strong.",
+  "old": "Shang Yang's reforms",
+  "yt": "356 and 350 BC"
+ },
+ "culture:孟子故里": {
+  "mod": "Zoucheng, Shandong",
+  "note": "Mencius was a man of Zou; he counselled King Hui of Liang and King Xuan of Qi, advocating \"humane government\" and \"the people are most important\".",
+  "old": "Hometown of Mencius",
+  "yt": "c. 372–289 BC"
+ },
+ "culture:屈原投江": {
+  "mod": "Miluo, Hunan",
+  "note": "After the fall of the capital Ying, Qu Yuan drowned himself in the Miluo River. Author of the Li Sao, the Nine Songs, the Heavenly Questions and other works.",
+  "old": "Qu Yuan drowns himself",
+  "yt": "c. 278 BC"
+ },
+ "culture:庄子故里": {
+  "mod": "NE of Shangqiu, Henan (Meng)",
+  "note": "Zhuang Zhou was a man of Meng in Song, once an official of the lacquer garden, and author of the Zhuangzi.",
+  "old": "Hometown of Zhuangzi",
+  "yt": "c. 369–286 BC"
+ },
+ "culture:易水送别": {
+  "mod": "Yi County, Hebei",
+  "note": "Crown Prince Dan and his retainers, dressed in white, saw Jing Ke off on the banks of the Yi River: \"The wind sighs, the Yi is cold; the hero, once gone, will not return.\"",
+  "old": "Farewell at the Yi River",
+  "yt": "227 BC"
+ },
+ "culture:曾侯乙墓": {
+  "mod": "Suizhou, Hubei",
+  "note": "Tomb of a ruler of Zeng from the early Warring States; it yielded a 65-piece set of bells spanning five and a half octaves and able to play all twelve pitches of the scale.",
+  "old": "Tomb of Marquis Yi of Zeng",
+  "yt": "c. 433 BC"
+ },
+ "culture:李悝变法": {
+  "mod": "Xia County, Shanxi (Anyi)",
+  "note": "Marquis Wen of Wei made Li Kui chancellor; Li Kui taught \"making full use of the land's strength\", introduced the price-stabilising grain purchases and wrote the six-chapter Canon of Laws: the forerunner of the Warring States reforms.",
+  "old": "Li Kui's reforms",
+  "yt": "c. 406 BC"
+ },
+ "culture:泰山封禅": {
+  "mod": "Mount Tai, Tai'an, Shandong",
+  "note": "On his eastern tour the First Emperor performed the Feng sacrifice on Mount Tai and the Shan sacrifice at Liangfu, and had stone inscriptions praising the virtue of Qin carved on Mount Tai, the Langya Terrace and elsewhere.",
+  "old": "Feng and Shan sacrifices at Mount Tai",
+  "yt": "219 BC"
+ },
+ "culture:灵渠": {
+  "mod": "Xing'an, Guangxi",
+  "note": "The supervising censor Lu cut a canal linking the Xiang and Li rivers (with the ploughshare divider and the large and small weirs), joining the Yangtze and Pearl river systems, to carry grain for the southern campaign against the Hundred Yue. It is still navigable today.",
+  "old": "Lingqu Canal",
+  "yt": "c. 219–214 BC"
+ },
+ "culture:焚书坑儒": {
+  "mod": "Xianyang, Shaanxi",
+  "note": "Chunyu Yue asked for a return to enfeoffment; Li Si rebutted him and proposed burning the Odes, the Documents and the writings of the Hundred Schools; the next year more than four hundred and sixty scholars were buried alive at Xianyang.",
+  "old": "Burning of books and burying of scholars",
+  "yt": "213–212 BC"
+ },
+ "culture:申不害相韩": {
+  "mod": "Xinzheng, Henan",
+  "note": "Shen Buhai governed Han by \"technique\": \"at home he reformed government and teaching, abroad he dealt with the lords; for fifteen years, until Shenzi's death, the state was well ordered and its army strong\".",
+  "old": "Shen Buhai, chancellor of Han",
+  "yt": "355–337 BC"
+ },
+ "culture:碣石刻辞": {
+  "mod": "N of Changli, Hebei",
+  "note": "On his tour to Jieshi, the First Emperor had an inscription carved saying he had \"pulled down city walls, cut through river dykes and levelled strongholds\": the walls, forts and dykes between the six states were demolished, and the interior long walls were abandoned after unification as a result.",
+  "old": "Jieshi inscription",
+  "yt": "215 BC"
+ },
+ "culture:稷下学宫": {
+  "mod": "Linzi District, Zibo, Shandong",
+  "note": "Qi set up an academy outside the Ji Gate of its capital; Mencius, Xunzi (three times its libationer), Zou Yan, Chunyu Kun, Shen Dao and others gathered there, \"not governing but debating\": the centre of the contention of the Hundred Schools.",
+  "old": "Jixia Academy",
+  "yt": "founded c. 374 BC"
+ },
+ "culture:胡服骑射": {
+  "mod": "Handan, Hebei",
+  "note": "King Wuling of Zhao ordered his people to adopt nomad dress and learn mounted archery, creating a cavalry force that greatly strengthened Zhao's army.",
+  "old": "Nomad dress and mounted archery",
+  "yt": "307 BC"
+ },
+ "culture:荀子·兰陵": {
+  "mod": "Lanling, Shandong",
+  "note": "In his later years Xunzi was made magistrate of Lanling by Lord Chunshen and spent the rest of his life there writing; Han Fei and Li Si were both his students.",
+  "old": "Xunzi · Lanling",
+  "yt": "c. 255 BC"
+ },
+ "culture:西门豹治邺": {
+  "mod": "Linzhang, Hebei",
+  "note": "Ximen Bao ended the custom of \"brides for the River Lord\" and had the people dig twelve canals to irrigate the land with water from the Zhang River; Ye was well governed.",
+  "old": "Ximen Bao governs Ye",
+  "yt": "c. 420 BC"
+ },
+ "culture:郑国渠": {
+  "mod": "Jingyang, Shaanxi (canal head)",
+  "note": "Zheng Guo, a hydraulic engineer from Han, went to Qin to build a canal as a plan to \"exhaust Qin\"; when the plot came out, Qin still had him finish it. The canal led the Jing River east to the Luo and irrigated more than forty thousand qing of fields: \"Guanzhong became fertile land\".",
+  "old": "Zhengguo Canal",
+  "yt": "begun 246 BC"
+ },
+ "culture:郭店楚简": {
+  "mod": "Jingmen, Hubei",
+  "note": "Bamboo slips from a Chu tomb, including the earliest known manuscript of the Laozi and several lost Confucian texts.",
+  "old": "Guodian Chu slips",
+  "yt": "c. 300 BC"
+ },
+ "culture:都江堰": {
+  "mod": "Dujiangyan, Sichuan",
+  "note": "Built under Li Bing, Qin governor of Shu: the Fish Mouth divides the river, the Flying Sand Weir sheds floods and the Precious Bottle Neck draws water, making the Chengdu Plain the \"Land of Abundance\". Still in use today.",
+  "old": "Dujiangyan",
+  "yt": "c. 256–251 BC"
+ },
+ "culture:阿房宫": {
+  "mod": "western outskirts of Xi'an, Shaanxi",
+  "note": "Since Xianyang was crowded and the palaces of the former kings small, the First Emperor built a court palace in the Shanglin Park south of the Wei River; its front hall was Epang, and it was still unfinished when Qin fell.",
+  "old": "Epang Palace",
+  "yt": "212 BC"
+ },
+ "culture:骊山陵": {
+  "mod": "Lintong District, Xi'an, Shaanxi",
+  "note": "Mausoleum of the First Emperor of Qin, begun soon after he came to the throne and greatly enlarged after unification by more than seven hundred thousand conscripted convicts; the terracotta army pits lie to its east.",
+  "old": "Mausoleum at Mount Li",
+  "yt": "246–208 BC"
+ },
+ "culture:鸿沟": {
+  "mod": "Xingyang to Kaifeng, Henan",
+  "note": "King Hui of Wei led water from the He past Xingyang and Daliang and southeast to the Ying, Guo, Sui, Si and other rivers into the Huai: the first large network of artificial canals in the Central Plains.",
+  "old": "Honggou Canal",
+  "yt": "from 360 BC"
+ },
+ "culture:黄金台": {
+  "mod": "around Yi County – Dingxing, Hebei (location disputed)",
+  "note": "To take revenge on Qi, King Zhao of Yan took Guo Wei as his teacher, \"building him a palace and serving him as master\"; Yue Yi, Zou Yan and Ju Xin vied to come to Yan.",
+  "old": "Golden Terrace",
+  "yt": "c. 311 BC"
+ },
+ "jun:三川郡": {
+  "mod": "Seat: Luoyang (Luoyang, Henan)",
+  "note": "Set up after the destruction of East Zhou and the capture of Chenggao and Xingyang; named after the three rivers He, Luo and Yi.",
+  "old": "Sanchuan Commandery",
+  "zhi": "Luoyang"
+ },
+ "jun:上党郡": {
+  "mod": "Seat: Zhangzi (Zhangzi, Shanxi)",
+  "note": "Set up after Shangdang was retaken in 247 BC.",
+  "old": "Shangdang Commandery",
+  "zhi": "Zhangzi"
+ },
+ "jun:上谷郡": {
+  "mod": "Seat: Juyang (SE of Huailai, Hebei)",
+  "note": "Taken over from Yan.",
+  "old": "Shanggu Commandery",
+  "zhi": "Juyang"
+ },
+ "jun:上郡": {
+  "mod": "Seat: Fushi (SE of Yulin, Shaanxi)",
+  "note": "Wei ceded the fifteen counties of Shang Commandery (328 BC), and Qin kept the commandery.",
+  "old": "Shang Commandery",
+  "zhi": "Fushi"
+ },
+ "jun:东海郡": {
+  "mod": "Seat: Tan (N of Tancheng, Shandong)",
+  "note": "Mentioned in the Chen She chapter of the Shiji and elsewhere; generally thought to have been split off after unification (date unknown).",
+  "old": "Donghai Commandery",
+  "zhi": "Tan"
+ },
+ "jun:东郡": {
+  "mod": "Seat: Puyang (Puyang, Henan)",
+  "note": "Set up from Suanzao and nineteen other Wei towns, cutting the vertical alliance east of the mountains in two.",
+  "old": "Dong Commandery",
+  "zhi": "Puyang"
+ },
+ "jun:临菑郡": {
+  "mod": "Seat: Linzi (Linzi District, Zibo, Shandong)",
+  "note": "Set up after the destruction of Qi. Written 临菑 (Linzi) on Qin clay sealings and called Qi Commandery in the Hanshu treatise on geography.",
+  "old": "Linzi Commandery",
+  "zhi": "Linzi"
+ },
+ "jun:九原郡": {
+  "mod": "Seat: Jiuyuan (W of Baotou, Inner Mongolia)",
+  "note": "Set up after Henandi was taken; the northern end of the Straight Road.",
+  "old": "Jiuyuan Commandery",
+  "zhi": "Jiuyuan"
+ },
+ "jun:九江郡": {
+  "mod": "Seat: Shouchun (Shou County, Anhui)",
+  "note": "Set up after the destruction of Chu.",
+  "old": "Jiujiang Commandery",
+  "zhi": "Shouchun"
+ },
+ "jun:云中郡": {
+  "mod": "Seat: Yunzhong (NE of Togtoh, Inner Mongolia)",
+  "note": "Taken over from Zhao.",
+  "old": "Yunzhong Commandery",
+  "zhi": "Yunzhong"
+ },
+ "jun:代郡": {
+  "mod": "Seat: Dai (NE of Yu County, Hebei)",
+  "note": "Set up after the capture of Jia, king of Dai.",
+  "old": "Dai Commandery",
+  "zhi": "Dai"
+ },
+ "jun:会稽郡": {
+  "mod": "Seat: Wu (Suzhou, Jiangsu)",
+  "note": "Set up after the lords of Yue surrendered.",
+  "old": "Kuaiji Commandery",
+  "zhi": "Wu"
+ },
+ "jun:内史": {
+  "mod": "Seat: Xianyang (Xianyang, Shaanxi)",
+  "note": "The metropolitan region, not organised as a commandery but administered directly by the Neishi.",
+  "old": "Neishi",
+  "zhi": "Xianyang"
+ },
+ "jun:北地郡": {
+  "mod": "Seat: Yiqu (NW of Ning County, Gansu)",
+  "note": "Set up after the destruction of Yiqu.",
+  "old": "Beidi Commandery",
+  "zhi": "Yiqu"
+ },
+ "jun:南海郡": {
+  "mod": "Seat: Panyu (Guangzhou, Guangdong)",
+  "note": "Set up after Lingnan was pacified, with Ren Xiao as commandant and Zhao Tuo as magistrate of Longchuan.",
+  "old": "Nanhai Commandery",
+  "zhi": "Panyu"
+ },
+ "jun:南郡": {
+  "mod": "Seat: Jiangling (Jingzhou, Hubei)",
+  "note": "Set up after Bai Qi took Ying.",
+  "old": "Nan Commandery",
+  "zhi": "Jiangling"
+ },
+ "jun:南阳郡": {
+  "mod": "Seat: Wan (Nanyang, Henan)",
+  "note": "Set up in 272 BC.",
+  "old": "Nanyang Commandery",
+  "zhi": "Wan"
+ },
+ "jun:博阳郡": {
+  "mod": "Seat: Boyang (SE of Tai'an, Shandong)",
+  "note": "Identified by Hou Xiaorong in Qindai zhengqu dili (one view).",
+  "old": "Boyang Commandery",
+  "zhi": "Boyang"
+ },
+ "jun:即墨郡": {
+  "mod": "Seat: Jimo (SE of Pingdu, Shandong)",
+  "note": "A Qin clay sealing reads \"governor of Jimo\": the Jiaodong region.",
+  "old": "Jimo Commandery",
+  "zhi": "Jimo"
+ },
+ "jun:右北平郡": {
+  "mod": "Seat: Wuzhong (Jizhou District, Tianjin)",
+  "note": "Taken over from Yan. (One view: its seat was Pinggang, SW of modern Lingyuan, Liaoning.)",
+  "old": "Youbeiping Commandery",
+  "zhi": "Wuzhong"
+ },
+ "jun:四川郡": {
+  "mod": "Seat: Xiang (Huaibei, Anhui)",
+  "note": "Set up from Chu's lands north of the Huai. Written 四川 (Sichuan) in the Yuelu Academy Qin slips and 泗水 (Sishui) in the Hanshu treatise on geography and the Shuijing zhu. Liu Bang came from Pei County in this commandery.",
+  "old": "Sichuan Commandery",
+  "zhi": "Xiang"
+ },
+ "jun:城阳郡": {
+  "mod": "Seat: Ju (Ju County, Shandong)",
+  "note": "Listed in Wang Guowei's Qin jun kao; a Qin clay sealing reads \"Chengyang\" (one view).",
+  "old": "Chengyang Commandery",
+  "zhi": "Ju"
+ },
+ "jun:太原郡": {
+  "mod": "Seat: Jinyang (Taiyuan, Shanxi)",
+  "note": "First set up in 247 BC.",
+  "old": "Taiyuan Commandery",
+  "zhi": "Jinyang"
+ },
+ "jun:巨鹿郡": {
+  "mod": "Seat: Julu (Pingxiang, Hebei)",
+  "note": "Set up from eastern Zhao (date of establishment uncertain).",
+  "old": "Julu Commandery",
+  "zhi": "Julu"
+ },
+ "jun:巴郡": {
+  "mod": "Seat: Jiangzhou (Chongqing)",
+  "note": "Set up after the conquest of Ba.",
+  "old": "Ba Commandery",
+  "zhi": "Jiangzhou"
+ },
+ "jun:广阳郡": {
+  "mod": "Seat: Ji (Beijing)",
+  "note": "Set up after the Yan capital Ji was taken (one view: Qin had no Guangyang Commandery).",
+  "old": "Guangyang Commandery",
+  "zhi": "Ji"
+ },
+ "jun:恒山郡": {
+  "mod": "Seat: Dongyuan (NE of Shijiazhuang, Hebei)",
+  "note": "Set up from the former Zhongshan lands of Zhao, attested in the Yuelu Academy Qin slips. Renamed Changshan under the Han to avoid the personal name of Emperor Wen.",
+  "old": "Hengshan Commandery",
+  "zhi": "Dongyuan"
+ },
+ "jun:桂林郡": {
+  "mod": "Seat: Bushan (Guigang, Guangxi)",
+  "note": "Set up after Lingnan was pacified.",
+  "old": "Guilin Commandery",
+  "zhi": "Bushan"
+ },
+ "jun:汉中郡": {
+  "mod": "Seat: Nanzheng (Hanzhong, Shaanxi)",
+  "note": "Set up from Chu's Hanzhong, taken after the Battle of Danyang.",
+  "old": "Hanzhong Commandery",
+  "zhi": "Nanzheng"
+ },
+ "jun:河东郡": {
+  "mod": "Seat: Anyi (Xia County, Shanxi)",
+  "note": "Set up after Wei ceded Hedong (c. 290–286 BC).",
+  "old": "Hedong Commandery",
+  "zhi": "Anyi"
+ },
+ "jun:河内郡": {
+  "mod": "Seat: Yewang (Qinyang, Henan)",
+  "note": "Attested in the Yuelu Academy Qin slips; generally thought to have been split off after unification. Its seat, Yewang, was then the residence of Jue, lord of Wey, a Qin dependency.",
+  "old": "Henei Commandery",
+  "zhi": "Yewang"
+ },
+ "jun:洞庭郡": {
+  "mod": "Seat: Linyuan (one view); around Changde, Hunan (seat disputed)",
+  "note": "A commandery name attested in the Liye and Yuelu Academy Qin slips; Qianling County belonged to Dongting Commandery. Whether the Qianzhong Commandery the Shiji records as set up in 277 BC existed, and how it related to Dongting, is disputed among scholars.",
+  "old": "Dongting Commandery",
+  "zhi": "Linyuan (one view)"
+ },
+ "jun:济北郡": {
+  "mod": "Seat: Lu (Changqing District, Jinan, Shandong)",
+  "note": "A Qin clay sealing reads \"governor of Jibei\"; generally thought to have been split off after unification.",
+  "old": "Jibei Commandery",
+  "zhi": "Lu"
+ },
+ "jun:淮阳郡": {
+  "mod": "Seat: Chen (Huaiyang District, Zhoukou, Henan)",
+  "note": "Set up from Chu's Chen region. Called \"Chu Commandery\" in the Shiji, and sometimes Chen Commandery later.",
+  "old": "Huaiyang Commandery",
+  "zhi": "Chen"
+ },
+ "jun:清河郡": {
+  "mod": "Seat: Qingyang (uncertain); N of Linqing, Shandong (one view)",
+  "note": "The Yuelu Academy Qin slips mention an \"acting governor of Qinghe\"; its seat was possibly Qingyang, seat of the Han-dynasty Qinghe Commandery.",
+  "old": "Qinghe Commandery",
+  "zhi": "Qingyang (uncertain)"
+ },
+ "jun:渔阳郡": {
+  "mod": "Seat: Yuyang (SW of Miyun, Beijing)",
+  "note": "Taken over from Yan; Chen Sheng and Wu Guang rose on their way to garrison duty at Yuyang.",
+  "old": "Yuyang Commandery",
+  "zhi": "Yuyang"
+ },
+ "jun:琅邪郡": {
+  "mod": "Seat: Dongwu (Zhucheng, Shandong)",
+  "note": "Set up after the destruction of Qi, attested in the Yuelu Academy Qin slips. (It was long thought to have been governed from Langya, modern Huangdao District, Qingdao.)",
+  "old": "Langya Commandery",
+  "zhi": "Dongwu"
+ },
+ "jun:砀郡": {
+  "mod": "Seat: Suiyang (Shangqiu, Henan)",
+  "note": "Set up from the eastern part of Wei after its destruction.",
+  "old": "Dang Commandery",
+  "zhi": "Suiyang"
+ },
+ "jun:苍梧郡": {
+  "mod": "Seat: unknown; southern Hunan (seat unknown; placed near Chenzhou for now)",
+  "note": "A commandery name attested in the Liye and Yuelu Academy Qin slips, set up from \"new lands taken from Jing (Chu)\" and covering roughly southern Hunan; its seat is unknown, and both its position and its boundaries on the map are conjectural.",
+  "old": "Cangwu Commandery",
+  "zhi": "unknown"
+ },
+ "jun:薛郡": {
+  "mod": "Seat: Lu (Qufu, Shandong)",
+  "note": "Set up from the former lands of Lu and Xue.",
+  "old": "Xue Commandery",
+  "zhi": "Lu"
+ },
+ "jun:蜀郡": {
+  "mod": "Seat: Chengdu (Chengdu, Sichuan)",
+  "note": "Set up after the conquest of Shu (at first a Marquis of Shu was enfeoffed; from 285 BC a governor was appointed).",
+  "old": "Shu Commandery",
+  "zhi": "Chengdu"
+ },
+ "jun:衡山郡": {
+  "mod": "Seat: Zhu (NW of Huanggang, Hubei)",
+  "note": "Attested in the Yuelu Academy Qin slips; generally thought to have been split off after unification.",
+  "old": "Hengshan Commandery",
+  "zhi": "Zhu"
+ },
+ "jun:象郡": {
+  "mod": "Seat: Linchen; Chongzuo, Guangxi (seat disputed)",
+  "note": "Set up after Lingnan was pacified. By one view it extended south into north-central Vietnam; by another it lay only in what is now SW Guangxi.",
+  "old": "Xiang Commandery",
+  "zhi": "Linchen"
+ },
+ "jun:辽东郡": {
+  "mod": "Seat: Xiangping (Liaoyang, Liaoning)",
+  "note": "Set up after the capture of Xi, king of Yan; written 潦东 in Qin slips.",
+  "old": "Liaodong Commandery",
+  "zhi": "Xiangping"
+ },
+ "jun:辽西郡": {
+  "mod": "Seat: Yangle; W of Yi County, Liaoning; one view: W of Jinzhou",
+  "note": "Taken over from Yan; written 潦西 in Qin slips.",
+  "old": "Liaoxi Commandery",
+  "zhi": "Yangle"
+ },
+ "jun:邯郸郡": {
+  "mod": "Seat: Handan (Handan, Hebei)",
+  "note": "Set up after Zhao was crushed.",
+  "old": "Handan Commandery",
+  "zhi": "Handan"
+ },
+ "jun:长沙郡": {
+  "mod": "Seat: Linxiang (Changsha, Hunan)",
+  "note": "Set up after Chu's lands south of the Yangtze were pacified.",
+  "old": "Changsha Commandery",
+  "zhi": "Linxiang"
+ },
+ "jun:闽中郡": {
+  "mod": "Seat: Dongye (Fuzhou, Fujian)",
+  "note": "The king of Minyue was reduced to a chieftain and his land made Minzhong Commandery, in practice a loose-rein arrangement.",
+  "old": "Minzhong Commandery",
+  "zhi": "Dongye"
+ },
+ "jun:陇西郡": {
+  "mod": "Seat: Didao (Lintao, Gansu)",
+  "note": "Set up c. 280 BC (or 279 BC).",
+  "old": "Longxi Commandery",
+  "zhi": "Didao"
+ },
+ "jun:雁门郡": {
+  "mod": "Seat: Shanwu (S of Youyu, Shanxi)",
+  "note": "Taken over from Zhao.",
+  "old": "Yanmen Commandery",
+  "zhi": "Shanwu"
+ },
+ "jun:颍川郡": {
+  "mod": "Seat: Yangzhai (Yuzhou, Henan)",
+  "note": "Set up after the destruction of Han.",
+  "old": "Yingchuan Commandery",
+  "zhi": "Yangzhai"
+ },
+ "pass:井陉": {
+  "mod": "W of Jingxing, Hebei",
+  "note": "The fifth of the Eight Passes of the Taihang, linking the Zhao capital with the Taiyuan basin. Wang Jian's army came out this way when Qin destroyed Zhao.",
+  "old": "Jingxing Pass"
+ },
+ "pass:伊阙": {
+  "mod": "Longmen, Luoyang, Henan",
+  "note": "Two hills facing each other like gate towers with the Yi River flowing between: Luoyang's southern gate.",
+  "old": "Yique"
+ },
+ "pass:冥阸": {
+  "mod": "S of Xinyang, Henan (around Pingjing Pass)",
+  "note": "Also written Mengsai, or Ming'e with different characters; a fortress on Chu's northern frontier, one of the \"Three Passes of Yiyang\".",
+  "old": "Ming'e Pass"
+ },
+ "pass:函谷关": {
+  "mod": "Wangduo Village, Lingbao, Henan",
+  "note": "Qin's eastern gate, the \"stronghold of Xiao and Hangu\". The allied armies that attacked Qin in 318 and 241 BC were both stopped here; in 298 BC Qi, Han and Wei did break through Hangu.",
+  "old": "Hangu Pass"
+ },
+ "pass:句注塞": {
+  "mod": "NW of Dai County, Shanxi",
+  "note": "Around the later Yanmen Pass; a fortress on Zhao's northern frontier.",
+  "old": "Gouzhu Pass"
+ },
+ "pass:太行陉": {
+  "mod": "Tianjing Pass, S of Jincheng, Shanxi",
+  "note": "The second of the Eight Passes of the Taihang (the Yangchang slope road), the main route north from Yewang to Shangdang. In 262 BC Qin took Yewang and cut Shangdang's southern road.",
+  "old": "Taihang Pass"
+ },
+ "pass:孟津": {
+  "mod": "NE of Mengjin District, Luoyang, Henan",
+  "note": "Yellow River ford north of Luoyang; by tradition King Wu of Zhou gathered the lords here in his campaign against King Zhou of Shang.",
+  "old": "Mengjin Ford"
+ },
+ "pass:居庸塞": {
+  "mod": "N of Changping, Beijing",
+  "note": "The eighth of the Eight Passes of the Taihang (Jundu Pass), Yan's northern gateway.",
+  "old": "Juyong Pass"
+ },
+ "pass:峣关": {
+  "mod": "SE of Lantian, Shaanxi",
+  "note": "Also called the Lantian Pass, the last pass on the Wu Pass road before Guanzhong.",
+  "old": "Yao Pass"
+ },
+ "pass:成皋": {
+  "mod": "Sishui Town, Xingyang, Henan",
+  "note": "The later Hulao Pass, the gateway east from Luoyang; a Han stronghold.",
+  "old": "Chenggao"
+ },
+ "pass:扞关": {
+  "mod": "E of Fengjie, Chongqing (one view: Changyang, Hubei)",
+  "note": "Chu's pass against Ba and Shu in the west.",
+  "old": "Han Pass"
+ },
+ "pass:散关": {
+  "mod": "S of Baoji, Shaanxi",
+  "note": "The Great San Pass, at the northern end of the Chencang Road through the Qinling, one of the routes into Hanzhong and Ba–Shu.",
+  "old": "San Pass"
+ },
+ "pass:武关": {
+  "mod": "Wuguan Town, Danfeng, Shaanxi",
+  "note": "Qin's southern gate, leading to Nanyang and the Yangtze–Han region. In 299 BC King Huai of Chu went through the Wu Pass to meet King Zhao of Qin, was detained, and died while detained in Qin.",
+  "old": "Wu Pass"
+ },
+ "pass:滏口陉": {
+  "mod": "W of Fengfeng, Handan, Hebei",
+  "note": "The fourth of the Eight Passes of the Taihang, the route west from Handan to Shangdang.",
+  "old": "Fukou Pass"
+ },
+ "pass:白马津": {
+  "mod": "NE of Hua County, Henan",
+  "note": "Important ford on the ancient Yellow River SW of Puyang.",
+  "old": "Baima Ford"
+ },
+ "pass:萧关": {
+  "mod": "SE of Guyuan, Ningxia",
+  "note": "The northwestern gateway to Guanzhong, commanding the route along the upper Jing River; a defence against Yiqu and the northern nomads.",
+  "old": "Xiao Pass"
+ },
+ "pass:蒲阪津": {
+  "mod": "W of Yongji, Shanxi",
+  "note": "Yellow River ford between Hedong and Guanzhong (Pujin).",
+  "old": "Puban Ford"
+ },
+ "pass:轵关陉": {
+  "mod": "SE of Jiyuan, Henan",
+  "note": "The first of the Eight Passes of the Taihang, leading west from Henei to Hedong.",
+  "old": "Zhiguan Pass"
+ },
+ "pass:飞狐陉": {
+  "mod": "between Laiyuan and Yu County, Hebei",
+  "note": "The seventh of the Eight Passes of the Taihang, linking Dai with the heartlands of Yan and Zhao.",
+  "old": "Feihu Pass"
+ },
+ "pass:高阙": {
+  "mod": "SE of Urad Rear Banner, Inner Mongolia",
+  "note": "A gap in the Yin Mountains, the fortress at the western end of the Zhao Northern Long Wall.",
+  "old": "Gaoque"
+ },
+ "people:东瓯": {
+  "note": "A branch of the Yue, living in the Ou River valley of southern Zhejiang.",
+  "old": "Dong'ou"
+ },
+ "people:东胡": {
+  "note": "A nomadic people of the northeast, crushed by the Yan general Qin Kai and driven back more than a thousand li.",
+  "old": "Donghu"
+ },
+ "people:东胡#2": {
+  "note": "A nomadic people of the northeast.",
+  "old": "Donghu"
+ },
+ "people:匈奴": {
+  "note": "Nomadic people who rose north and south of the Yin Mountains in the late Warring States; Zhao, Yan and Qin all built long walls against them.",
+  "old": "Xiongnu"
+ },
+ "people:夜郎": {
+  "note": "The largest tribal state among the Southwestern Yi.",
+  "old": "Yelang"
+ },
+ "people:朝鲜": {
+  "note": "Gija Joseon, bordering Yan at Manbanhan (around the modern Cheongcheon River).",
+  "old": "Joseon"
+ },
+ "people:林胡": {
+  "note": "A northern nomadic people, crushed by King Wuling of Zhao; its land passed to Zhao.",
+  "old": "Linhu"
+ },
+ "people:楼烦": {
+  "note": "A northern people skilled in mounted archery, crushed by King Wuling of Zhao; they moved north to the Hetao.",
+  "old": "Loufan"
+ },
+ "people:楼烦#2": {
+  "note": "After moving north the Loufan lived south of the Hetao; after the Qin unification Meng Tian drove them out.",
+  "old": "Loufan"
+ },
+ "people:氐": {
+  "note": "Lived in the mountains of southern Gansu and northern Sichuan.",
+  "old": "Di"
+ },
+ "people:滇": {
+  "note": "Around 279 BC the Chu general Zhuang Qiao led an army to Dian; when Qin cut off his way home he \"changed his dress, followed their customs and ruled over them\".",
+  "old": "Dian"
+ },
+ "people:濊貊": {
+  "note": "Peoples of the northeast.",
+  "old": "Yemaek"
+ },
+ "people:百越": {
+  "note": "The Yue peoples of Lingnan.",
+  "old": "Hundred Yue"
+ },
+ "people:羌": {
+  "note": "The Western Qiang tribes, living in the He–Huang region and west of Longxi.",
+  "old": "Qiang"
+ },
+ "people:西瓯": {
+  "note": "The Yue of Lingnan. During the Qin southern campaign Yixusong, lord of the Xi'ou, was killed; the Yue fled into the mountains and forests, raided the Qin army at night and killed its commander Tu Sui; the region was pacified only in 214 BC.",
+  "old": "Xi'ou"
+ },
+ "people:越人诸君长": {
+  "note": "After Chu destroyed Yue around 306 BC, the princes of the Yue royal house scattered along the coast south of the Zhe River, \"some as kings, some as lords\", each ruling on his own while paying court to Chu; Yue was no longer a state. In 222 BC Wang Jian \"received the surrender of the lords of Yue\" and made their land Kuaiji Commandery.",
+  "old": "Yue chieftains"
+ },
+ "people:邛都": {
+  "note": "One of the Southwestern Yi.",
+  "old": "Qiongdu"
+ },
+ "people:闽越": {
+  "note": "A branch of the Yue, living in modern Fujian.",
+  "old": "Minyue"
+ },
+ "range:中条山": {
+  "mod": "Zhongtiao Mountains",
+  "note": "The southern screen of the Hedong basin; Lake Xie (the salt lake) at its northern foot was a source of Wei's wealth.",
+  "old": "Zhongtiao Mountains"
+ },
+ "range:五岭": {
+  "mod": "Nanling Mountains",
+  "note": "Chu's southern frontier stopped roughly at the northern foot of the Five Ridges; south of the ridges was the land of the Hundred Yue, and only after the Qin unification (214 BC) were the three Lingnan commanderies opened.",
+  "old": "Five Ridges"
+ },
+ "range:伏牛山": {
+  "mod": "Funiu Mountains",
+  "note": "Northern screen of the Nanyang basin; the Chu Fangcheng was built along its spurs.",
+  "old": "Funiu Mountains"
+ },
+ "range:会稽山": {
+  "mod": "Kuaiji Mountains",
+  "note": "Birthplace of the state of Yue; by tradition Yu the Great was buried at Kuaiji.",
+  "old": "Kuaiji Mountains"
+ },
+ "range:医巫闾山": {
+  "mod": "Yiwulü Mountains",
+  "note": "The guardian mountain of ancient Youzhou, within Yan's Liaoxi Commandery.",
+  "old": "Yiwulü Mountains"
+ },
+ "range:华山": {
+  "mod": "Mount Hua",
+  "note": "Anciently called Taihua, the Western Peak. The southern end of the Qin–Wei struggle for Hexi.",
+  "old": "Mount Hua"
+ },
+ "range:南山": {
+  "mod": "Qinling Mountains",
+  "note": "Anciently called the Nan Mountains or the Zhongnan Mountains, the southern screen of Guanzhong. Between Guanzhong and Hanzhong it could only be crossed by the Chencang, Baoxie, Tangluo, Ziwu and other valley roads.",
+  "old": "Nan Mountains"
+ },
+ "range:吕梁山": {
+  "mod": "Lüliang Mountains",
+  "note": "The western barrier of Shanxi and Zhao's western border.",
+  "old": "Lüliang Mountains"
+ },
+ "range:大别山": {
+  "mod": "Dabie Mountains",
+  "note": "The barrier between the Yangtze and the Huai; Ming'e and the other \"Three Passes of Yiyang\" lie at its western end.",
+  "old": "Dabie Mountains"
+ },
+ "range:大巴山": {
+  "mod": "Daba Mountains",
+  "note": "The barrier between Hanzhong and Ba–Shu; Qin's attack on Shu went by the Jinniu (Shiniu) Road.",
+  "old": "Daba Mountains"
+ },
+ "range:太行山": {
+  "mod": "Taihang Mountains",
+  "note": "The range between Shanxi and Hebei, stretching eight hundred li from north to south. Its \"Eight Passes of the Taihang\" were the east–west routes, and much of the fighting between Qin and Zhao, and Qin and Wei, followed them.",
+  "old": "Taihang Mountains"
+ },
+ "range:岷山": {
+  "mod": "Min Mountains",
+  "note": "The ancients took the Min Mountains as the source of the Jiang; Yu Gong: \"from the Min Mountains he led the Jiang\".",
+  "old": "Min Mountains"
+ },
+ "range:崤山": {
+  "mod": "Xiao Mountains",
+  "note": "With the Hangu Pass, the \"stronghold of Xiao and Hangu\", the throat of Qin's route east.",
+  "old": "Xiao Mountains"
+ },
+ "range:嵩山": {
+  "mod": "Mount Song",
+  "note": "Anciently called Taishi or Waifang, the Central Peak; the heartland of Han.",
+  "old": "Mount Song"
+ },
+ "range:巫山": {
+  "mod": "Wu Mountains",
+  "note": "Site of the Three Gorges of the Yangtze; Chu set up Wu Commandery to block the way east out of Ba–Shu.",
+  "old": "Wu Mountains"
+ },
+ "range:恒山": {
+  "mod": "Mount Heng",
+  "note": "The ancient Northern Peak (before the Han the Northern Peak was around Mount Damao in modern Quyang, Hebei). Mount Gouzhu to its west was Yanmen, Zhao's northern gate.",
+  "old": "Mount Heng"
+ },
+ "range:桐柏山": {
+  "mod": "Tongbai Mountains",
+  "note": "Source of the Huai River, on Chu's northern frontier.",
+  "old": "Tongbai Mountains"
+ },
+ "range:武夷山": {
+  "mod": "Wuyi Mountains",
+  "note": "The barrier between Minyue and the interior.",
+  "old": "Wuyi Mountains"
+ },
+ "range:武陵山": {
+  "mod": "Wuling Mountains",
+  "note": "The uplands where Chu's Qianzhong Commandery lay.",
+  "old": "Wuling Mountains"
+ },
+ "range:泰山·沂山": {
+  "mod": "Tai–Yi uplands",
+  "note": "Mount Tai, anciently called Daizong, is the Eastern Peak; the Qi Long Wall was built along its northern foot, marking the border of Qi with Lu and Chu.",
+  "old": "Mount Tai · Mount Yi"
+ },
+ "range:燕山": {
+  "mod": "Yan Mountains",
+  "note": "Yan's northern screen. After King Zhao of Yan, Yan's territory crossed the Yan Mountains and reached Liaodong.",
+  "old": "Yan Mountains"
+ },
+ "range:贺兰山": {
+  "mod": "Helan Mountains",
+  "note": "Where the northern nomadic peoples roamed.",
+  "old": "Helan Mountains"
+ },
+ "range:阴山": {
+  "mod": "Yin Mountains",
+  "note": "King Wuling of Zhao built the Zhao Northern Long Wall along the Yin Mountains west to Gaoque; north of the mountains lay the Xiongnu pastures.",
+  "old": "Yin Mountains"
+ },
+ "range:陇山": {
+  "mod": "Liupan Mountains",
+  "note": "The divide between Guanzhong and Longxi, where \"the Long slope winds nine times\"; the Xiao Pass is at its northern mouth.",
+  "old": "Long Mountains"
+ },
+ "river:丹水": {
+  "mod": "Dan River",
+  "note": "The Battle of Danyang was fought here (312 BC).",
+  "old": "Dan River"
+ },
+ "river:云梦泽": {
+  "mod": "Jianghan Plain (Honghu and nearby lakes are its remnants)",
+  "note": "Hunting ground of the kings of Chu: \"the marsh of Yunmeng, nine hundred li square\" (accounts of its extent vary).",
+  "old": "Yunmeng Marsh"
+ },
+ "river:伊水": {
+  "mod": "Yi River",
+  "note": "Flows north through Yique into the Luo.",
+  "old": "Yi River"
+ },
+ "river:圃田泽": {
+  "mod": "E of Zhengzhou, Henan (silted up)",
+  "note": "A great marsh of Wei, the regulating lake for the Honggou's water supply.",
+  "old": "Putian Marsh"
+ },
+ "river:大野泽": {
+  "mod": "N of Juye, Shandong (silted up)",
+  "note": "Also called the Juye Marsh, on the course of the Ji; modern Dongping Lake is its remnant.",
+  "old": "Daye Marsh"
+ },
+ "river:大陆泽": {
+  "mod": "between Longyao and Julu, Hebei (silted up)",
+  "note": "The ancient Julu Marsh, a great marsh in Zhao.",
+  "old": "Dalu Marsh"
+ },
+ "river:奢延水": {
+  "mod": "Wuding River",
+  "note": "Northern Shang Commandery.",
+  "old": "Sheyan River"
+ },
+ "river:孟诸泽": {
+  "mod": "NE of Shangqiu, Henan (silted up)",
+  "note": "A great marsh of Song.",
+  "old": "Mengzhu Marsh"
+ },
+ "river:巢湖": {
+  "mod": "Lake Chao",
+  "note": "A large lake in Chu between the Yangtze and the Huai.",
+  "old": "Lake Chao"
+ },
+ "river:延江": {
+  "mod": "Wu River",
+  "note": "Also called the Fuling River; Zhi (Fuling) was on the border of Ba and Chu.",
+  "old": "Yan River"
+ },
+ "river:彭蠡泽": {
+  "mod": "Poyang Lake",
+  "note": "Forerunner of modern Poyang Lake (the ancient Pengli Marsh did not cover quite the same area as the modern lake).",
+  "old": "Pengli Marsh"
+ },
+ "river:易水": {
+  "mod": "Yi River (Southern Juma River)",
+  "note": "Yan's southern border, along which the Yan Southern Long Wall was built; Jing Ke took leave of Yan on the Yi.",
+  "old": "Yi River"
+ },
+ "river:汉水": {
+  "mod": "Han River",
+  "note": "Its upper course is called the Mian. Hanzhong and Shangyong lie in its basin; Chu \"has the Han River for its moat\".",
+  "old": "Han River"
+ },
+ "river:汝水": {
+  "mod": "Ru River",
+  "note": "Between Han, Wei and Chu.",
+  "old": "Ru River"
+ },
+ "river:江": {
+  "mod": "Yangtze River",
+  "note": "In the Warring States \"Jiang\" meant the Yangtze alone. Its mouth was then around modern Yangzhou and Zhenjiang, with a wide estuary below.",
+  "old": "Jiang"
+ },
+ "river:江（岷江）": {
+  "mod": "Min River",
+  "note": "The ancients regarded the Min River as the true source of the Yangtze; Dujiangyan was built where it leaves the mountains.",
+  "old": "Jiang (Min River)"
+ },
+ "river:汶水": {
+  "mod": "Dawen River",
+  "note": "One of the border rivers between Qi and Lu.",
+  "old": "Wen River"
+ },
+ "river:汾水": {
+  "mod": "Fen River",
+  "note": "The axis of central Shanxi and Hedong; both Jinyang and Pingyang lie on the Fen.",
+  "old": "Fen River"
+ },
+ "river:沁水": {
+  "mod": "Qin River",
+  "note": "Rises in the Taiyue Mountains and cuts south through the Taihang to the He.",
+  "old": "Qin River"
+ },
+ "river:沂水": {
+  "mod": "Yi River",
+  "note": "Between Qi, Chu and Lu.",
+  "old": "Yi River"
+ },
+ "river:沅水": {
+  "mod": "Yuan River",
+  "note": "The main valley of Chu's Qianzhong Commandery.",
+  "old": "Yuan River"
+ },
+ "river:河": {
+  "mod": "Yellow River (lower course: Warring States channel)",
+  "note": "First of the Four Waterways, called simply \"He\" in the Warring States. Its lower course was very different from today's: roughly from Suxukou in modern Xun County it flowed north past Neihuang, Guantao, Linqing, Dezhou and Cangzhou into the Bohai around modern Huanghua (following Tan Qixiang's reconstruction; schematic), and was the border river between Qi, Zhao and Yan. The modern course (dashed) is the result of many later shifts.",
+  "old": "He"
+ },
+ "river:治水": {
+  "mod": "Sanggan and Yongding rivers",
+  "note": "Also called the Lei River; it flowed through Dai and south of Ji, the Yan capital.",
+  "old": "Zhi River"
+ },
+ "river:泗水": {
+  "mod": "Si River (ancient Si)",
+  "note": "Flows south past Qufu and Pengcheng into the Huai; the \"twelve lords on the Si\" lay in its basin.",
+  "old": "Si River"
+ },
+ "river:泾水": {
+  "mod": "Jing River",
+  "note": "\"The Jing and the Wei are clearly distinct\"; the Zhengguo Canal led water from the Jing east to the Luo.",
+  "old": "Jing River"
+ },
+ "river:洛水": {
+  "mod": "Beiluo River",
+  "note": "The border river in the Qin–Wei struggle for Hexi; Wei built the Wei Hexi Long Wall along the Luo, and Duke Jian of Qin \"dug a moat along the Luo\".",
+  "old": "Luo River"
+ },
+ "river:洞庭": {
+  "mod": "Dongting Lake",
+  "note": "Zhanguo ce: \"south of Chu are Dongting and Cangwu\"; in the Warring States the lake was far smaller than in later times.",
+  "old": "Dongting"
+ },
+ "river:济水": {
+  "mod": "ancient Ji River (now vanished)",
+  "note": "One of the Four Waterways; it left the He at Xingyang and flowed east, passing north of Dingtao and through the Juye Marsh, then northeast past the north of modern Jinan to the sea. The place names Jinan, Jiyang and Jining all come from it; it disappeared after the Yellow River captured its course.",
+  "old": "Ji River"
+ },
+ "river:浙江": {
+  "mod": "Qiantang and Fuchun rivers",
+  "note": "The name Zhejiang originally referred to this river; after destroying Yue, Chu \"took all the old lands of Wu up to the Zhe River\".",
+  "old": "Zhe River"
+ },
+ "river:淇水": {
+  "mod": "Qi River",
+  "note": "A famous river of Wey; Odes, \"Airs of Wey\": \"Look at that bend of the Qi\".",
+  "old": "Qi River"
+ },
+ "river:淮水": {
+  "mod": "Huai River",
+  "note": "One of the Four Waterways, \"Jiang, Huai, He and Ji\". In the Warring States the lower Huai flowed on its own past Huaiyin to the sea, and there was no Hongze Lake yet; it was the main axis of Chu's eastward expansion.",
+  "old": "Huai River"
+ },
+ "river:淯水": {
+  "mod": "Bai River",
+  "note": "The main river of the Nanyang basin, flowing south past Wan into the Han.",
+  "old": "Yu River"
+ },
+ "river:渭水": {
+  "mod": "Wei River",
+  "note": "The lifeline of Guanzhong; the Qin capital Xianyang stood on the Wei.",
+  "old": "Wei River"
+ },
+ "river:湘水": {
+  "mod": "Xiang River",
+  "note": "The main axis of Chu's development of its southern frontier.",
+  "old": "Xiang River"
+ },
+ "river:滹沱": {
+  "mod": "Hutuo River",
+  "note": "The main river of Zhongshan, flowing east into the He.",
+  "old": "Hutuo River"
+ },
+ "river:漳水": {
+  "mod": "Zhang River",
+  "note": "The border river between Zhao and Wei; Ximen Bao irrigated Ye from the Zhang; the Zhao Southern Long Wall was built along the Zhang and the Fu.",
+  "old": "Zhang River"
+ },
+ "river:澧水": {
+  "mod": "Li River",
+  "note": "\"On the Yuan there is angelica, on the Li there are orchids.\"",
+  "old": "Li River"
+ },
+ "river:濡水": {
+  "mod": "Luan River",
+  "note": "Northeastern frontier of Yan.",
+  "old": "Nan River"
+ },
+ "river:灵渠": {
+  "mod": "Xing'an Canal",
+  "note": "Cut by the supervising censor Lu, leading water from the Xiang River into the Li River and joining the Yangtze and Pearl river systems; the Qin army relied on it to bring up grain and pacify Lingnan.",
+  "old": "Lingqu Canal"
+ },
+ "river:白狼水": {
+  "mod": "Daling River",
+  "note": "Within Yan's Liaoxi Commandery.",
+  "old": "Bailang River"
+ },
+ "river:西汉水": {
+  "mod": "Jialing River",
+  "note": "Called the Xihan River in its upper course and the Yu River in its lower course; the heartland of Ba.",
+  "old": "Xihan River"
+ },
+ "river:西海": {
+  "mod": "Qinghai Lake",
+  "note": "Ancient name of Qinghai Lake, pastureland of the Qiang.",
+  "old": "Xihai"
+ },
+ "river:豫章水": {
+  "mod": "Gan River",
+  "note": "Southeastern frontier of Chu.",
+  "old": "Yuzhang River"
+ },
+ "river:资水": {
+  "mod": "Zi River",
+  "note": "A river on Chu's southern frontier.",
+  "old": "Zi River"
+ },
+ "river:辽水": {
+  "mod": "Liao River",
+  "note": "Western boundary of Yan's Liaodong Commandery.",
+  "old": "Liao River"
+ },
+ "river:邗沟": {
+  "mod": "forerunner of the Li Canal",
+  "note": "Dug by Fuchai, king of Wu, in 486 BC, running north from Guangling (Yangzhou) to the Huai; one of the earliest canals with a firm date.",
+  "old": "Hangou Canal"
+ },
+ "river:郑国渠": {
+  "mod": "forerunner of the Jinghui Canal",
+  "note": "Begun in 246 BC, leading water from the Jing at Jingyang east into the Luo, more than three hundred li long.",
+  "old": "Zhengguo Canal"
+ },
+ "river:雒水": {
+  "mod": "Luo River (western Henan)",
+  "note": "The Yi–Luo valley was the seat of the Zhou royal domain; Yiyang and Luoyang both lie on this river.",
+  "old": "Luo River"
+ },
+ "river:雷夏泽": {
+  "mod": "SE of Juancheng, Shandong (silted up)",
+  "note": "An ancient marsh; by tradition Shun fished in the Lei Marsh.",
+  "old": "Leixia Marsh"
+ },
+ "river:震泽": {
+  "mod": "Lake Tai",
+  "note": "Modern Lake Tai, also called Juqu, between Wu and Yue.",
+  "old": "Zhen Marsh"
+ },
+ "river:颍水": {
+  "mod": "Ying River",
+  "note": "Rises on Mount Song and flows past Yangzhai and south of Chen into the Huai; the southern section of the Honggou joined the Ying.",
+  "old": "Ying River"
+ },
+ "river:饶乐水": {
+  "mod": "Xar Moron River",
+  "note": "Region of the Donghu.",
+  "old": "Raole River"
+ },
+ "river:马訾水": {
+  "mod": "Yalu River",
+  "note": "Between Yan's Liaodong and Joseon.",
+  "old": "Mazi River"
+ },
+ "river:鸿沟": {
+  "mod": "ancient canal (vanished)",
+  "note": "Dug from 360 BC under King Hui of Wei, leading water from the He at Xingyang east past Daliang, then south to Chen and into the Ying, linking the He and the Huai. In the Chu–Han contention the Honggou served as the boundary.",
+  "old": "Honggou Canal"
+ },
+ "road:五尺道": {
+  "mod": "ancient Yunnan–Guizhou road",
+  "note": "Cut by Chang E, running south from Bodao (modern Yibin) to Yelang and Lake Dian; because the mountain road was steep and narrow it was only five feet wide.",
+  "old": "Five-Foot Road",
+  "yt": "after unification"
+ },
+ "road:直道": {
+  "mod": "Qin Straight Road",
+  "note": "Built under Meng Tian, running north from Yunyang (the Ganquan Palace) along the Ziwu Ridge straight to Jiuyuan, \"cutting through hills and filling valleys for eighteen hundred li\"; cavalry could ride from Xianyang to the Yin Mountains within three days.",
+  "old": "Straight Road",
+  "yt": "212–210 BC"
+ },
+ "road:驰道": {
+  "mod": "Qin national roads (schematic)",
+  "note": "The trunk roads of the realm, built with Xianyang at their centre, \"reaching Yan and Qi in the east and Wu and Chu in the south\", fifty paces wide and planted with a tree every three zhang (Hanshu, biography of Jia Shan). The routes are schematic.",
+  "old": "Imperial highways",
+  "yt": "from 220 BC"
+ },
+ "state:中山": {
+  "mod": "Ji surname (Xianyu of the White Di)",
+  "note": "Capitals: Gu → Lingshou. A \"state of a thousand chariots\", wedged between Yan and Zhao.\nIn 406 BC the Wei general Yue Yang destroyed Zhongshan, which was restored around 380 BC; in 323 BC it joined Wei, Han, Zhao and Yan in \"five states hailing one another as kings\".\nThe tomb of King Cuo of Zhongshan yielded bronzes inlaid with gold and silver, the \"Three Vessels of Zhongshan\" and more, unsurpassed in craftsmanship in their day.\nKing Wuling of Zhao destroyed Zhongshan in 296 BC.",
+  "old": "Zhongshan"
+ },
+ "state:义渠": {
+  "mod": "Western Rong",
+  "note": "One of the Western Rong, who lived in walled towns in what is now Qingyang in Gansu and southern Ningxia, and fought Qin for a long time.\nIn 272 BC Queen Dowager Xuan of Qin lured the king of Yiqu to the Ganquan Palace and killed him; Qin sent troops to destroy Yiqu, set up the Longxi, Beidi and Shang commanderies, and built a long wall against the Hu.",
+  "old": "Yiqu"
+ },
+ "state:卫": {
+  "mod": "Ji surname",
+  "note": "Capital: Diqiu (Puyang). Reduced to a small state in the Warring States, a dependent first of Wei, then of Qin.\nShang Yang, Wu Qi, Lü Buwei and Jing Ke all came from Wey.\nIn 241 BC Qin took Puyang and set up Dong Commandery, moving Jue, lord of Wey, to Yewang; Wey survived as a Qin dependency until 209 BC, when the Second Emperor of Qin reduced its lord to a commoner: the last of the Zhou fiefs to fall.",
+  "old": "Wey"
+ },
+ "state:周（王畿）": {
+  "mod": "Ji surname",
+  "note": "Common sovereign of all under Heaven, but in the Warring States left with only a corner of land around Luoyang.\nIn 367 BC Zhou split into two small states, West Zhou (capital Wangcheng at Henan) and East Zhou (capital Gong).\nIn 256 BC Qin destroyed West Zhou, King Nan of Zhou died, and the Nine Tripods went to Qin; in 249 BC the Qin chancellor Lü Buwei destroyed East Zhou. The Zhou dynasty, which had lasted some eight hundred years, came to an end.",
+  "old": "Zhou (royal domain)"
+ },
+ "state:宋": {
+  "mod": "Zi surname (descendants of the Shang kings)",
+  "note": "Capital: Shangqiu (Suiyang). In the east of the Central Plains, rich but surrounded by enemies.\nYan, ruler of Song (King Kang), took the title of king; he \"shot at Heaven and flogged the Earth\", and the lords called him \"the Jie of Song\".\nIn 286 BC King Min of Qi destroyed Song, whose lands were later divided between Wei and Chu; the destruction of Song directly provoked the five-state attack on Qi.\nZhuangzi was a man of Meng in Song; according to one view, Mozi was also from Song.",
+  "old": "Song"
+ },
+ "state:巴": {
+  "mod": "Ji surname (one view: descendants of Lord Lin)",
+  "note": "Capital: Jiangzhou (modern Chongqing), later also Langzhong. The Ba were brave and fierce warriors, famous for the Ba–Yu dance.\nHereditary enemies of Shu. In 316 BC Sima Cuo and Zhang Yi of Qin took advantage of the war between Ba and Shu, destroyed Shu and then Ba, and set up Ba Commandery.",
+  "old": "Ba"
+ },
+ "state:楚": {
+  "mod": "Mi surname, Xiong lineage",
+  "note": "Capitals: Ying (Jinancheng) → Chen (278 BC) → Juyang (253 BC) → Shouchun (241 BC).\nThe largest state of the Warring States: it held the Yangtze–Han and Yangtze–Huai regions, reached the Five Ridges in the south, and after destroying Yue held all the old lands of Wu and Yue in the east.\nReforms: King Dao of Chu had Wu Qi carry out reforms (c. 386–381 BC); after Dao's death Wu Qi was shot dead by the old nobility and the reforms were abandoned.\nNotable rulers: King Dao; King Wei (defeated Yue in 333 BC and crushed Qi at Xuzhou in the north); King Huai (destroyed Yue and set up Jiangdong Commandery c. 306 BC; later deceived by Zhang Yi, he died while detained in Qin); King Qingxiang; King Kaolie.\nPeople: Wu Qi, Qu Yuan, Shao Hua (who went to Yue to sow discord), Lord Chunshen Huang Xie, Zhuang Qiao (who entered Dian), Xiang Yan.\nIn 223 BC Wang Jian and Meng Wu crushed Chu at Qinan and captured Fuchu, king of Chu; in 222 BC Qin pacified Chu's lands south of the Yangtze.",
+  "old": "Chu"
+ },
+ "state:燕": {
+  "mod": "Ji surname",
+  "note": "Capitals: Ji (Upper Capital); Wuyang (Lower Capital, modern Yi County).\nIn 314 BC King Kuai of Yan ceded the throne to Zizhi, throwing the state into chaos, and King Xuan of Qi seized the chance to crush Yan. King Zhao of Yan built the Golden Terrace to attract talent, and Yue Yi, Guo Wei, Zou Yan and Ju Xin all came.\nAround 300 BC the Yan general Qin Kai made a surprise attack on the Donghu and routed them, who fell back more than a thousand li; Yan set up the five commanderies of Shanggu, Yuyang, Youbeiping, Liaoxi and Liaodong and built a long wall from Zaoyang to Xiangping.\nIn 284 BC Yue Yi crushed Qi and almost destroyed it. In 227 BC Crown Prince Dan sent Jing Ke to assassinate the king of Qin.\nIn 226 BC Qin took Ji, and Xi, king of Yan, fled to Liaodong; in 222 BC Wang Ben attacked Liaodong and captured him.",
+  "old": "Yan"
+ },
+ "state:秦": {
+  "mod": "Ying surname, Zhao lineage",
+  "note": "Capitals: Yong → Yueyang (383 BC) → Xianyang (350 BC).\nReforms: Duke Xiao of Qin had Shang Yang carry out two rounds of reform (356 and 350 BC): the well-field system was abolished and the field boundaries opened, counties were instituted, farming and fighting were rewarded, and a twenty-rank scale of military merit was created.\nNotable rulers: Duke Xiao, King Huiwen (took the title of king in 324 BC), King Wu, King Zhaoxiang, King Zheng of Qin.\nGenerals and ministers: Shang Yang, Zhang Yi, Sima Cuo, Wei Ran, Fan Ju (\"ally with the distant, attack the near\"), Bai Qi, Lü Buwei, Wang Jian, Wang Ben, Li Si.\nExpansion: 330–328 BC gained Wei's Hexi and Shang Commandery; 316 BC conquered Ba and Shu; 312 BC took Hanzhong; 278 BC took Ying and set up Nan Commandery; 272 BC destroyed Yiqu; 260 BC Battle of Changping; 256 and 249 BC destroyed the two Zhou; 230–221 BC destroyed all six states within ten years.\nIn 221 BC Qin unified the realm; King Zheng took the title First Emperor and divided the realm into thirty-six commanderies.\nExpansion continued after unification: in 215 BC Meng Tian drove the Xiongnu north and took Henandi; in 214 BC Jiuyuan Commandery was set up and the old long walls of Qin, Zhao and Yan were joined into the \"Great Wall\"; the same year Lingnan was pacified and the Nanhai, Guilin and Xiang commanderies were set up. The imperial highways and the Straight Road were built and the Lingqu Canal cut. The First Emperor died at Shaqiu in 210 BC; Chen Sheng and Wu Guang rose in 209 BC; Qin fell in 207 BC.",
+  "old": "Qin"
+ },
+ "state:苴": {
+  "mod": "Kaiming lineage (brother of the king of Shu)",
+  "note": "Capital: Jiameng (modern Zhaohua, Guangyuan, Sichuan). According to the Shu treatise of the Huayang guozhi, the king of Shu \"enfeoffed his younger brother Jiameng separately in Hanzhong, with the title Marquis of Ju, and named his town Jiameng\"; it guarded the northern gateway of Shu at a key point on the Jinniu (Shiniu) Road.\nThe Marquis of Ju was on good terms with the king of Ba, while Ba and Shu were hereditary enemies. The king of Shu attacked Ju in anger, the Marquis of Ju fled to Ba, and Ba and Ju appealed to Qin for help.\nIn 316 BC King Huiwen of Qin sent Sima Cuo and Zhang Yi down the Stone Ox Road against Shu; after destroying Shu they \"went on to take Ju and Ba\". Ju was the direct trigger of the Qin conquest of Ba and Shu, and lasted no more than a few decades.\nThe \"Hanzhong\" of \"enfeoffed in Hanzhong\" is Chang Qu's broad usage: he also placed Jiameng in his Hanzhong treatise. Ju's territory lay around Jiameng on the upper Jialing River, while Nanzheng in the Hanzhong basin remained under the direct rule of the king of Shu, so that Ju split Shu into northern and southern parts. Whether the area around Ningqiang and Lüeyang belonged to Ju or to Shu is not recorded; the map shows it only schematically.",
+  "old": "Ju"
+ },
+ "state:蜀": {
+  "mod": "Kaiming lineage",
+  "note": "Capital: Chengdu. A thousand li of fertile land, which after the Qin conquest became the granary of the wars of unification.\nTo the north lay the Hanzhong basin: the Huayang guozhi says that in the time of King Xian of Zhou \"the king of Shu held the lands of Bao and Han\", and that after conquering Shu, Qin \"divided off parts of Ba and Shu to set up Hanzhong Commandery\".\nIn 316 BC King Huiwen of Qin followed Sima Cuo's advice, attacked Shu by the Jinniu (Shiniu) Road, destroyed it and set up Shu Commandery.\nAround 256–251 BC Li Bing, the Qin governor of Shu, built Dujiangyan, so that on the Chengdu Plain \"flood and drought obey man, and famine is unknown\".",
+  "old": "Shu"
+ },
+ "state:赵": {
+  "mod": "Ying surname, Zhao lineage",
+  "note": "Capitals: Jinyang → Zhongmou (425 BC) → Handan (386 BC). In 403 BC recognised as a feudal lord together with Han and Wei (the partition of Jin).\nKing Wuling of Zhao adopted nomad dress and mounted archery (307 BC), destroyed Zhongshan (296 BC), crushed the Linhu and Loufan in the north, set up the Yunzhong, Yanmen and Dai commanderies, and built a long wall reaching Gaoque.\nLin Xiangru returned the jade disc intact to Zhao, and the general and the minister were reconciled; Zhao She won at Yuyu; the crushing defeat at Changping in 260 BC left Zhao badly weakened.\nLi Mu crushed the Xiongnu in the north and repelled mighty Qin in the south (at Fei and Powu); in 229 BC Qin sowed discord, and Qian, king of Zhao, had Li Mu killed.\nIn 228 BC Qin took Handan and captured King Qian; Prince Jia fled to Dai and styled himself king of Dai; Dai fell in 222 BC.",
+  "old": "Zhao"
+ },
+ "state:越": {
+  "mod": "Si surname",
+  "note": "Capitals: Kuaiji → Langya (468 BC) → Wu (379 BC; Bamboo Annals: \"in the 33rd year of Yi, viscount of Yue, he moved to Wu\"). After Goujian destroyed Wu (473 BC), Yue was hegemon of the southeast.\nIn the Warring States it was riven by repeated internal strife; the Zhuangzi says \"the people of Yue killed their rulers three generations running\": in 375 BC Crown Prince Zhujiu killed Yi, king of Yue, and around 365 BC Si, younger brother of Si'ou, killed Mang'an, king of Yue.\nIn 312 BC the king of Yue still sent envoys to Wei with a state barge, three hundred boats, five million arrows, rhinoceros horn and ivory (Bamboo Annals), showing that Yue was then still a kingdom of substance.\nThere are two views of when it fell: (1) the traditional view, based on the Yue chapter of the Shiji and the Zizhi Tongjian, that in 334/333 BC King Wei of Chu routed Yue and killed Wujiang, king of Yue; (2) Yang Kuan and others, from the biography of Gan Mao in the Shiji, Fan Huan's words in the Chu section of the Zhanguo ce, Zhao Ju's words in the Chu chapter of the Shiji, and the Hanfeizi's \"Zhao Hua … within five years was able to destroy Yue\", conclude that King Huai of Chu sent Shao Hua into Yue to stir up internal strife, destroyed Yue in the turmoil around 306 BC, killed Wujiang, took all the old lands of Wu up to the Zhe River, and set up Jiangdong Commandery. This map follows the 306 BC view and treats the battle of 333 BC as an earlier stage of the Chu–Yue wars.\nAfterwards the Yue people scattered along the coast south of the Zhe River, \"some as kings, some as lords, on the coast south of the Yangtze, paying court to Chu\"; in 222 BC Wang Jian \"received the surrender of the lords of Yue and set up Kuaiji Commandery\". The Dong'ou and Minyue were their descendants.",
+  "old": "Yue"
+ },
+ "state:韩": {
+  "mod": "Ji surname, Han lineage",
+  "note": "Capitals: Pingyang → Yiyang → Yangzhai → Xinzheng (moved there after destroying Zheng in 375 BC).\nThe weakest of the seven powers, a \"land open to war on all four sides\": mighty Qin to the west, and Wei, Zhao and Chu surrounding it to the east, north and south.\nMarquis Zhao of Han made Shen Buhai chancellor (355–337 BC), governing by \"technique\"; \"the state was well ordered and its army strong, and no one invaded Han\".\nIn 262 BC Qin cut Shangdang off from the Han heartland, and Feng Ting, governor of Shangdang, surrendered the territory to Zhao, setting off the Battle of Changping. Han sent the hydraulic engineer Zheng Guo to build a canal in Qin to \"exhaust Qin\", but it only made Qin richer and stronger.\nHan Fei was a prince of Han. In 230 BC Teng, the Neishi, attacked Han, captured An, king of Han, and set up Yingchuan Commandery: the first of the six states to fall.",
+  "old": "Han"
+ },
+ "state:魏": {
+  "mod": "Ji surname, Wei lineage",
+  "note": "Capitals: Anyi → Daliang (361 BC, or 364 BC), hence Wei was also called \"Liang\".\nMarquis Wen of Wei employed Li Kui to carry out reforms, Wu Qi to take Hexi, Ximen Bao to govern Ye and Yue Yang to destroy Zhongshan, making Wei the strongest state of the early Warring States.\nKing Hui of Wei (King Hui of Liang) dominated the Central Plains, but after two defeats by Qi at Guiling and Maling and the loss of Hexi and Shang Commandery to Qin, Wei went into decline.\nWei cut the Honggou Canal, linking the He and the Huai. In the late Warring States Lord Xinling stole the tally to rescue Zhao and led a vertical alliance that defeated Qin at Hewai.\nIn 225 BC Wang Ben flooded Daliang with water from the He and the Honggou, and Jia, king of Wei, surrendered.",
+  "old": "Wei"
+ },
+ "state:鲁": {
+  "mod": "Ji surname",
+  "note": "Capital: Qufu. Ruled by the descendants of the Duke of Zhou; a land of ritual and music, Confucius's home state and the centre of Confucian learning. Weak in the Warring States.\nIn 256 BC King Kaolie of Chu destroyed Lu (one view: in 249 BC, moving Duke Qing of Lu to Ju / Xiayi).",
+  "old": "Lu"
+ },
+ "state:齐": {
+  "mod": "Gui surname, Tian lineage (Tian Qi)",
+  "note": "Capital: Linzi. In 386 BC Tian He was recognised as a feudal lord, and the Tian lineage replaced the Jiang house of Qi.\nKing Wei of Qi had Zou Ji carry out reforms and founded the Jixia Academy, where the Hundred Schools gathered.\nDefeated Wei twice, at Guiling (353 BC) and Maling (341 BC), and stood as Qin's equal in the east; in 288 BC King Min of Qi and King Zhao of Qin styled themselves Emperor of the East and Emperor of the West.\nDestroyed Song in 286 BC; in 284 BC overrun by the five-state coalition led by the Yan general Yue Yi, keeping only Ju and Jimo; in 279 BC Tian Dan restored the state with his fire-ox formation, but Qi was greatly weakened.\nPeople: Zou Ji, Tian Ji, Sun Bin, Lord Mengchang Tian Wen, Tian Dan, Lu Zhonglian.\nIn 221 BC Wang Ben attacked Qi southward from Yan; Jian, king of Qi, surrendered without a fight, and the last of the six states was gone.",
+  "old": "Qi"
+ },
+ "town:上庸": {
+  "mod": "SW of Zhushan, Hubei",
+  "old": "Shangyong"
+ },
+ "town:上洛": {
+  "mod": "Shangzhou District, Shangluo, Shaanxi",
+  "old": "Shangluo"
+ },
+ "town:下蔡": {
+  "mod": "Fengtai, Anhui",
+  "note": "The last capital of Cai (Zhoulai).",
+  "old": "Xiacai"
+ },
+ "town:下邳": {
+  "mod": "NW of Suining, Jiangsu",
+  "note": "Where Zhang Liang later went into hiding and met the Old Man of the Yellow Stone.",
+  "old": "Xiapi"
+ },
+ "town:不夜": {
+  "mod": "N of Rongcheng, Shandong",
+  "note": "The eastern extremity of Qi.",
+  "old": "Buye"
+ },
+ "town:东武城": {
+  "mod": "S of Gucheng, Hebei",
+  "note": "Fief of Lord Pingyuan, Zhao Sheng of Zhao.",
+  "old": "Dongwucheng"
+ },
+ "town:严道": {
+  "mod": "Yingjing, Sichuan",
+  "note": "Qin sent convicts here.",
+  "old": "Yandao"
+ },
+ "town:中都": {
+  "mod": "SW of Pingyao, Shanxi",
+  "old": "Zhongdu"
+ },
+ "town:临晋": {
+  "mod": "E of Dali, Shaanxi",
+  "note": "Key place in Hexi between Qin and Wei, at a Yellow River ford.",
+  "old": "Linjin"
+ },
+ "town:临沅": {
+  "mod": "Changde, Hunan",
+  "old": "Linyuan"
+ },
+ "town:临邛": {
+  "mod": "Qionglai, Sichuan",
+  "note": "Walled by Zhang Ruo after the Qin conquest of Shu; later the Zhuo family grew rich here smelting iron.",
+  "old": "Linqiong"
+ },
+ "town:乌伤": {
+  "mod": "Yiwu, Zhejiang",
+  "old": "Wushang"
+ },
+ "town:云阳": {
+  "mod": "NW of Chunhua, Shaanxi",
+  "note": "Site of the Qin Ganquan Palace; Han Fei died in prison at Yunyang (233 BC).",
+  "old": "Yunyang"
+ },
+ "town:令支": {
+  "mod": "W of Qian'an, Hebei",
+  "note": "Originally Lingzhi, a state of the Shan Rong.",
+  "old": "Lingzhi"
+ },
+ "town:六": {
+  "mod": "N of Lu'an, Anhui",
+  "old": "Lu"
+ },
+ "town:共": {
+  "mod": "Huixian, Henan",
+  "note": "After surrendering to Qin, Jian, king of Qi, was moved to Gong and starved to death among the pines and cypresses.",
+  "old": "Gong"
+ },
+ "town:冀": {
+  "mod": "E of Gangu, Gansu",
+  "note": "With Gui, one of the earliest counties (688 BC).",
+  "old": "Ji"
+ },
+ "town:内黄": {
+  "mod": "NW of Neihuang, Henan",
+  "old": "Neihuang"
+ },
+ "town:南安": {
+  "mod": "Leshan, Sichuan",
+  "old": "Nan'an"
+ },
+ "town:博昌": {
+  "mod": "S of Boxing, Shandong",
+  "old": "Bochang"
+ },
+ "town:卢氏": {
+  "mod": "Lushi, Henan",
+  "old": "Lushi"
+ },
+ "town:历下": {
+  "mod": "Jinan, Shandong",
+  "note": "Key place in western Qi; both Yue Yi's invasion of Qi and Han Xin's surprise attack on Qi passed this way.",
+  "old": "Lixia"
+ },
+ "town:句章": {
+  "mod": "W of Ningbo, Zhejiang",
+  "note": "A port in eastern Yue.",
+  "old": "Gouzhang"
+ },
+ "town:召陵": {
+  "mod": "E of Yancheng District, Luohe, Henan",
+  "note": "Where Duke Huan of Qi made a covenant with Chu (656 BC).",
+  "old": "Shaoling"
+ },
+ "town:叶": {
+  "mod": "S of Ye County, Henan",
+  "note": "Fief of Shen Zhuliang, the Lord of She in the fable \"The Lord of She Loves Dragons\".",
+  "old": "She"
+ },
+ "town:善无": {
+  "mod": "S of Youyu, Shanxi",
+  "note": "Seat of Zhao's Yanmen Commandery.",
+  "old": "Shanwu"
+ },
+ "town:垣": {
+  "mod": "SE of Yuanqu, Shanxi",
+  "old": "Yuan"
+ },
+ "town:城固": {
+  "mod": "Chenggu, Shaanxi",
+  "old": "Chenggu"
+ },
+ "town:外黄": {
+  "mod": "NW of Minquan, Henan",
+  "old": "Waihuang"
+ },
+ "town:夷维": {
+  "mod": "Gaomi, Shandong",
+  "note": "Home town of Yan Ying.",
+  "old": "Yiwei"
+ },
+ "town:夷陵": {
+  "mod": "SE of Yichang, Hubei",
+  "note": "Site of the tombs of the Chu kings, burned by Bai Qi in 278 BC.",
+  "old": "Yiling"
+ },
+ "town:孤竹": {
+  "mod": "S of Lulong, Hebei",
+  "note": "The state of Boyi and Shuqi.",
+  "old": "Guzhu"
+ },
+ "town:宁新中": {
+  "mod": "Anyang, Henan",
+  "note": "Taken by Qin (257 BC) and renamed Anyang.",
+  "old": "Ningxinzhong"
+ },
+ "town:安陆": {
+  "mod": "Yunmeng, Hubei",
+  "note": "Where the Shuihudi Qin slips were found.",
+  "old": "Anlu"
+ },
+ "town:宕渠": {
+  "mod": "NE of Qu County, Sichuan",
+  "note": "Home of the Cong people.",
+  "old": "Dangqu"
+ },
+ "town:少梁": {
+  "mod": "S of Hancheng, Shaanxi",
+  "note": "Fought over repeatedly by Qin and Wei in Hexi; Qin renamed it Xiayang.",
+  "old": "Shaoliang"
+ },
+ "town:居巢": {
+  "mod": "Chaohu, Anhui",
+  "old": "Juchao"
+ },
+ "town:屯留": {
+  "mod": "S of Tunliu District, Changzhi, Shanxi",
+  "note": "Chengjiao, Lord Chang'an, rebelled against Qin at Tunliu (239 BC).",
+  "old": "Tunliu"
+ },
+ "town:巨鹿": {
+  "mod": "Pingxiang, Hebei",
+  "note": "On the Dalu Marsh.",
+  "old": "Julu"
+ },
+ "town:巫": {
+  "mod": "N of Wushan, Chongqing",
+  "note": "Seat of Chu's Wu Commandery; passed to Qin in 277 BC.",
+  "old": "Wu"
+ },
+ "town:平刚": {
+  "mod": "SW of Lingyuan, Liaoning",
+  "note": "Seat of Yan's Youbeiping Commandery (one view).",
+  "old": "Pinggang"
+ },
+ "town:平城": {
+  "mod": "Datong, Shanxi",
+  "note": "Key place between Zhao's Yanmen and Dai commanderies.",
+  "old": "Pingcheng"
+ },
+ "town:平舆": {
+  "mod": "N of Pingyu, Henan",
+  "note": "The Qin general Wang Jian took the land from Chen south to Pingyu (224 BC).",
+  "old": "Pingyu"
+ },
+ "town:延陵": {
+  "mod": "Changzhou, Jiangsu",
+  "note": "Fief of Ji Zha of Wu.",
+  "old": "Yanling"
+ },
+ "town:当阳": {
+  "mod": "E of Dangyang, Hubei",
+  "old": "Dangyang"
+ },
+ "town:怀": {
+  "mod": "SW of Wuzhi, Henan",
+  "note": "Taken by Qin (266 BC): the start of \"ally with the distant, attack the near\".",
+  "old": "Huai"
+ },
+ "town:息": {
+  "mod": "Xi County, Henan",
+  "note": "The ancient state of Xi, destroyed by King Wen of Chu.",
+  "old": "Xi"
+ },
+ "town:房陵": {
+  "mod": "Fang County, Hubei",
+  "note": "Qin moved Lao Ai's retainers and Qian, king of Zhao, to Fangling.",
+  "old": "Fangling"
+ },
+ "town:扶柳": {
+  "mod": "NW of Jizhou, Hebei",
+  "old": "Fuliu"
+ },
+ "town:新城": {
+  "mod": "SW of Yichuan, Henan",
+  "old": "Xincheng"
+ },
+ "town:新蔡": {
+  "mod": "Xincai, Henan",
+  "note": "One of the later capitals of Cai.",
+  "old": "Xincai"
+ },
+ "town:新野": {
+  "mod": "Xinye, Henan",
+  "old": "Xinye"
+ },
+ "town:方城": {
+  "mod": "SW of Gu'an, Hebei",
+  "note": "Fangcheng of Yan, not the Chu Fangcheng.",
+  "old": "Fangcheng"
+ },
+ "town:无终": {
+  "mod": "Jizhou District, Tianjin",
+  "note": "Originally Wuzhong, a state of the Shan Rong; later part of Yan.",
+  "old": "Wuzhong"
+ },
+ "town:曲沃": {
+  "mod": "E of Wenxi, Shanxi",
+  "note": "Ancestral town of the house of Jin.",
+  "old": "Quwo"
+ },
+ "town:曲阳": {
+  "mod": "W of Quyang, Hebei",
+  "old": "Quyang"
+ },
+ "town:朐忍": {
+  "mod": "W of Yunyang, Chongqing",
+  "old": "Quren"
+ },
+ "town:朝歌": {
+  "mod": "Qi County (Hebi), Henan",
+  "note": "Old capital of King Zhou of Shang, later an early capital of Wey.",
+  "old": "Zhaoge"
+ },
+ "town:朱方": {
+  "mod": "E of Zhenjiang, Jiangsu",
+  "note": "An old town of Wu.",
+  "old": "Zhufang"
+ },
+ "town:杜": {
+  "mod": "Chang'an District, Xi'an, Shaanxi",
+  "note": "One of the earlier counties set up by Qin (687 BC).",
+  "old": "Du"
+ },
+ "town:析": {
+  "mod": "Xixia, Henan",
+  "old": "Xi"
+ },
+ "town:枳": {
+  "mod": "Fuling, Chongqing",
+  "note": "Site of the tombs of the Ba kings.",
+  "old": "Zhi"
+ },
+ "town:柏人": {
+  "mod": "W of Longyao, Hebei",
+  "old": "Bairen"
+ },
+ "town:柳城": {
+  "mod": "S of Chaoyang, Liaoning",
+  "old": "Liucheng"
+ },
+ "town:榆次": {
+  "mod": "Yuci District, Jinzhong, Shanxi",
+  "old": "Yuci"
+ },
+ "town:武安": {
+  "mod": "SW of Wu'an, Hebei",
+  "note": "Fought over by Qin and Zhao.",
+  "old": "Wu'an"
+ },
+ "town:汧": {
+  "mod": "S of Long County, Shaanxi",
+  "note": "One of the early capitals of the Qin people.",
+  "old": "Qian"
+ },
+ "town:汲": {
+  "mod": "SW of Weihui, Henan",
+  "note": "Under the Western Jin the Bamboo Annals were found in the Ji tomb, a Wei tomb at this place.",
+  "old": "Ji"
+ },
+ "town:汾阴": {
+  "mod": "SW of Wanrong, Shanxi",
+  "note": "Where the Fen River meets the Yellow River.",
+  "old": "Fenyin"
+ },
+ "town:沅陵": {
+  "mod": "SW of Yuanling, Hunan",
+  "note": "In the heart of Chu's Qianzhong Commandery; Qianling, where the Liye Qin slips were found, lies to its west.",
+  "old": "Yuanling"
+ },
+ "town:沮阳": {
+  "mod": "SE of Huailai, Hebei",
+  "note": "Seat of Yan's Shanggu Commandery.",
+  "old": "Juyang"
+ },
+ "town:河间": {
+  "mod": "SE of Xian County, Hebei",
+  "note": "Lü Buwei received ten towns of Zhao's Hejian as his fief.",
+  "old": "Hejian"
+ },
+ "town:泫氏": {
+  "mod": "Gaoping, Shanxi",
+  "old": "Xuanshi"
+ },
+ "town:涪": {
+  "mod": "Mianyang, Sichuan",
+  "old": "Fu"
+ },
+ "town:涿": {
+  "mod": "Zhuozhou, Hebei",
+  "old": "Zhuo"
+ },
+ "town:淮阴": {
+  "mod": "Huaiyin District, Huai'an, Jiangsu",
+  "old": "Huaiyin"
+ },
+ "town:渑池": {
+  "mod": "W of Mianchi, Henan",
+  "note": "Site of the meeting of Qin and Zhao at Mianchi (279 BC), where Lin Xiangru forced the king of Qin to strike an earthenware fou.",
+  "old": "Mianchi"
+ },
+ "town:渔阳": {
+  "mod": "SW of Miyun, Beijing",
+  "note": "Seat of Yan's Yuyang Commandery.",
+  "old": "Yuyang"
+ },
+ "town:温": {
+  "mod": "SW of Wen County, Henan",
+  "note": "The ancient state of Wen, a key town in Henei.",
+  "old": "Wen"
+ },
+ "town:滕": {
+  "mod": "SW of Tengzhou, Shandong",
+  "note": "The state of Teng, whose Duke Wen asked Mencius about government.",
+  "old": "Teng"
+ },
+ "town:漆": {
+  "mod": "SW of Binzhou, Shaanxi",
+  "old": "Qi"
+ },
+ "town:焦": {
+  "mod": "W of Sanmenxia, Henan",
+  "old": "Jiao"
+ },
+ "town:番": {
+  "mod": "Poyang, Jiangxi",
+  "note": "Southeastern frontier of Chu (Lord of Po).",
+  "old": "Po"
+ },
+ "town:皖": {
+  "mod": "Qianshan, Anhui",
+  "note": "Origin of \"Wan\", the short name for Anhui.",
+  "old": "Wan"
+ },
+ "town:皮氏": {
+  "mod": "Hejin, Shanxi",
+  "old": "Pishi"
+ },
+ "town:益阳": {
+  "mod": "Yiyang, Hunan",
+  "old": "Yiyang"
+ },
+ "town:盱眙": {
+  "mod": "NE of Xuyi, Jiangsu",
+  "old": "Xuyi"
+ },
+ "town:相": {
+  "mod": "NW of Huaibei, Anhui",
+  "note": "One of the old capitals of Song.",
+  "old": "Xiang"
+ },
+ "town:石邑": {
+  "mod": "Luquan District, Shijiazhuang, Hebei",
+  "old": "Shiyi"
+ },
+ "town:砀": {
+  "mod": "S of Dangshan, Anhui",
+  "old": "Dang"
+ },
+ "town:碣石": {
+  "mod": "N of Changli, Hebei",
+  "note": "A famous coastal mountain on Yan's eastern frontier, later climbed by both the First Emperor of Qin and Emperor Wu of Han.",
+  "old": "Jieshi"
+ },
+ "town:离石": {
+  "mod": "Lishi District, Lüliang, Shanxi",
+  "note": "Fought over repeatedly by Qin and Zhao.",
+  "old": "Lishi"
+ },
+ "town:秭归": {
+  "mod": "Zigui, Hubei",
+  "note": "Home town of Qu Yuan.",
+  "old": "Zigui"
+ },
+ "town:穰": {
+  "mod": "Dengzhou, Henan",
+  "note": "Fief of the Qin chancellor Wei Ran, styled Marquis of Rang.",
+  "old": "Rang"
+ },
+ "town:竟陵": {
+  "mod": "NW of Qianjiang, Hubei",
+  "old": "Jingling"
+ },
+ "town:端氏": {
+  "mod": "E of Qinshui, Shanxi",
+  "note": "After the partition of Jin, the ruler of Jin was moved to Duanshi.",
+  "old": "Duanshi"
+ },
+ "town:绛": {
+  "mod": "Houma, Shanxi",
+  "note": "Xintian, the old capital of Jin and the last residence of the Jin ducal house.",
+  "old": "Jiang"
+ },
+ "town:罗": {
+  "mod": "NW of Miluo, Hunan",
+  "note": "Chu moved the remnant people of the state of Luo here; the Miluo River, where Qu Yuan drowned himself, flows through it.",
+  "old": "Luo"
+ },
+ "town:聊城": {
+  "mod": "NW of Liaocheng, Shandong",
+  "note": "A Yan general held Liaocheng; Lu Zhonglian shot a letter into the city, and the Yan general killed himself.",
+  "old": "Liaocheng"
+ },
+ "town:腄": {
+  "mod": "Fushan District, Yantai, Shandong",
+  "old": "Chui"
+ },
+ "town:舒": {
+  "mod": "SW of Lujiang, Anhui",
+  "old": "Shu"
+ },
+ "town:舞阳": {
+  "mod": "W of Wuyang, Henan",
+  "old": "Wuyang"
+ },
+ "town:艾": {
+  "mod": "W of Xiushui, Jiangxi",
+  "old": "Ai"
+ },
+ "town:苦": {
+  "mod": "E of Luyi, Henan",
+  "note": "Home town of Laozi (one view).",
+  "old": "Ku"
+ },
+ "town:萧": {
+  "mod": "NW of Xiao County, Anhui",
+  "old": "Xiao"
+ },
+ "town:襄城": {
+  "mod": "Xiangcheng, Henan",
+  "old": "Xiangcheng"
+ },
+ "town:西垂": {
+  "mod": "Li County, Gansu",
+  "note": "Early homeland of the Qin people, with the great tombs of the Qin dukes.",
+  "old": "Xichui"
+ },
+ "town:解": {
+  "mod": "Xiezhou, Yuncheng, Shanxi",
+  "note": "On Lake Xie (the salt lake); home town of Guan Yu.",
+  "old": "Xie"
+ },
+ "town:许": {
+  "mod": "E of Xuchang, Henan",
+  "note": "The ancient state of Xu.",
+  "old": "Xu"
+ },
+ "town:谯": {
+  "mod": "Bozhou, Anhui",
+  "old": "Qiao"
+ },
+ "town:豳": {
+  "mod": "Binzhou, Shaanxi",
+  "note": "Where Gong Liu, ancestor of the Zhou, lived.",
+  "old": "Bin"
+ },
+ "town:轵": {
+  "mod": "SE of Jiyuan, Henan",
+  "note": "Home town of Nie Zheng.",
+  "old": "Zhi"
+ },
+ "town:辰阳": {
+  "mod": "Chenxi, Hunan",
+  "old": "Chenyang"
+ },
+ "town:造阳": {
+  "mod": "N of Huailai, Hebei (one view: Dushikou)",
+  "note": "Western starting point of the Yan Northern Long Wall.",
+  "old": "Zaoyang"
+ },
+ "town:邓": {
+  "mod": "N of Xiangyang, Hubei",
+  "note": "The ancient state of Deng.",
+  "old": "Deng"
+ },
+ "town:邹": {
+  "mod": "SE of Zoucheng, Shandong",
+  "note": "Capital of Zhu and home town of Mencius.",
+  "old": "Zou"
+ },
+ "town:邽": {
+  "mod": "Tianshui, Gansu",
+  "note": "In 688 BC Duke Wu of Qin attacked the Gui Rong and Ji Rong and first made their lands counties, among the earliest counties on record in China.",
+  "old": "Gui"
+ },
+ "town:郏": {
+  "mod": "Jia County, Henan",
+  "old": "Jia"
+ },
+ "town:郫": {
+  "mod": "Pidu District, Chengdu, Sichuan",
+  "note": "Duyu (Emperor Wang) of ancient Shu had his capital at Pi.",
+  "old": "Pi"
+ },
+ "town:郯": {
+  "mod": "N of Tancheng, Shandong",
+  "note": "The ancient state of Tan, destroyed by Yue (c. 414 BC).",
+  "old": "Tan"
+ },
+ "town:郴": {
+  "mod": "Chenzhou, Hunan",
+  "note": "Southern frontier of Chu; Qin set up Chen County.",
+  "old": "Chen"
+ },
+ "town:郿": {
+  "mod": "Mei County, Shaanxi",
+  "note": "Home town of Bai Qi.",
+  "old": "Mei"
+ },
+ "town:鄄": {
+  "mod": "N of Juancheng, Shandong",
+  "note": "\"Between E and Juan\", the birthplace of Sun Bin.",
+  "old": "Juan"
+ },
+ "town:鄗": {
+  "mod": "SE of Gaoyi, Hebei",
+  "old": "Hao"
+ },
+ "town:鄚": {
+  "mod": "N of Renqiu, Hebei",
+  "note": "Home town of the famous physician Bian Que (one view).",
+  "old": "Mao"
+ },
+ "town:鄢陵": {
+  "mod": "NW of Yanling, Henan",
+  "note": "Site of the Spring and Autumn Battle of Yanling between Jin and Chu.",
+  "old": "Yanling"
+ },
+ "town:酸枣": {
+  "mod": "SW of Yanjin, Henan",
+  "note": "Qin took Suanzao and nineteen other Wei towns and set up Dong Commandery (242 BC).",
+  "old": "Suanzao"
+ },
+ "town:重泉": {
+  "mod": "SE of Pucheng, Shaanxi",
+  "old": "Chongquan"
+ },
+ "town:钟离": {
+  "mod": "NE of Fengyang, Anhui",
+  "old": "Zhongli"
+ },
+ "town:钱唐": {
+  "mod": "Hangzhou, Zhejiang",
+  "note": "Qin set up Qiantang County, which gave the Qiantang River its name.",
+  "old": "Qiantang"
+ },
+ "town:长垣": {
+  "mod": "NE of Changyuan, Henan",
+  "old": "Changyuan"
+ },
+ "town:阳乐": {
+  "mod": "W of Yi County, Liaoning",
+  "note": "Seat of Yan's Liaoxi Commandery.",
+  "old": "Yangle"
+ },
+ "town:阳城": {
+  "mod": "Gaocheng Town, Dengfeng, Henan",
+  "note": "Home town of Chen Sheng (one view). Taken by Qin (256 BC).",
+  "old": "Yangcheng"
+ },
+ "town:阳夏": {
+  "mod": "Taikang, Henan",
+  "note": "Home town of Wu Guang.",
+  "old": "Yangjia"
+ },
+ "town:陕": {
+  "mod": "Shanzhou District, Sanmenxia, Henan",
+  "note": "Taken by Qin (324 BC), commanding the eastern mouth of the Xiao–Hangu route.",
+  "old": "Shan"
+ },
+ "town:雍丘": {
+  "mod": "Qi County (Kaifeng), Henan",
+  "note": "The ancient state of Qi.",
+  "old": "Yongqiu"
+ },
+ "town:雒": {
+  "mod": "N of Guanghan, Sichuan",
+  "old": "Luo"
+ },
+ "town:项": {
+  "mod": "Shenqiu, Henan",
+  "note": "Where the family of Xiang Yan and Xiang Yu came from.",
+  "old": "Xiang"
+ },
+ "town:频阳": {
+  "mod": "NE of Fuping, Shaanxi",
+  "note": "Home town of Wang Jian.",
+  "old": "Pinyang"
+ },
+ "town:饶安": {
+  "mod": "SW of Yanshan, Hebei",
+  "note": "Northern frontier of Qi.",
+  "old": "Rao'an"
+ },
+ "town:高奴": {
+  "mod": "NE of Yan'an, Shaanxi",
+  "note": "Key town of Shang Commandery, where the \"Gaonu bronze one-shi weight for grain\" was found.",
+  "old": "Gaonu"
+ },
+ "town:鱼复": {
+  "mod": "E of Fengjie, Chongqing",
+  "old": "Yufu"
+ },
+ "town:鲁阳": {
+  "mod": "Lushan, Henan",
+  "old": "Luyang"
+ },
+ "town:鸠兹": {
+  "mod": "E of Wuhu, Anhui",
+  "old": "Jiuzi"
+ },
+ "town:黄": {
+  "mod": "E of Longkou, Shandong",
+  "note": "The ancient state of Huang (of the Lai Yi).",
+  "old": "Huang"
+ },
+ "wall:楚方城": {
+  "mod": "Lushan – Fangcheng – Biyang, Henan",
+  "note": "The defences of Chu's northern frontier: \"Chu has Fangcheng for its wall and the Han River for its moat\". Abandoned after the Qin unification (c. 215 BC; Jieshi inscription: \"pulled down city walls … levelled strongholds\").",
+  "old": "Chu Fangcheng",
+  "yt": "built in the Spring and Autumn period, still in use in the Warring States"
+ },
+ "wall:燕北长城": {
+  "mod": "Zhangjiakou, Hebei – Chifeng, Inner Mongolia – Liaoyang, Liaoning",
+  "note": "After Qin Kai drove back the Donghu, Yan \"built a long wall from Zaoyang to Xiangping\" and set up five commanderies against the Hu. After the Qin unification it became the eastern section of the Great Wall.",
+  "old": "Yan Northern Long Wall",
+  "yt": "c. 290 BC"
+ },
+ "wall:燕南长城": {
+  "mod": "Yi County – Wen'an, Hebei (Yi River Long Wall)",
+  "note": "Built along the Yi River against Qi, Zhao and Zhongshan. Abandoned after the Qin unification (c. 215 BC; Jieshi inscription: \"pulled down city walls … levelled strongholds\").",
+  "old": "Yan Southern Long Wall",
+  "yt": "c. 334 BC"
+ },
+ "wall:秦始皇长城（新筑段）": {
+  "mod": "Lanzhou, Gansu – Ningxia – Hetao and Yin Mountains, Inner Mongolia",
+  "note": "After taking Henandi, Meng Tian \"used the river as a barrier\", setting up watchtowers and stockades along the Yellow River; he also crossed the river and built walls and forts around the Yin Mountains and Gaoque, joining them with the old long walls of King Zhao of Qin, Zhao and Yan into the \"Great Wall\", from Lintao in the west to Liaodong in the east.",
+  "old": "First Emperor's Great Wall (new sections)",
+  "yt": "from 214 BC"
+ },
+ "wall:秦昭王长城": {
+  "mod": "Lintao, Gansu – Guyuan, Ningxia – Yulin, Shaanxi",
+  "note": "Built after the destruction of Yiqu, from Lintao in the west through Guyuan, Huan County, Wuqi and Jingbian to Yulin and Shenmu, against the northern Hu. After the Qin unification it became the western section of the Great Wall.",
+  "old": "Long Wall of King Zhao of Qin",
+  "yt": "c. 272 BC"
+ },
+ "wall:赵北长城": {
+  "mod": "Zhangjiakou, Hebei – Yin Mountains, Inner Mongolia – Gaoque",
+  "note": "After crushing the Linhu and Loufan, King Wuling of Zhao \"built a long wall from Dai along the foot of the Yin Mountains to Gaoque as a barrier\". After the Qin unification it was taken into the Great Wall.",
+  "old": "Zhao Northern Long Wall",
+  "yt": "c. 300 BC"
+ },
+ "wall:赵南长城": {
+  "mod": "Handan – Ci County, Hebei, between the Zhang and Fu rivers",
+  "note": "Built by Marquis Su of Zhao between the Zhang and Fu rivers against Wei and Qi. Abandoned after the Qin unification (c. 215 BC; Jieshi inscription: \"pulled down city walls … levelled strongholds\").",
+  "old": "Zhao Southern Long Wall",
+  "yt": "c. 333 BC"
+ },
+ "wall:魏河南长城": {
+  "mod": "Yuanyang – Xinmi, Henan",
+  "note": "Built by Wei west of Daliang against Han and Qin. Abandoned after the Qin unification (c. 215 BC; Jieshi inscription: \"pulled down city walls … levelled strongholds\").",
+  "old": "Wei Henan Long Wall",
+  "yt": "c. 355 BC"
+ },
+ "wall:魏河西长城": {
+  "mod": "Huayin – Dali – Chengcheng – Yan'an, Shaanxi",
+  "note": "Built by Wei along the east bank of the Luo River against Qin, from Huayin in the south to Shang Commandery in the north. Abandoned after the Qin unification (c. 215 BC; Jieshi inscription: \"pulled down city walls … levelled strongholds\").",
+  "old": "Wei Hexi Long Wall",
+  "yt": "c. 361–352 BC"
+ },
+ "wall:齐长城": {
+  "mod": "Pingyin – Mount Tai – Mount Yi – Huangdao, Qingdao, Shandong",
+  "note": "One of the earliest surviving long walls, running from Pingyin (Fangmen) in the west along the Tai–Yi uplands east to Langya and the sea, more than six hundred li long, against Lu, Chu and Yue. Abandoned after the Qin unification (c. 215 BC; Jieshi inscription: \"pulled down city walls … levelled strongholds\").",
+  "old": "Qi Long Wall",
+  "yt": "from c. the 5th century BC"
+ }
+}

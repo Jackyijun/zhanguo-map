@@ -1,0 +1,155 @@
+{
+ "fall:-209": {
+  "nm": "Wey",
+  "p": "The Second Emperor of Qin deposes Jue, lord of Wey, and the sacrifices of Wey come to an end."
+ },
+ "fall:-221": {
+  "nm": "Qi",
+  "p": "Jian, king of Qi, surrenders, and Qin unifies the realm."
+ },
+ "fall:-222": {
+  "nm": "Yan and Dai",
+  "p": "Wang Ben captures Xi, king of Yan, and Jia, king of Dai."
+ },
+ "fall:-223": {
+  "nm": "Chu",
+  "p": "Wang Jian and Meng Wu capture Fuchu, king of Chu."
+ },
+ "fall:-225": {
+  "nm": "Wei",
+  "p": "Wang Ben floods Daliang, and Jia, king of Wei, surrenders."
+ },
+ "fall:-228": {
+  "nm": "Zhao",
+  "p": "Wang Jian takes Handan and captures Qian, king of Zhao."
+ },
+ "fall:-230": {
+  "nm": "Han",
+  "p": "The Neishi Teng captures An, king of Han, and sets up Yingchuan Commandery."
+ },
+ "fall:-249": {
+  "nm": "East Zhou",
+  "p": "The Qin chancellor Lü Buwei destroys East Zhou."
+ },
+ "fall:-256": {
+  "nm": "West Zhou and Lu",
+  "p": "Qin destroys West Zhou and King Nan of Zhou dies; Chu destroys Lu (one view dates the fall of Lu to 249 BC)."
+ },
+ "fall:-272": {
+  "nm": "Yiqu",
+  "p": "Queen Dowager Xuan of Qin lures the king of Yiqu to his death, and Qin destroys Yiqu."
+ },
+ "fall:-286": {
+  "nm": "Song",
+  "p": "King Min of Qi destroys Song."
+ },
+ "fall:-296": {
+  "nm": "Zhongshan",
+  "p": "King Wuling of Zhao destroys Zhongshan."
+ },
+ "fall:-306": {
+  "nm": "Yue",
+  "p": "King Huai of Chu destroys Yue in its internal turmoil, kills Wujiang, king of Yue, takes all the old lands of Wu up to the Zhe River and sets up Jiangdong Commandery (Yang Kuan's view; tradition, following the Shiji, dates it to King Wei of Chu in 334/333 BC)."
+ },
+ "fall:-316": {
+  "nm": "Ba, Shu and Ju",
+  "p": "Shu attacks Ju; the Marquis of Ju flees to Ba and appeals to Qin; Sima Cuo and Zhang Yi of Qin destroy Shu and go on to take Ju and Ba."
+ },
+ "fall:-375": {
+  "nm": "Zheng",
+  "p": "Marquis Ai of Han destroys Zheng and moves his capital to Xinzheng."
+ },
+ "prov:上海": {
+  "n": "Shanghai"
+ },
+ "prov:云南": {
+  "n": "Yunnan"
+ },
+ "prov:内蒙古": {
+  "n": "Inner Mongolia"
+ },
+ "prov:北京": {
+  "n": "Beijing"
+ },
+ "prov:台湾": {
+  "n": "Taiwan"
+ },
+ "prov:吉林": {
+  "n": "Jilin"
+ },
+ "prov:四川": {
+  "n": "Sichuan"
+ },
+ "prov:天津": {
+  "n": "Tianjin"
+ },
+ "prov:宁夏": {
+  "n": "Ningxia"
+ },
+ "prov:安徽": {
+  "n": "Anhui"
+ },
+ "prov:山东": {
+  "n": "Shandong"
+ },
+ "prov:山西": {
+  "n": "Shanxi"
+ },
+ "prov:广东": {
+  "n": "Guangdong"
+ },
+ "prov:广西": {
+  "n": "Guangxi"
+ },
+ "prov:江苏": {
+  "n": "Jiangsu"
+ },
+ "prov:江西": {
+  "n": "Jiangxi"
+ },
+ "prov:河北": {
+  "n": "Hebei"
+ },
+ "prov:河南": {
+  "n": "Henan"
+ },
+ "prov:浙江": {
+  "n": "Zhejiang"
+ },
+ "prov:海南": {
+  "n": "Hainan"
+ },
+ "prov:湖北": {
+  "n": "Hubei"
+ },
+ "prov:湖南": {
+  "n": "Hunan"
+ },
+ "prov:甘肃": {
+  "n": "Gansu"
+ },
+ "prov:福建": {
+  "n": "Fujian"
+ },
+ "prov:贵州": {
+  "n": "Guizhou"
+ },
+ "prov:辽宁": {
+  "n": "Liaoning"
+ },
+ "prov:重庆": {
+  "n": "Chongqing"
+ },
+ "prov:陕西": {
+  "n": "Shaanxi"
+ },
+ "prov:青海": {
+  "n": "Qinghai"
+ },
+ "prov:香港": {
+  "n": "Hong Kong"
+ },
+ "prov:黑龙江": {
+  "n": "Heilongjiang"
+ }
+}
