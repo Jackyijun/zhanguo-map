@@ -30,6 +30,10 @@ def make():
     """读 build/geo.json，生成全部条目。返回 (GEO, 条目列表)。"""
     GEO = json.load(open(C.BUILD / "geo.json", encoding="utf8"))
     own = GEO.pop("own")
+    # 节点标题与概述以 features.py 为准，只改文字时 --html 即可生效
+    txt = {y: (t, d) for y, t, d in F.SNAPS}
+    for sn in GEO["snaps"]:
+        sn["t"], sn["d"] = txt[sn["y"]]
     I = []
     def add(**k):
         k["i"] = len(I); I.append(k); return k
