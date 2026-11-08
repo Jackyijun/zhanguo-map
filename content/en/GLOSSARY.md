@@ -19,6 +19,8 @@
 | 卫 | **Wey** | 英文史学通行写法，用以区别于魏 Wei；不是另加的消歧义 |
 | 宋 鲁 中山 越 巴 蜀 苴 义渠 | Song, Lu, Zhongshan, Yue, Ba, Shu, Ju, Yiqu | |
 | 西周、东周（战国时的两个小国） | West Zhou, East Zhou | 与西周、东周两个朝代 Western / Eastern Zhou 区分 |
+| 晋 郑 吴 蔡 杞 莒 邾 滕 薛 郯 随 许 | Jin, Zheng, Wu, Cai, Qi, Ju, Zhu, Teng, Xue, Tan, Sui, Xu | 战国前期补入，与春秋图同译；杞与齐、莒与苴同音，照体例不另区别 |
+| 大荔 白狄 西戎 | Dali Rong, White Di, Western Rong | 戎狄部族 |
 | 姓、氏 | surname, lineage | 嬴姓赵氏 = Ying surname, Zhao lineage；智氏 the Zhi lineage |
 
 ## 三、地名

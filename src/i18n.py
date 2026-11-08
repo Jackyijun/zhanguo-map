@@ -44,6 +44,11 @@ def units(items, snaps, prov, falls, short):
         out.append(("snaps", y, "d", s["d"]))
     for p in prov:
         out.append(("misc", "prov:" + p, "n", p))
+    seen = set()
+    for s in snaps:                      # 当年别名
+        for k, nm in s.get("lab", {}).items():
+            if (k, nm) in seen: continue
+            seen.add((k, nm)); out.append(("misc", f"alias:{k}:{nm}", "n", nm))
     for y, nm, p, _ in falls:
         out.append(("misc", f"fall:{y}", "nm", nm))
         out.append(("misc", f"fall:{y}", "p", p))

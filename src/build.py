@@ -96,7 +96,15 @@ for f in ne_riv:
         for l in lines_of(shape(f["geometry"])):
             cost[burn(list(l.coords), C.RIVER_COST, 1.0)] += C.RIVER_COST
 
+import hashlib
+COST_SHA = hashlib.sha256(cost.tobytes()).hexdigest()
+print("代价栅格", COST_SHA[:16])
+if getattr(C, "COST_SHA", None) and C.COST_SHA != COST_SHA[:16]:
+    sys.exit(f"代价栅格与约定值 {C.COST_SHA} 不符：春秋、战国两图必须共用同一张代价栅格（山脉、界河、噪声、栅格范围都不能改）")
+
 # ---------- 种子 ----------
+# 语法：名称 经度 纬度 初始归属 [年份归属 ...] [~年份]
+#   “~-350” 表示该点从前350 起不再参与分区（为前350 以前的小国、戎狄补的点）。
 seeds = []
 for line in open(C.CONTENT / "seeds.txt", encoding="utf8"):
     line = line.strip()
@@ -104,11 +112,14 @@ for line in open(C.CONTENT / "seeds.txt", encoding="utf8"):
     parts = line.split()
     nm, lo, la = parts[0], float(parts[1]), float(parts[2])
     tl = [[-9999, None if parts[3] == "·" else parts[3]]]
+    end = None
     for tok in parts[4:]:
+        if tok.startswith("~"):
+            end = int(tok[1:]); continue
         m = re.match(r"(-?\d+)(.+)", tok)
         tl.append([int(m.group(1)), None if m.group(2) == "·" else m.group(2)])
-    seeds.append(dict(n=nm, lon=lo, lat=la, tl=tl))
-print("seeds", len(seeds))
+    seeds.append(dict(n=nm, lon=lo, lat=la, tl=tl, end=end))
+print("seeds", len(seeds), "（其中前350 以前专用", sum(s["end"] is not None for s in seeds), "）")
 def owner(tl, y):
     o = None
     for t, s in tl:
@@ -132,19 +143,33 @@ sidx = []
 for s in seeds:
     r, c = to_rc(s["lon"], s["lat"])
     sidx.append(idx[int(round(r)), int(round(c))])
-assert len(set(sidx)) == len(sidx), "duplicate seed cells"
-dist, pred, src = dijkstra(G, indices=sidx, min_only=True, return_predecessors=True)
-src = src.reshape(NY, NX)
-seedpos = {v: i for i, v in enumerate(sidx)}
-label = np.vectorize(lambda v: seedpos.get(v, -1))(src)
+dup = [s["n"] for s, v in zip(seeds, sidx) if sidx.count(v) > 1]
+assert not dup, f"归属点重格：{dup}"
+
+# 每个节点只用当年仍参与分区的点；同一组点只算一次
+_parts = {}
+def partition(y):
+    act = tuple(i for i, s in enumerate(seeds) if s["end"] is None or y < s["end"])
+    if act not in _parts:
+        _, _, src = dijkstra(G, indices=[sidx[i] for i in act], min_only=True, return_predecessors=True)
+        pos = {sidx[i]: i for i in act}
+        lut = np.full(NY * NX, -1, dtype=np.int32)
+        for v, i in pos.items(): lut[v] = i
+        src = src.ravel()
+        lab = np.where(src >= 0, lut[np.maximum(src, 0)], -1).reshape(NY, NX)
+        _parts[act] = lab
+        print("   分区", len(act), "点")
+    return _parts[act]
+LATE = max([s["end"] for s in seeds if s["end"] is not None], default=-9999)
+label = partition(max(LATE, F.SNAPS[-1][0]))     # 秦郡与点要素归属沿用最后一期的分区
 print("labelled")
 
 # ---------- 快照 ----------
 STATE_KEYS = [s[0] for s in F.STATES]
 SN = []
 for (y, title, desc) in F.SNAPS:
-    own = np.array([STATE_KEYS.index(owner(s["tl"], y)) if owner(s["tl"], y) else -1 for s in seeds])
-    omap = own[label]
+    own = np.array([STATE_KEYS.index(owner(s["tl"], y)) if owner(s["tl"], y) else -1 for s in seeds] + [-1])
+    omap = own[partition(y)]
     shapes, labs = {}, {}
     for k, key in enumerate(STATE_KEYS):
         m = omap == k
@@ -184,16 +209,17 @@ def seed_tl_at(lon, lat):
     k = label[r, c]
     return seeds[k]["tl"] if k >= 0 else [[-9999, None]]
 
-QIN = STATE_KEYS.index("秦")
+JUN = getattr(F, "JUN", [])
+QIN = STATE_KEYS.index("秦") if "秦" in STATE_KEYS else -1
 jcell = []
-for j in F.JUN:
+for j in JUN:
     r, c = to_rc(j[3], j[4]); jcell.append(idx[int(round(r)), int(round(c))])
 assert len(set(jcell)) == len(jcell), "郡治重格"
 jcache = {}
 for sn, (y, title, desc) in zip(SN, F.SNAPS):
-    act = tuple(k for k, j in enumerate(F.JUN) if j[5] <= y and owner(seed_tl_at(j[3], j[4]), y) in ("秦", "卫"))
-    own = np.array([STATE_KEYS.index(owner(s["tl"], y)) if owner(s["tl"], y) else -1 for s in seeds])
-    qin = own[label] == QIN
+    act = tuple(k for k, j in enumerate(JUN) if j[5] <= y and owner(seed_tl_at(j[3], j[4]), y) in ("秦", "卫"))
+    own = np.array([STATE_KEYS.index(owner(s["tl"], y)) if owner(s["tl"], y) else -1 for s in seeds] + [-1])
+    qin = own[partition(y)] == QIN
     if not act or not qin.any(): sn["j"] = {}; continue
     if act not in jcache:
         _, _, jsrc = dijkstra(G, indices=[jcell[k] for k in act], min_only=True, return_predecessors=True)
@@ -213,7 +239,7 @@ for sn, (y, title, desc) in zip(SN, F.SNAPS):
             ls = LineString(pts).simplify(C.POLY_SIMPLIFY)
             if Polygon(ls.coords).area < C.MIN_RING_AREA: continue
             rings.append(enc_ring(list(ls.coords)))
-        if rings: jr[F.JUN[k][0]] = rings
+        if rings: jr[JUN[k][0]] = rings
     sn["j"] = jr
     print(y, "郡", len(jr))
 
@@ -245,7 +271,12 @@ for f in ne_riv:
             RIV.append(dict(n=None, m=None, k="faint", p=enc_ring(list(ls.coords), False)))
 for (a, mo, note, w, pts, kind) in F.MANUAL_RIVERS:
     RIV.append(dict(n=a, m=mo, k=kind, note=note, p=enc_ring(pts, False)))
-CAN = [dict(n=a, m=mo, note=note, p=enc_ring(pts, False)) for a, mo, note, pts in F.CANALS]
+CAN = []
+for cn in F.CANALS:          # (名, 今名, 注, 点列) 或 (名, 今名, 开凿年, 注, 点列)
+    a, mo, *mid, pts = cn
+    d = dict(n=a, m=mo, note=mid[-1], p=enc_ring(pts, False))
+    if len(mid) == 2: d["y"] = mid[0]
+    CAN.append(d)
 
 LAK = []
 for f in json.load(open(NE + "ne_10m_lakes.geojson"))["features"]:
@@ -261,20 +292,29 @@ for f in json.load(open(NE + "ne_10m_lakes.geojson"))["features"]:
 PROV = json.load(open(C.GEODATA / "prov.json", encoding="utf8"))
 
 # ---------- 点要素所在种子 ----------
+# 分区随年代可能不同（前350 起部分点退出），点要素的归属沿革按各段分区拼接
+_starts = [-9999] + sorted({s["end"] for s in seeds if s["end"] is not None})
 def seed_at(lon, lat):
     r, c = to_rc(lon, lat)
     r = min(max(int(round(r)), 0), NY - 1); c = min(max(int(round(c)), 0), NX - 1)
-    k = label[r, c]
-    return seeds[k]["tl"] if k >= 0 else [[-9999, None]]
+    out = []
+    for i, y0 in enumerate(_starts):
+        y1 = _starts[i + 1] if i + 1 < len(_starts) else 10 ** 6
+        k = partition(y0)[r, c]
+        tl = seeds[k]["tl"] if k >= 0 else [[-9999, None]]
+        for t, o in [[y0, owner(tl, y0)]] + [[t, o] for t, o in tl if y0 < t < y1]:
+            if not out or out[-1][1] != o: out.append([t, o])
+    return out
 
 def tl_str(tl): return ";".join(f"{t}:{s or ''}" for t, s in tl)
 
 OUT = dict(land=LAND, prov=PROV, rivers=RIV, canals=CAN, lakes=LAK, snaps=SN)
+if getattr(F, "FIRST", None) is not None: OUT["first"] = F.FIRST     # 首屏节点年份
 pts_owner = {}
 for grp in (F.CAPITALS, F.CITIES, F.PASSES, F.BATTLES, F.CULTURE, F.TOWNS):
     for it in grp:
         pts_owner[it[0] + "@" + str(it[2])] = tl_str(seed_at(it[2], it[3]))
-for it in F.JUN:
+for it in JUN:
     pts_owner["郡:" + it[0]] = tl_str(seed_at(it[3], it[4]))
 OUT["own"] = pts_owner
 C.BUILD.mkdir(exist_ok=True)

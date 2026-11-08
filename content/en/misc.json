@@ -55,9 +55,45 @@
   "nm": "Ba, Shu and Ju",
   "p": "Shu attacks Ju; the Marquis of Ju flees to Ba and appeals to Qin; Sima Cuo and Zhang Yi of Qin destroy Shu and go on to take Ju and Ba."
  },
+ "fall:-360": {
+  "nm": "Sui (Zeng)",
+  "p": "Sui (Zeng) is absorbed into Chu around the middle of the 4th century BC; the date is unknown (shown schematically on the map)."
+ },
  "fall:-375": {
   "nm": "Zheng",
   "p": "Marquis Ai of Han destroys Zheng and moves his capital to Xinzheng."
+ },
+ "fall:-376": {
+  "nm": "Jin",
+  "p": "Wei, Han and Zhao depose Duke Jing of Jin, making him a commoner, and divide the rest of his land in three; the sacrifices of Jin come to an end (one view: 349 BC)."
+ },
+ "fall:-390": {
+  "nm": "Xu",
+  "p": "Xu falls around the beginning of the Warring States, by one view to Chu, by another to Wei; the date is unknown (shown schematically on the map)."
+ },
+ "fall:-414": {
+  "nm": "Tan",
+  "p": "Zhugou, king of Yue, destroys Tan (c. 414 BC, according to the Bamboo Annals)."
+ },
+ "fall:-431": {
+  "nm": "Ju",
+  "p": "King Jian of Chu destroys Ju."
+ },
+ "fall:-445": {
+  "nm": "Qi",
+  "p": "King Hui of Chu destroys Qi."
+ },
+ "fall:-447": {
+  "nm": "Cai",
+  "p": "King Hui of Chu destroys Cai."
+ },
+ "fall:-461": {
+  "nm": "Dali Rong",
+  "p": "Duke Ligong of Qin attacks the Dali Rong and takes Dali Wangcheng."
+ },
+ "fall:-473": {
+  "nm": "Wu",
+  "p": "Goujian, king of Yue, besieges Wu for three years; Fuchai kills himself and Wu falls."
  },
  "prov:上海": {
   "n": "Shanghai"

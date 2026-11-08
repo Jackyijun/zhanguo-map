@@ -28,3 +28,7 @@ RIVER_COST = 3                      # 江、汉、漳等界河的附加代价
 SMOOTH_SIGMA = 1.1
 POLY_SIMPLIFY = 0.018
 MIN_RING_AREA = 0.01
+
+# 春秋、战国两图共用同一张代价栅格（山脉、界河、噪声、栅格范围），衔接处疆域才能逐像素一致。
+# build.py 每次核对；改了上面任何一项或 features.py 里的山脉、手绘界河，两图都要一起改，并更新这个值。
+COST_SHA = "d88dc63cd4db481e"
