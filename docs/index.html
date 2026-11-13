@@ -68,6 +68,11 @@
   .brand .src { font-size:11px; letter-spacing:.18em; color:var(--ink-3); border-left:1px solid var(--rule); padding-left:12px; }
   .masthead .count { font-family:var(--f-mono); font-size:11px; color:var(--ink-3); letter-spacing:.06em; }
   .tools { margin-left:auto; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .repo { display:inline-flex; align-items:center; gap:3px; margin-left:4px; padding:3px 0 3px 12px; border-left:1px solid var(--rule); font-size:12px; letter-spacing:.06em; line-height:1.2; color:var(--ink-3); text-decoration:none; white-space:nowrap; }
+  .repo:hover { color:var(--ink); }
+  .legend .foot.src { margin-top:5px; padding-top:0; border-top:0; }
+  .legend .foot a { color:var(--ink-2); text-decoration:underline; text-decoration-color:var(--rule); text-underline-offset:2px; overflow-wrap:anywhere; }
+  .legend .foot a:hover { color:var(--ink); text-decoration-color:currentColor; }
   .seg { display:flex; border:1px solid var(--rule); border-radius:3px; overflow:hidden; }
   .seg button { background:transparent; border:0; padding:5px 10px; cursor:pointer; font-size:12px; letter-spacing:.06em; color:var(--ink-2); border-right:1px solid var(--rule-soft); white-space:nowrap; }
   .seg button:last-child { border-right:0; }
@@ -239,6 +244,7 @@
     .brand .src { display:none; }
     .masthead { padding:10px 12px; gap:8px; }
     .tools { margin-left:0; }
+    .repo { margin-left:0; padding-left:0; border-left:0; }
     .search input { width:130px; }
     .legend { width:200px; left:10px; bottom:10px; }
     .stage[data-view="map"] .langsw { right:14px; }
@@ -301,6 +307,7 @@
         <button data-mode="chron" aria-pressed="false" data-t="m_chron">年表</button>
         <button data-mode="table" aria-pressed="false" data-t="m_table">对照表</button>
       </div>
+      <a class="repo" href="https://github.com/Jackyijun/zhanguo-map" target="_blank" rel="noopener" title="在 GitHub 查看源码（新标签页打开）" aria-label="在 GitHub 查看源码（新标签页打开）" data-tt="src_t" data-ta="src_t"><span data-t="src">源码</span><svg width="9" height="9" viewBox="0 0 9 9" aria-hidden="true"><path d="M2.2 6.8 6.6 2.4M3.4 2.2h3.4v3.4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </div>
   </header>
 
@@ -332,6 +339,7 @@
           <div class="states" id="legstates"></div>
           <ul id="legend"></ul>
           <div class="foot" data-t="foot">疆域据文献与谭其骧《中国历史地图集》战国图大意推定，边界为示意；战役只显示本期（上一节点之后至本节点）。秦郡依后晓荣五十四郡说，郡界由郡治就近推算，仅示意。点击国名、地名、河流、山脉均可查看说明。</div>
+          <div class="foot src"><span data-t="src">源码</span> <a href="https://github.com/Jackyijun/zhanguo-map" target="_blank" rel="noopener">github.com/Jackyijun/zhanguo-map</a></div>
         </div>
       </div>
       <div class="float inset"><svg id="inset" width="140" height="112" aria-label="索引图" data-ta="inset"></svg><div class="cap" data-t="inset_cap">索引</div></div>
@@ -365,7 +373,7 @@
     zh: {
       title: "战国列国形势图", sub: "前475 — 前212 · 古今地名对照",
       views: "视野", fit_all: "全域", fit_zy: "中原", fit_gz: "关中三晋", fit_qy: "齐燕", fit_cy: "楚吴越", fit_bs: "巴蜀",
-      search: "检索古名或今名", modes: "显示方式", m_map: "地图", m_chron: "年表", m_table: "对照表",
+      search: "检索古名或今名", modes: "显示方式", m_map: "地图", m_chron: "年表", m_table: "对照表", src: "源码", src_t: "在 GitHub 查看源码（新标签页打开）",
       playaxis: "播放时间轴", play: "播放", pause: "暂停", years: "年代", speed: "倍速（1× / 2×）",
       prev: "上一个节点", next: "下一个节点", prev_k: "上一个节点（←）", next_k: "下一个节点（→）",
       zin: "放大", zout: "缩小", reset: "复位", legend: "图例", hide: "收起", show: "展开", inset: "索引图", inset_cap: "索引",
@@ -385,7 +393,7 @@
     en: {
       title: "The Warring States", sub: "475–212 BC · historical and modern place names",
       views: "View", fit_all: "All", fit_zy: "Central Plains", fit_gz: "Guanzhong & Jin", fit_qy: "Qi & Yan", fit_cy: "Chu, Wu & Yue", fit_bs: "Ba & Shu",
-      search: "Search ancient or modern names", modes: "Display", m_map: "Map", m_chron: "Chronology", m_table: "Gazetteer",
+      search: "Search ancient or modern names", modes: "Display", m_map: "Map", m_chron: "Chronology", m_table: "Gazetteer", src: "Source", src_t: "View source on GitHub (opens in a new tab)",
       playaxis: "Play the timeline", play: "Play", pause: "Pause", years: "Years", speed: "Playback speed (1× / 2×)",
       prev: "Previous node", next: "Next node", prev_k: "Previous node (←)", next_k: "Next node (→)",
       zin: "Zoom in", zout: "Zoom out", reset: "Reset", legend: "Legend", hide: "Hide", show: "Show", inset: "Locator map", inset_cap: "Locator",
